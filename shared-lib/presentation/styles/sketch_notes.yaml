@@ -1,0 +1,230 @@
+# Sketch Notes Style - 详细版（A/B测试用）
+name: sketch_notes_detailed
+display_name: 手绘笔记（详细版）
+description: 手绘笔记风格 - 温暖友好的视觉笔记美学
+
+prompt_template: |
+  16:9 landscape aspect ratio (default format for desktop presentations), SKETCH NOTES STYLE with hand-drawn illustration aesthetic for educational and friendly presentations.
+
+  [DESIGN PHILOSOPHY]:
+  Sketch Notes Design Language - inspired by visual note-taking, bullet journals, and whiteboard illustrations. Emphasis on warmth, approachability, and clarity. Every element should feel hand-crafted and personal. Imperfection is charm. Learning should feel fun and accessible.
+
+  [BACKGROUND SYSTEM]:
+
+  Base Layer:
+  - Primary color: Warm Off-White #FAF8F0 or Cream Paper #FFF9F0
+  - NOT pure white - must feel like quality sketchbook paper
+  - Subtle warm undertone throughout
+
+  Texture Layer:
+  - Visible paper grain texture (like quality drawing paper)
+  - Opacity: 15-25%
+  - Slightly uneven, organic feel
+  - Optional: Faint grid or dot pattern (like bullet journal) at 5-10% opacity
+
+  Decorative Elements:
+  - Corner doodles: small stars, spirals, arrows
+  - Washi tape effect strips (optional, pastel colors)
+  - Hand-drawn underlines and brackets
+  - Scattered small icons related to content
+  - All decorative elements should feel spontaneous, not rigid
+
+  [ILLUSTRATION STYLE]:
+
+  Core Aesthetic:
+  - Hand-drawn, sketchy line work
+  - Lines should be slightly wobbly, NOT perfectly straight
+  - Stroke weight: 2-4px for main elements, 1-2px for details
+  - Color fills intentionally don't completely fill outlines (hand-painted feel)
+  - Visible brush/pen texture in strokes
+
+  Icon Style:
+  - Simple, conceptual icons (not realistic)
+  - Rounded, friendly shapes
+  - Single color or 2-color maximum per icon
+  - Size: 48-80px for main icons, 24-32px for decorative
+
+  Character/Figure Style (if needed):
+  - Simple stick figures or blob people
+  - Expressive, friendly faces (dot eyes, simple smiles)
+  - Minimal detail, maximum personality
+
+  Connection Elements:
+  - Wavy arrows (not straight)
+  - Dashed lines with hand-drawn feel
+  - Brackets and speech bubbles
+  - Numbering circles with hand-written numbers
+
+  [COLOR PALETTE]:
+
+  Background Colors:
+  - Warm Off-White: #FAF8F0 (primary background)
+  - Cream: #FFF9F0 (card backgrounds)
+  - Light Yellow: #FFFDE7 (highlight areas)
+
+  Text Colors:
+  - Deep Charcoal: #2C3E50 (primary text, headlines)
+  - Deep Brown: #4A4A4A (secondary text)
+  - Soft Gray: #7F8C8D (captions, annotations)
+
+  Accent Colors (use 2-3 per slide maximum):
+  - Soft Orange: #F4A261 (highlights, emphasis, energy)
+  - Mustard Yellow: #E9C46A (secondary highlights, ideas)
+  - Sage Green: #87A96B (nature, growth, success)
+  - Light Blue: #7EC8E3 (tech, information, calm)
+  - Coral Pink: #E8A598 (warmth, people, emotions)
+  - Red Brown: #A0522D (grounding, important points)
+
+  Color Usage Rules:
+  - 70% neutral tones (off-white, charcoal, brown)
+  - 20% primary accent (choose one per slide)
+  - 10% secondary accents
+  - Colors should feel soft and muted, NOT saturated
+  - All colors should harmonize with warm paper background
+
+  [TYPOGRAPHY SYSTEM]:
+
+  Font Philosophy:
+  - Should feel hand-written or hand-lettered
+  - Friendly and approachable, NOT formal
+  - Clear and legible despite casual style
+
+  Font Families:
+  Headlines:
+  - Style: Hand-lettered or casual sans-serif
+  - Examples: Architects Daughter, Patrick Hand, Caveat, or clean casual fonts
+  - Weight: Bold or Medium
+  - Can include hand-drawn underlines or highlights
+
+  Body Text:
+  - Style: Clean but friendly sans-serif
+  - Examples: Nunito, Quicksand, Poppins, or similar rounded fonts
+  - Weight: Regular (400) or Medium (500)
+
+  Chinese Fonts:
+  - Headlines: 站酷快乐体, 方正喵呜体, or similar playful fonts
+  - Body: PingFang SC, 思源黑体 (rounded feel preferred)
+
+  Type Scale:
+  - Headlines: 36-48px / Hand-lettered style
+  - Subheadings: 24-32px / Casual bold
+  - Body: 16-20px / Clean, readable
+  - Annotations: 12-14px / Can be more sketch-like
+  - Numbers in circles: 18-24px / Hand-written feel
+
+  Text Styling:
+  - Headlines can have hand-drawn underlines (wavy or double-line)
+  - Important words can have highlight boxes (yellow or orange, 30% opacity)
+  - Arrows pointing to key concepts
+  - Hand-drawn circles around important numbers
+
+  [LAYOUT SYSTEM]:
+
+  Grid Philosophy:
+  - Organic, not rigid
+  - Asymmetric layouts encouraged
+  - Content can be slightly tilted (1-3 degrees) for casual feel
+  - Generous margins like a sketchbook
+
+  Spacing:
+  - Outer margins: 60-80px (like sketchbook margins)
+  - Between elements: 24-40px
+  - Internal padding: 20-32px
+  - Uneven spacing is acceptable (hand-placed feel)
+
+  Content Organization:
+  - Use visual hierarchy through size and color, not just position
+  - Group related items with hand-drawn brackets or boxes
+  - Number sequences with circled numbers
+  - Use arrows to show flow and connections
+
+  [CARD/CONTAINER SYSTEM]:
+
+  Sketch Cards:
+  - Background: Slightly lighter than page (#FFFFFF at 90% opacity)
+  - Border: Hand-drawn line style, slightly wobbly (2-3px)
+  - Border color: Charcoal #2C3E50 or accent color
+  - Corner style: Rounded but imperfect (hand-drawn corners)
+  - Optional: Tape or clip decorations at corners
+
+  Shadow Style:
+  - Very subtle, warm-toned shadow
+  - Color: Warm brown rgba(74, 74, 74, 0.1)
+  - Offset: 3-5px, soft blur
+  - Should feel like paper lifted slightly, not floating digitally
+
+  Alternative Containers:
+  - Speech bubbles (hand-drawn, wobbly outline)
+  - Sticky note style (tilted, with fold corner)
+  - Bracket groupings
+  - Simple boxes with rounded corners
+
+  [DECORATIVE ELEMENTS]:
+
+  Encouraged Doodles:
+  - Stars (5-point, hand-drawn)
+  - Light bulbs (ideas)
+  - Arrows (curved, with feathered ends)
+  - Hearts (emotions, likes)
+  - Checkmarks (completion, success)
+  - Question marks (curiosity)
+  - Exclamation points (emphasis)
+  - Spirals and swirls
+  - Simple clouds or thought bubbles
+  - Banner ribbons for titles
+
+  Connector Elements:
+  - Wavy lines
+  - Dashed paths
+  - Dotted trails
+  - Curved arrows with labels
+
+  Highlighting:
+  - Yellow highlighter effect (hand-drawn rectangle, 30% opacity)
+  - Underlines (single, double, or wavy)
+  - Circles around key terms
+  - Boxes with rounded corners
+
+  [CRITICAL PROHIBITIONS]:
+
+  ❌ DO NOT include:
+  - Perfect geometric shapes (circles, rectangles with sharp corners)
+  - Straight lines (all lines should have slight wobble)
+  - Corporate or formal styling
+  - Heavy shadows or 3D effects
+  - Photorealistic images
+  - Gradient backgrounds
+  - Slide numbers, page numbers, footers
+  - macOS window controls
+  - Saturated neon colors
+  - Rigid grid-aligned layouts
+
+  ✅ DO include:
+  - Hand-drawn aesthetic throughout
+  - Warm, inviting color palette
+  - Friendly, approachable typography
+  - Playful decorative elements
+  - Visible paper texture
+  - Imperfect, human touches
+
+  [OVERALL ATMOSPHERE]:
+  Warm, friendly, approachable, educational. Each slide should feel like a page from someone's personal learning journal. The style invites engagement and makes complex topics feel accessible. Perfect for: tutorials, educational content, onboarding materials, knowledge sharing, beginner-friendly presentations, workshop materials. Conveys: "Learning is fun, and I'm here to help you understand."
+
+supports_themes: false
+default_theme: null
+
+characteristics:
+  - 手绘风格
+  - 温暖友好
+  - 纸张纹理
+  - 涂鸦装饰
+  - 不完美的魅力
+  - 教育导向
+
+best_for:
+  - 教育内容
+  - 入门教程
+  - 知识分享
+  - 培训材料
+  - 工作坊
+  - 新手引导

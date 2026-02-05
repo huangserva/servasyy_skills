@@ -1,0 +1,71 @@
+# Editorial Infographic Style - 详细版
+name: editorial_infographic
+display_name: 杂志信息图
+description: Modern magazine-style editorial infographic with clear visual storytelling
+
+prompt_template: |
+  16:9 landscape aspect ratio, EDITORIAL INFOGRAPHIC STYLE.
+
+  [DESIGN PHILOSOPHY]:
+  High-quality magazine explainer aesthetic (think Wired, Vox, The Verge, or Monocle). Clear visual storytelling that transforms complex information into digestible narratives. Clean vector-style illustrations, structured layouts, and professional typography. Function over decoration, but aesthetically pleasing.
+
+  [BACKGROUND SYSTEM]:
+  - Color: Pure White #FFFFFF or Very Light Gray #F8F9FA
+  - Texture: Subtle paper grain (matte finish)
+  - No gradients - keep it flat and clean for print-like quality
+
+  [TYPOGRAPHY]:
+  - Headlines: Modern Serif (Merriweather, Playfair) OR Bold Geometric Sans (Inter Display)
+    * Weight: Bold (700)
+    * Color: Near Black #1A1A1A
+    * Size: Large (40-56px)
+  - Labels/Data: Clean Sans-serif (Inter, Roboto, SF Pro)
+    * Weight: Medium (500) for readability
+    * Size: 12-14px (small but legible)
+    * Color: Dark Gray #4A5568
+  - Numbers: Monospace or Tabular Sans (JetBrains Mono, Roboto Mono)
+    * For data points and statistics
+
+  [COLOR PALETTE]:
+  - Background: White #FFFFFF
+  - Text: Near Black #1A1A1A
+  - Accents (Functional):
+    * Editorial Blue: #2563EB (Primary data)
+    * Coral Orange: #F97316 (Highlights/Action)
+    * Emerald Green: #10B981 (Positive/Growth)
+    * Slate Gray: #64748B (Secondary data)
+  - Color Rule: Use color to encode meaning (e.g., categories, trends), not just for decoration.
+
+  [VISUAL ELEMENTS - INFOGRAPHIC]:
+  - Flat vector illustrations (clean lines, solid fills)
+  - Isomorphic 2.5D elements (optional, for depth)
+  - Flow diagrams with clear directional arrows
+  - Timelines with milestones
+  - Bar charts, donut charts, and area graphs (clean, labeled)
+  - Icons: Simple, consistent stroke weight (1.5-2px), enclosed in circles or squares
+  - Connectors: Dotted or solid lines connecting related concepts
+
+  [LAYOUT STRATEGY]:
+  - Modular Grid: Content organized in clear blocks/cards
+  - Split Layout: Text explanation on one side, visual diagram on the other
+  - Flow: Top-to-bottom or Left-to-right visual hierarchy
+  - White Space: Generous spacing between modules to prevent clutter
+
+  [KEY RULES]:
+  ✅ Use visual metaphors (e.g., a roadmap for "timeline")
+  ✅ Label everything clearly with small sans-serif text
+  ✅ Use consistent iconography style
+  ✅ Flat colors, no gradients or heavy shadows
+  ❌ No photorealistic images (clashes with vector style)
+  ❌ No decorative clutter without meaning
+  ❌ No slide numbers, footers, or logos
+  ❌ No macOS window controls
+
+supports_themes: false
+
+best_for:
+  - 技术原理解析
+  - 科学传播
+  - 政策解读
+  - 深度调查报道
+  - 趋势分析

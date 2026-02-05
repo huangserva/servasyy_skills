@@ -1,0 +1,19 @@
+# 对比布局 - 优缺点对比
+name: comparison
+display_name: 对比布局
+description: 左右对比，适合优缺点分析
+
+density: 2  # 两侧对比
+best_for:
+  - 优缺点对比
+  - 前后对比
+  - A vs B
+  - 正确错误示范
+
+prompt_addition: |
+  小红书信息图布局：对比布局
+  - 左右或上下分屏
+  - 两侧对比鲜明
+  - 颜色区分（如绿色正确/红色错误）
+  - 视觉对称
+  - 竖版 3:4 比例

@@ -1,0 +1,52 @@
+# Corporate Style (from baoyu-slide-deck)
+name: corporate
+description: 企业商务风格 - 专业可靠的商业美学
+
+prompt_template: |
+  16:9 landscape aspect ratio, CORPORATE STYLE with professional business aesthetic.
+
+  [DESIGN AESTHETIC]:
+  Clean lines, structured layouts, and business-appropriate sophistication. Projects competence, reliability, and institutional credibility. Balances professionalism with approachability through careful use of whitespace and refined color choices.
+
+  [BACKGROUND]:
+  - Color: Pure White (#FFFFFF) with navy structural elements
+  - Texture: None - crisp digital clarity for maximum professionalism
+
+  [TYPOGRAPHY]:
+  - Headlines: Modern geometric sans-serif (Inter, SF Pro, or similar). Clean, professional, and highly legible. Medium to semi-bold weight.
+  - Body: Humanist sans-serif (Source Sans Pro style) for body text. Friendly yet professional, optimized for reading comprehension.
+
+  [COLOR PALETTE]:
+  - Background: Pure White #FFFFFF
+  - Primary Text: Navy #1E3A5F
+  - Secondary Text: Dark Gray #4A5568
+  - Primary Accent: Gold #C9A227 (premium highlights)
+  - Secondary Accent: Light Navy #3D5A80
+  - Success: Corporate Green #059669
+  - Alert: Corporate Red #DC2626
+  - Neutral: Light Gray #F3F4F6
+
+  [VISUAL ELEMENTS]:
+  - Clean charts and data visualizations
+  - Professional iconography (outlined style)
+  - Structured grid layouts
+  - Subtle shadows for depth (minimal)
+  - Progress bars and metrics displays
+  - Organizational charts
+  - Timeline graphics
+  - Comparison tables
+
+  [KEY RULES]:
+  ✅ Maintain clear visual hierarchy
+  ✅ Use consistent grid alignment
+  ✅ Apply accent colors strategically (gold for emphasis)
+  ❌ No playful or casual elements
+  ❌ No heavy decorative effects
+  ❌ No slide numbers, footers, or logos
+
+supports_themes: false
+best_for:
+  - 商业演示
+  - 投资路演
+  - 季度报告
+  - 客户提案

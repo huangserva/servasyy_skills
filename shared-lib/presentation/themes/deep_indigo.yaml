@@ -1,0 +1,28 @@
+# 深邃靛主题
+name: deep_indigo
+description: 深邃靛主题，适合企业级、政府、法律
+
+background:
+  gradient: ["#F7F8FC", "#ECEEF7"]
+  texture_color: "indigo tones"
+  
+colors:
+  brand: "#5856D6"
+  accent: "#7B79DD"
+  border: "#D5D4F0"
+  
+description_template: |
+  Deep Indigo theme with authoritative gradient background from #F7F8FC to #ECEEF7,
+  extremely subtle geometric line texture 20-30% transparency in indigo tones,
+  flowing wave-like decorative elements in light indigo #7B79DD with 15-25% transparency,
+  premium enterprise pattern creating authority sensation,
+  premium sophisticated texture with serious professional feel,
+  four corners with abstract geometric accents in indigo gradient,
+  brand color #5856D6 for accents
+
+keywords:
+  - 企业级
+  - 政府
+  - 法律
+  - 权威
+  - 正式

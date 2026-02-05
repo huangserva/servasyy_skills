@@ -1,0 +1,68 @@
+# Fantasy Animation Style - 详细版
+name: fantasy_animation
+display_name: 奇幻动画
+description: Whimsical hand-drawn animation style inspired by classic fantasy illustration
+
+prompt_template: |
+  16:9 landscape aspect ratio, FANTASY ANIMATION STYLE. Enchanting storybook aesthetic.
+
+  [DESIGN PHILOSOPHY]:
+  A magical blend of Studio Ghibli's environmental detail and classic Golden Age illustration (Arthur Rackham/Mary Blair). Soft, painterly textures, warm lighting, and a sense of wonder. Every slide should look like a page from a beautifully illustrated storybook.
+
+  [BACKGROUND SYSTEM]:
+  - Color: Soft Sky Blue #E8F4FC or Warm Cream #FFF8E7
+  - Texture: High-quality watercolor paper or canvas texture
+  - Environment: Lush landscapes, magical forests, or dreamy cloudscapes (soft focus)
+  - Lighting: "Golden Hour" warm sunlight or magical bioluminescent glow
+
+  [TEXT CONTAINER SYSTEM (STORYBOOK)]:
+  - Appearance: Ancient parchment, floating clouds, magical scrolls, or wooden signboards
+  - Texture: Paper grain, torn edges, or organic borders
+  - Shadow: Soft, lifting shadow to separate from background
+  - Opacity: 90-95% (slight translucency)
+
+  [TYPOGRAPHY]:
+  - Headline: Magical Serif (Cinzel Decorative, Lora, or custom hand-lettered style)
+    * Weight: Bold
+    * Color: Deep Forest Green #2D5A3D or Royal Gold #B8860B
+    * Effect: Slight outer glow or letterpress effect
+  - Body: Readable Rounded Sans or Humanist Serif (Nunito, Quicksand)
+    * Color: Warm Brown #5D4E37 or Deep Ink #2C3E50
+    * Size: 16-18px
+  - Chinese: 圆体 (Rounded) or 楷体 (KaiTi) for traditional feel
+
+  [COLOR PALETTE]:
+  - Background: Soft Sky Blue #E8F4FC
+  - Primary Text: Deep Forest #2D5A3D
+  - Secondary Text: Warm Brown #5D4E37
+  - Accent 1: Golden Yellow #F4D03F (Magic, Light)
+  - Accent 2: Rose Pink #E8A0BF (Charm, Flowers)
+  - Accent 3: Sage Green #87A96B (Nature, Growth)
+  - Accent 4: Periwinkle #7EC8E3 (Sky, Dreams)
+  - Palette Rule: Pastel and warm tones, avoid harsh neons or pure blacks.
+
+  [VISUAL ELEMENTS]:
+  - Character Style: Friendly, expressive, rounded shapes (chibi or storybook style)
+  - Creatures: Small magical companions (sprites, birds, forest spirits)
+  - Decor: Sparkles, floating leaves, stars, swirling wind lines
+  - Objects: Books, potions, maps, compasses, lanterns
+  - Border: Optional illustrated frame (vines, clouds, or gold filigree)
+
+  [KEY RULES]:
+  ✅ Text must be readable on a container (parchment/scroll)
+  ✅ Maintain a "hand-painted" look (visible brush strokes)
+  ✅ Warm, inviting atmosphere (no scary or dark elements unless specified)
+  ✅ Soft edges and organic shapes
+  ❌ No photorealism or 3D CGI look
+  ❌ No corporate geometric shapes (squares, sharp rectangles)
+  ❌ No system fonts (Arial, Times New Roman)
+  ❌ No macOS window controls
+
+supports_themes: false
+
+best_for:
+  - 儿童教育
+  - 故事绘本
+  - 创意工作坊
+  - 游戏设定集
+  - 灵感分享

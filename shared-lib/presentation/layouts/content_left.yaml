@@ -1,0 +1,84 @@
+# 左对齐内容页布局
+name: content_left
+description: 左对齐内容页，标题+要点列表
+
+size: [1920, 1080]
+
+text_zones:
+  - name: page_title
+    position: [180, 140, 1560, 80]  # [x, y, width, height]
+    align: left
+    font_size: 36
+    font_weight: bold
+    max_chars: 30
+  - name: content_area
+    position: [180, 280, 1560, 680]
+    align: left
+    font_size: 18
+    line_height: 1.6
+    max_chars: 400
+
+# 模式1：纯背景（可编辑文字）
+prompt_template: |
+  16:9 landscape PPT content page background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  large white card container at position (120px, 100px),
+  card dimensions 1680x900 pixels,
+  rounded corners 24px, professional multi-layer shadow,
+  empty card interior with ample padding ready for text content,
+  left-aligned layout optimization with spacious margins,
+  subtle decorative accents at top-right and bottom-left corners only,
+  NO TEXT, NO WORDS, clean empty card,
+  professional content slide design
+
+# 模式2：完整图片（AI生成风格化文字）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Content slide with bullet points
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - a master visual storyteller. Your slides balance information density with visual clarity.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: Left-Aligned Content
+  - Large card container for content
+  - Left-aligned layout with spacious margins
+  - Subtle decorative accents at corners only
+  - Clear visual hierarchy between title and content
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Page Title: {title}
+
+  Content (bullet points):
+  {content}
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Title: Large, bold, top-left position
+  - Bullet points: Clear, legible, appropriate sizing
+  - DO NOT use realistic or computer-generated fonts unless style specifies
+  - Font rendering must match the style aesthetic
+  - Max 5-6 bullet points per slide
+  - Text should feel integrated with the visual design
+
+  ## Core Principles
+  - Hand-drawn quality if style requires
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - Clean layout with clear visual hierarchy
+  - Generous breathing room between elements
+
+  ## Language
+  - Render text in the same language as provided content
+
+best_for:
+  - 要点列表
+  - 正文内容
+  - 详细说明

@@ -1,0 +1,37 @@
+# 优雅模板 - 竖屏居中风格
+name: elegant
+description: 优雅风格，字幕居中，带半透明黑色遮罩
+
+aspect_ratio: "9:16"
+resolution:
+  width: 1080
+  height: 1920
+
+subtitle:
+  position: center      # 居中
+  margin_bottom: 0.35   # 距底部35%（视觉居中偏下）
+  margin_sides: 0.10    # 左右边距10%
+  max_width: 0.80       # 最大宽度80%
+  
+  font:
+    family: "Heiti SC"
+    size: 72
+    weight: "BOLD"
+    
+  color: "#FFFFFF"
+  stroke:
+    width: 0            # 无描边
+    color: null
+  
+  shadow:
+    enabled: true
+    color: "rgba(0,0,0,0.5)"
+    offset: 2
+    
+  animation:
+    style: fade_in
+    duration_ratio: 0.3
+
+background:
+  overlay: "rgba(0,0,0,0.4)"  # 半透明黑色遮罩
+  blur: 0

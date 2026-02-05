@@ -1,0 +1,75 @@
+# 引用强调页布局
+name: quote_callout
+description: 特色引用页，带有引用来源
+
+size: [1920, 1080]
+
+text_zones:
+  - name: quote_text
+    position: [200, 300, 1520, 300]
+    align: center
+    font_size: 36
+    font_weight: regular
+    max_chars: 200
+  - name: quote_attribution
+    position: [200, 650, 1520, 60]
+    align: center
+    font_size: 20
+    font_weight: regular
+    max_chars: 60
+
+# 模式1：纯背景
+prompt_template: |
+  16:9 landscape PPT quote callout page background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  elegant centered layout for featured quote,
+  decorative quotation marks or subtle framing elements,
+  NO TEXT, NO WORDS, empty background ready for quote overlay,
+  sophisticated editorial design
+
+# 模式2：完整图片（AI生成风格化文字）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Quote callout slide
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - create elegant, impactful quote presentations.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: Quote Callout
+  - Featured quote as the centerpiece
+  - Attribution below the quote
+  - Decorative quotation marks or elegant framing
+  - Sophisticated editorial feel
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Quote: "{content}"
+  Attribution: — {title}
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Quote: Large, elegant, may be italic
+  - Attribution: Smaller, preceded by em-dash
+  - DO NOT use realistic or computer-generated fonts unless style specifies
+  - Font rendering must match the style aesthetic
+
+  ## Core Principles
+  - Hand-drawn quality if style requires
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - Elegant, memorable presentation of the quote
+
+  ## Language
+  - Render text in the same language as provided content
+
+best_for:
+  - 名人名言
+  - 客户评价
+  - 关键洞察

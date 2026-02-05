@@ -1,0 +1,77 @@
+# 中心辐射布局
+name: hub_spoke
+description: 中心节点向外辐射，用于展示核心概念与相关要素
+
+size: [1920, 1080]
+
+text_zones:
+  - name: center_concept
+    position: [760, 440, 400, 200]
+    align: center
+    font_size: 32
+    font_weight: bold
+    max_chars: 30
+  - name: surrounding_items
+    position: [80, 80, 1760, 920]
+    align: center
+    font_size: 16
+    line_height: 1.4
+    max_chars: 400
+
+# 模式1：纯背景
+prompt_template: |
+  16:9 landscape PPT hub and spoke diagram background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  central hub with radiating spokes to outer nodes,
+  4-6 outer nodes arranged around center,
+  connecting lines from center to each node,
+  NO TEXT, NO WORDS, empty background ready for content overlay,
+  concept map design
+
+# 模式2：完整图片（AI生成风格化文字）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Hub and spoke concept diagram
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - create clear concept maps and relationship diagrams.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: Hub and Spoke
+  - Central hub with main concept
+  - 4-6 outer nodes radiating from center
+  - Connecting lines/spokes between hub and nodes
+  - Balanced circular arrangement
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Central Concept: {title}
+
+  Surrounding Elements:
+  {content}
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Center: Large, bold, prominent
+  - Outer nodes: Medium, clear labels
+  - DO NOT use realistic or computer-generated fonts unless style specifies
+
+  ## Core Principles
+  - Hand-drawn quality if style requires
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - Clear relationship visualization
+
+  ## Language
+  - Render text in the same language as provided content
+
+best_for:
+  - 核心概念
+  - 生态系统
+  - 关系图

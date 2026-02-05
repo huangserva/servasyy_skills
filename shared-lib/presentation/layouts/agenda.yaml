@@ -1,0 +1,79 @@
+# 议程/目录布局
+name: agenda
+description: 编号列表布局，用于展示议程、目录或路线图
+
+size: [1920, 1080]
+
+text_zones:
+  - name: page_title
+    position: [160, 80, 1600, 80]
+    align: left
+    font_size: 40
+    font_weight: bold
+    max_chars: 30
+  - name: agenda_items
+    position: [160, 200, 1600, 800]
+    align: left
+    font_size: 24
+    line_height: 1.8
+    max_chars: 400
+
+# 模式1：纯背景
+prompt_template: |
+  16:9 landscape PPT agenda/table of contents background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  numbered list layout with 4-6 items,
+  clear visual hierarchy for list items,
+  optional highlight on current/key item,
+  NO TEXT, NO WORDS, empty background ready for content overlay,
+  organized structured design
+
+# 模式2：完整图片（AI生成风格化文字）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Agenda/table of contents slide
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - create organized, scannable agenda layouts.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: Agenda / Numbered List
+  - Title at top-left
+  - Numbered list of 4-6 items
+  - Clear numbering (1, 2, 3... or 01, 02, 03...)
+  - Optional: highlight current section
+  - Clean, scannable structure
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Page Title: {title}
+
+  Agenda Items:
+  {content}
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Title: Large, bold
+  - Numbers: Bold, prominent, possibly styled
+  - Item text: Clear, readable
+  - DO NOT use realistic or computer-generated fonts unless style specifies
+
+  ## Core Principles
+  - Hand-drawn quality if style requires
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - Clear numbered structure
+
+  ## Language
+  - Render text in the same language as provided content
+
+best_for:
+  - 会议议程
+  - 内容目录
+  - 演讲大纲

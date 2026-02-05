@@ -1,0 +1,36 @@
+# 电影模板 - 横屏黑边
+name: cinematic
+description: 电影风格，带黑边letterbox效果
+
+aspect_ratio: "16:9"
+resolution:
+  width: 1920
+  height: 1080
+
+subtitle:
+  position: bottom
+  margin_bottom: 0.08
+  margin_sides: 0.15
+  max_width: 0.70
+  
+  font:
+    family: "Heiti SC"
+    size: 56
+    weight: "BOLD"
+    
+  color: "#FFFFFF"
+  stroke:
+    width: 2
+    color: "#000000"
+    
+  animation:
+    style: fade_in
+    duration_ratio: 0.3
+
+background:
+  overlay: null
+  blur: 0
+  letterbox:
+    enabled: true
+    ratio: 2.35         # 电影宽高比
+    color: "#000000"

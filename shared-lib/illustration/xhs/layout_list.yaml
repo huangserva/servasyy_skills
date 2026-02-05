@@ -1,0 +1,19 @@
+# 列表布局 - 清单排名
+name: list
+display_name: 列表布局
+description: 清单和排名格式
+
+density: 4-7  # 条目数量
+best_for:
+  - 工具推荐
+  - TOP榜单
+  - 步骤清单
+  - 避坑指南
+
+prompt_addition: |
+  小红书信息图布局：列表布局
+  - 4-7个列表项
+  - 数字或图标编号
+  - 垂直排列
+  - 每项配小图标
+  - 竖版 3:4 比例

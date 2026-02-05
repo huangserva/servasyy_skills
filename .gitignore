@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+venv*/
+env/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.npm/
+.yarn/
+
+# Sensitive files - API Keys & Credentials
+config.yaml
+config.json
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+session.*
+*.session
+
+# Output directories
+output/
+outputs/
+downloads/
+workspace/*.mp3
+workspace/*.wav
+workspace/*.mp4
+
+# Generated files
+out/
+dist/
+build/
+*.log
+
+# Media files
+*.mp4
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.ogg
+*.flac
+*.webm
+*.mov
+*.avi
+*.mkv
+*.flv
+
+# Large image files (keep small ones for documentation)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.bmp
+*.tiff
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+.sessions/
+.cache/
+
+# Specific to skills
+remotion-dev/public/**/*.mp4
+remotion-dev/public/**/*.mp3
+remotion-dev/public/**/*.wav
+remotion-dev/out/
+media-downloader/downloads/
+podcast-generator/workspace/*.mp3
+podcast-generator/workspace/*.wav
+tts-script-generator/output/
+markdown-illustrator/*.jpg
+markdown-illustrator/*.png
+shared-lib/bgm/
+shared-lib/voices/
+shared-lib/__pycache__/

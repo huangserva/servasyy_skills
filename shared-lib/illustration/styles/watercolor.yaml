@@ -1,0 +1,37 @@
+# 水彩画风格
+name: watercolor
+description: 柔和水彩画风格，艺术感强
+
+prompt_template: |
+  柔和水彩画插画风格：
+  - 水彩颜料的自然晕染效果
+  - 颜色边缘柔和，有渗透感
+  - 留白作为呼吸空间
+  - 色彩淡雅清新（淡蓝、淡粉、淡绿、淡紫）
+  - 有纸张纹理质感
+  - 笔触自然，不过于精细
+  - 诗意浪漫的氛围
+  - 图中不要有任何文字
+
+colors:
+  primary: "#87CEEB"
+  secondary: "#DDA0DD"
+  tertiary: "#98FB98"
+  accent: "#FFB6C1"
+  background: "#FFFAF0"
+
+characteristics:
+  - 晕染效果
+  - 柔和边缘
+  - 淡雅色彩
+  - 纸张纹理
+  - 自然笔触
+  - 诗意浪漫
+
+best_for:
+  - 艺术内容
+  - 旅行游记
+  - 自然风光
+  - 文学作品
+  - 生活美学
+  - 情感表达

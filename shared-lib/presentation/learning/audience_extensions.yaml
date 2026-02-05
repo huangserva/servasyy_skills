@@ -1,0 +1,87 @@
+# 受众扩展库
+# 自动学习发现的新受众类型
+
+version: "1.0"
+last_updated: "2025-01-24"
+
+# ============================================================
+# 已确认的受众类型
+# ============================================================
+
+confirmed_audiences:
+
+  youth:
+    description: "年轻人、Z世代、大学生、职场新人"
+    age_range: "18-30"
+    keywords:
+      - 年轻人
+      - 大学生
+      - 应届生
+      - 职场新人
+      - Z世代
+      - 00后
+      - 95后
+    style_preferences:
+      preferred:
+        - sketch_notes
+        - pixel_art
+        - dark_atmospheric
+        - notion
+      avoid:
+        - corporate
+        - vintage
+    content_style:
+      - 语言活泼
+      - 可以用网络用语
+      - 信息密度适中
+    learned_from: "2025-01-24"
+    status: confirmed
+
+  parents:
+    description: "家长群体、育儿相关"
+    keywords:
+      - 家长
+      - 父母
+      - 育儿
+      - 孩子教育
+    style_preferences:
+      preferred:
+        - watercolor
+        - sketch_notes
+        - apple
+      avoid:
+        - dark_atmospheric
+        - pixel_art
+    content_style:
+      - 温暖友好
+      - 实用为主
+    learned_from: "待验证"
+    status: pending
+
+  seniors:
+    description: "中老年群体、退休人员"
+    keywords:
+      - 老年
+      - 退休
+      - 中老年
+      - 长辈
+    style_preferences:
+      preferred:
+        - apple
+        - corporate
+        - vintage
+      avoid:
+        - pixel_art
+        - dark_atmospheric
+    content_style:
+      - 字体要大
+      - 对比度要高
+      - 简洁明了
+    learned_from: "待验证"
+    status: pending
+
+# ============================================================
+# 待验证的受众类型
+# ============================================================
+
+pending_audiences: []

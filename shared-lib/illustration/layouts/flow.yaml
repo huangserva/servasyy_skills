@@ -1,0 +1,31 @@
+# 流程布局
+name: flow
+description: 步骤流程布局，适合教程和时间线
+
+prompt_addition: |
+  流程布局要求：
+  - 展示3-6个步骤或阶段
+  - 有清晰的方向性（从左到右，或从上到下）
+  - 步骤之间有连接线或箭头暗示
+  - 每个步骤有对应的视觉元素
+  - 整体呈现线性或环形流程
+  - 视觉上能看出先后顺序
+
+structure:
+  focus: sequential
+  composition: linear
+  steps: "3-6"
+  direction: horizontal
+  whitespace: 0.2
+
+aspect_ratios:
+  - "16:9"
+  - "3:4"
+  - "9:16"
+
+best_for:
+  - 步骤教程
+  - 操作流程
+  - 时间线
+  - 发展历程
+  - 工作流程

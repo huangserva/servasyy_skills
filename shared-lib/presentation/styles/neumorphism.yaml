@@ -1,0 +1,69 @@
+# Neumorphism Style - 详细版
+name: neumorphism
+description: 新拟态风格 - 柔和凹凸，触感真实
+
+prompt_template: |
+  16:9 landscape aspect ratio, NEUMORPHISM STYLE (Soft UI). Photorealistic 3D rendering of soft user interface elements.
+
+  [DESIGN PHILOSOPHY]:
+  Neumorphism represents a return to tactile realism but in a minimal way. Elements look like they are extruded from the same material as the background. Soft, pillowy, matte plastic texture. It's not "flat" design; it's "relief" design.
+
+  [MATERIAL PHYSICS]:
+  - Material: Matte soft plastic or ceramic
+  - Surface: Smooth, non-reflective (low gloss)
+  - Color: Monochromatic off-white #E0E5EC or soft grey #F0F0F3
+  - Key Rule: The object color matches the background color EXACTLY. Visibility comes ONLY from shadows and highlights.
+
+  [LIGHTING SYSTEM (CRITICAL)]:
+  - Light Source: Top-Left (135 degrees)
+  - Shadow (Bottom-Right): Soft dark shadow (black at 10-20% opacity)
+  - Highlight (Top-Left): Soft white highlight (white at 80-100% opacity)
+  - Result: Elements look "lifted" or "pressed" into the surface.
+
+  [UI ELEMENTS]:
+  - Shapes: Soft rounded rectangles (pill shapes), perfect circles
+  - Corner Radius: Large (20-30px), extremely smooth
+  - State 1 (Extruded): Outer shadow + Outer highlight (Button pops up)
+  - State 2 (Inset): Inner shadow + Inner highlight (Button pressed in)
+  - Controls: Circular knobs, volume sliders, toggle switches, progress bars
+
+  [TYPOGRAPHY]:
+  - Font: Rounded Sans-serif (Nunito, Quicksand, Varela Round)
+  - Color: Soft Dark Grey #4A5568 (Low contrast, no pure black)
+  - Weight: Medium or Bold (thin lines disappear in soft UI)
+  - Effect: Slight letterpress (inset shadow) or embossed effect on large text
+
+  [COLOR PALETTE]:
+  - Base: #E0E5EC (The "Neumorphic Grey")
+  - Shadow: #A3B1C6
+  - Highlight: #FFFFFF
+  - Accent (Indicators):
+    * Cyan: #66F6F6 (Glowing light)
+    * Hot Pink: #F66699
+    * Lime: #99F666
+  - Accents are used ONLY for small indicators/lights, not large areas.
+
+  [VISUAL COMPOSITION]:
+  - Minimal layout with generous spacing (elements need room for shadows)
+  - Dashboard aesthetic (dials, charts, cards)
+  - Soft, dreamy atmosphere
+  - No sharp edges or hard lines anywhere
+
+  [KEY RULES]:
+  ✅ EVERYTHING is soft and rounded
+  ✅ Background and elements share the same color
+  ✅ Visible dual shadows (Light Top-Left, Dark Bottom-Right)
+  ✅ Tactile, "touchable" appearance
+  ❌ No black strokes or borders
+  ❌ No high contrast background
+  ❌ No sharp 90-degree corners
+  ❌ No flat design (must have depth)
+
+supports_themes: false
+
+best_for:
+  - 智能家居界面
+  - 现代 App 展示
+  - 创意设计作品集
+  - 未来感科技演示
+  - 冥想/健康类应用

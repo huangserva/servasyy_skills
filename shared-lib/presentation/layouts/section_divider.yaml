@@ -1,0 +1,72 @@
+# 章节分隔页布局
+name: section_divider
+description: 章节分隔页，居中章节标题
+
+size: [1920, 1080]
+
+text_zones:
+  - name: section_title
+    position: [320, 420, 1280, 240]  # [x, y, width, height]
+    align: center
+    font_size: 44
+    font_weight: bold
+    max_chars: 25
+
+# 模式1：纯背景（可编辑文字）
+prompt_template: |
+  16:9 landscape PPT section divider background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  centered white card container at position (320px, 420px),
+  card dimensions 1280x240 pixels,
+  rounded corners 24px, subtle layered shadow with theme color tint,
+  empty card interior ready for section title text,
+  minimal geometric decorations at corners,
+  NO TEXT, NO WORDS inside card,
+  elegant transition slide design
+
+# 模式2：完整图片（AI生成风格化文字）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Section divider slide
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - a master visual storyteller. Your slides tell a visual story with bold, confident language.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: Section Divider
+  - Centered card container for section title
+  - Minimal geometric decorations at corners
+  - Clean transition slide design
+  - Creates visual break between sections
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Section Title: {title}
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Section title: Large, bold, centered, immediately readable
+  - DO NOT use realistic or computer-generated fonts unless style specifies
+  - Font rendering must match the style aesthetic
+  - Text should feel integrated with the visual design, not overlaid
+
+  ## Core Principles
+  - Hand-drawn quality if style requires
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - Clean, uncluttered layout with clear visual hierarchy
+  - ONE clear message: the section name
+
+  ## Language
+  - Render text in the same language as provided content
+
+best_for:
+  - 章节过渡
+  - 主题切换
+  - 内容分隔

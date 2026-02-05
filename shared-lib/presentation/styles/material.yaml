@@ -1,0 +1,67 @@
+# Material Design Style
+name: material
+description: Google Material Design - 大胆鲜明，层次分明
+
+prompt_template: |
+  16:9 landscape aspect ratio, MATERIAL DESIGN STYLE following Google's design principles, bold and vibrant aesthetic with clear depth hierarchy.
+
+  [DESIGN PHILOSOPHY]:
+  Material Design Language - inspired by physical paper and ink, using shadows and motion to convey depth and hierarchy. Bold color palette with strong saturation, clean typography.
+
+  [BACKGROUND SYSTEM]:
+  - Base color: Pure white #FFFFFF or very light grey #FAFAFA
+  - NO gradients (Material uses flat colors)
+  - Optional: Subtle paper-like texture (2-3% opacity)
+  - Clean, crisp, high contrast backdrop
+
+  [ELEVATION SYSTEM]:
+  Level 1 (Resting): 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+  Level 2 (Raised): 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  Level 3 (Elevated): 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+  Level 4 (High): 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+
+  [CARD SYSTEM]:
+  - Background: Pure white #FFFFFF
+  - NO borders (Material cards have no strokes, only shadows)
+  - Corner radius: 4px (Material standard) or 8px (Material Design 3)
+  - Internal padding: 16-24px (8dp grid system)
+
+  [COLOR PALETTE]:
+  Primary Colors: #2196F3 (Blue), #4CAF50 (Green), #FF9800 (Orange), #9C27B0 (Purple)
+  - Use 500 weight for primary (full saturation)
+  - Bold and vibrant, not pastel
+
+  [TYPOGRAPHY]:
+  - Font: Roboto
+  - Chinese: Noto Sans SC
+  - Button text: ALL CAPS, Medium weight, 1.25px letter-spacing
+  - Headlines: Light(300) to Regular(400)
+  - Body: 14-16px Regular
+
+  [8DP GRID]:
+  - Base unit: 8dp
+  - All spacing: 8, 16, 24, 32, 48, 64dp
+  - Touch targets: 40-56dp
+
+  [KEY PRINCIPLES]:
+  ✅ Bold saturated colors, clear elevation shadows
+  ✅ Small corner radius (4-8px), no borders
+  ✅ 8dp grid strictly, ALL CAPS buttons
+  ❌ No soft pastels, no large rounded corners, no gradients
+
+supports_themes: false
+
+characteristics:
+  - 大胆鲜明
+  - 层次阴影
+  - 小圆角
+  - 8dp网格
+  - 纯色填充
+  - 纸墨隐喻
+
+best_for:
+  - Android应用
+  - Google生态
+  - 消费类科技
+  - 教育平台
+  - 社交媒体

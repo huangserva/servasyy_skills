@@ -1,0 +1,32 @@
+# 默认横屏模板
+name: default
+description: 默认横屏模板，适合B站/YouTube
+
+aspect_ratio: "16:9"
+resolution:
+  width: 1920
+  height: 1080
+
+subtitle:
+  position: bottom
+  margin_bottom: 0.08
+  margin_sides: 0.10
+  max_width: 0.80
+  
+  font:
+    family: "Heiti SC"
+    size: 64
+    weight: "ULTRABOLD"
+    
+  color: "#FFFFFF"
+  stroke:
+    width: 3
+    color: "#000000"
+    
+  animation:
+    style: write
+    duration_ratio: 0.5
+
+background:
+  overlay: null
+  blur: 0

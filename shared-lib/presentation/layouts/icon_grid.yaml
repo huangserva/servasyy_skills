@@ -1,0 +1,78 @@
+# 图标网格布局
+name: icon_grid
+description: 图标网格布局，用于展示功能、特性或优势
+
+size: [1920, 1080]
+
+text_zones:
+  - name: page_title
+    position: [160, 80, 1600, 80]
+    align: center
+    font_size: 36
+    font_weight: bold
+    max_chars: 30
+  - name: grid_content
+    position: [160, 200, 1600, 800]
+    align: center
+    font_size: 16
+    line_height: 1.4
+    max_chars: 400
+
+# 模式1：纯背景
+prompt_template: |
+  16:9 landscape PPT icon grid page background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  grid layout with space for 4-6 icon areas,
+  subtle grid lines or card containers,
+  NO TEXT, NO WORDS, NO ICONS, empty background ready for overlay,
+  organized modular design
+
+# 模式2：完整图片（AI生成风格化文字）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Icon grid slide showing features/benefits
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - create organized, scannable grid layouts.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: Icon Grid
+  - Title at top
+  - Grid of 4-6 items below
+  - Each item has: icon + label + optional description
+  - Balanced, symmetrical arrangement
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Page Title: {title}
+
+  Grid Items:
+  {content}
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Title: Large, bold, centered at top
+  - Item labels: Medium, bold
+  - Item descriptions: Small, regular
+  - Icons: Simple, style-matching illustrations
+  - DO NOT use realistic or computer-generated fonts unless style specifies
+
+  ## Core Principles
+  - Hand-drawn quality if style requires
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - Clean, organized grid with consistent spacing
+
+  ## Language
+  - Render text in the same language as provided content
+
+best_for:
+  - 功能列表
+  - 产品特性
+  - 服务优势

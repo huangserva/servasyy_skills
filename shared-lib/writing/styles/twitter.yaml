@@ -1,0 +1,57 @@
+name: twitter
+display_name: Twitter/X 风格
+description: 精炼有力，适合社交媒体传播，钩子开头。
+
+# 核心特征
+characteristics:
+  - 开头一句话钩子
+  - 短句，每句一行
+  - 列表式呈现
+  - 最后一句call to action
+  - 适当使用 → 等符号
+
+# 适用场景
+best_for:
+  - Twitter/X 帖子
+  - 线程串
+  - 观点输出
+  - 知识卡片
+
+# 目标字数
+word_count:
+  min: 100
+  max: 280  # 单条推文
+
+# 线程结构
+thread_structure:
+  hook: 第1条，抓住注意力
+  body: 2-8条，核心内容
+  cta: 最后1条，行动引导
+
+# 语言特点
+language:
+  - 简洁有力
+  - 每句话独立成段
+  - 使用 → 表示推导
+  - 使用数字列表
+  - 适当emoji
+
+# 钩子模板
+hook_templates:
+  - "Most people think X. They're wrong."
+  - "I spent X years learning Y. Here's what I found:"
+  - "X个 [领域] 真相，90%的人不知道"
+  - "如果你想 [目标]，先停止 [错误做法]"
+
+# 结尾模板
+cta_templates:
+  - "如果有帮助，转发让更多人看到"
+  - "关注我 @xxx 获取更多"
+  - "收藏这个帖子，以后用得上"
+
+# 禁止使用
+avoid:
+  - 长句子
+  - 复杂修饰
+  - 学术用语
+  - 无重点的流水账

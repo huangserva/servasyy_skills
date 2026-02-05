@@ -1,0 +1,26 @@
+# 中性灰主题
+name: neutral_grey
+description: 中性灰主题，通用、极简、专业
+
+background:
+  gradient: ["#FAFAFA", "#F0F0F0"]
+  texture_color: "grey tones"
+  
+colors:
+  brand: "#1D1D1F"
+  accent: "#8E8E93"
+  border: "#D1D1D6"
+  
+description_template: |
+  Neutral Grey theme with universal gradient background from #FAFAFA to #F0F0F0,
+  extremely subtle geometric line texture 20-30% transparency in grey tones,
+  flowing minimal decorative elements in medium grey #8E8E93 with 15-25% transparency,
+  timeless classic pattern creating professional sensation,
+  premium neutral texture with versatile feel,
+  four corners with abstract geometric accents in grey gradient,
+  brand color #1D1D1F for accents
+
+keywords:
+  - 极简
+  - 通用
+  - 专业

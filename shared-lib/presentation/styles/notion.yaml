@@ -1,0 +1,75 @@
+# Notion Style - 详细版
+name: notion
+description: SaaS 产品风格 - 现代仪表盘美学
+
+prompt_template: |
+  16:9 landscape aspect ratio, NOTION STYLE with clean SaaS dashboard aesthetic.
+
+  [DESIGN AESTHETIC]:
+  Clean, functional SaaS interface aesthetic. Dashboard-inspired layouts with clear data hierarchy. Notion, Linear, and modern productivity tool styling. Information-dense but organized. Professional and trustworthy.
+
+  [BACKGROUND]:
+  - Color: Light Gray (#F7F7F5) or Pure White (#FFFFFF)
+  - Texture: None - clean solid backgrounds
+  - No gradients, no patterns
+
+  [CARD SYSTEM]:
+  - Background: Pure White #FFFFFF
+  - Border: 1px solid Light Border #E5E5E5
+  - Corner radius: 8-12px
+  - Shadow: Very subtle (0 1px 3px rgba(0,0,0,0.04))
+  - Clean, functional appearance
+  - Multiple cards can be used for organization
+
+  [TYPOGRAPHY]:
+  - Headlines: System UI or Inter
+    * Weight: Semibold (600)
+    * Color: Near Black #1F1F1F
+    * Slightly tighter letter-spacing
+  - Body: Same family, Regular weight
+    * Color: Gray #6B6B6B
+    * Line height: 1.5-1.6
+  - Chinese: PingFang SC, 思源黑体
+
+  [COLOR PALETTE]:
+  - Background: Light Gray #F7F7F5
+  - Card Background: Pure White #FFFFFF
+  - Primary Text: Near Black #1F1F1F
+  - Secondary Text: Gray #6B6B6B
+  - Border: Light Border #E5E5E5
+  - Accent Blue: Notion Blue #2383E2
+  - Accent Green: Success #0F7B6C
+  - Accent Red: Alert #E03E3E
+  - Accent Yellow: Warning #DFAB01
+
+  Color Usage:
+  - 80% neutral (white, gray)
+  - 15% text colors
+  - 5% accent colors (strategic use)
+
+  [VISUAL ELEMENTS]:
+  - Card-based layouts with subtle borders
+  - Clean data tables and charts
+  - Progress bars and metric displays
+  - Tag and label chips
+  - Checkbox styling
+  - Simple line icons
+  - Breadcrumb indicators
+
+  [KEY RULES]:
+  ✅ Use card-based content organization
+  ✅ Create clear data hierarchy
+  ✅ Use subtle shadows and borders
+  ✅ Functional, not decorative
+  ❌ No decorative illustrations
+  ❌ No gradients or complex backgrounds
+  ❌ No slide numbers, footers, or logos
+  ❌ No macOS window controls
+
+supports_themes: false
+
+best_for:
+  - 产品演示
+  - SaaS 展示
+  - 数据仪表盘
+  - B2B 演示

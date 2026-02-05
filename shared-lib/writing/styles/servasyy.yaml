@@ -1,0 +1,186 @@
+name: servasyy
+display_name: "@servasyy_ai 推特风格"
+description: 口语化、强情绪、短句有力。适合Twitter/推文创作，像朋友分享而非广告。
+
+# 核心特征
+characteristics:
+  - 口语化，像聊天一样写
+  - 强情绪词开场（绝了、疯了、我靠）
+  - 短句为主，易读有节奏
+  - 多感叹号（！！、！！！）
+  - emoji点缀（🔥📊💡👍）
+  - 功能列表清晰（3-5点）
+
+# 适用场景
+best_for:
+  - Twitter/X 推文
+  - 开源项目推荐
+  - 技术分享
+  - 成果展示
+  - 观点表态
+
+# 目标字数
+word_count:
+  min: 50
+  max: 280
+
+# 文章类型模板
+article_types:
+  开源推荐:
+    template: |
+      [强推荐词！！] + [一句话描述]
+      [@作者] 的作品
+      
+      [功能亮点]
+      - 功能1
+      - 功能2
+      - 功能3
+      
+      项目地址：[链接]
+    example: |
+      强烈推荐！！偷窥AI社群聊天的skill
+      @smithandai 兄弟的作品
+      
+      太好玩了
+      
+      功能：
+      - 自动抓取 New + Top feeds
+      - 深度抓取 Top 20 高价值帖子
+      - 智能分析：问题识别、洞察生成
+      
+      项目地址：https://...
+
+  成果展示:
+    template: |
+      🔥[付出描述]，[成果]来了！
+      [具体做了什么]
+      [效果/亮点]
+    example: |
+      🔥熬了一晚，你们想要的remotion skill的案例来了！
+      用remotion做了一个产品广告宣传片
+      Gemini的模型审美更强
+
+  惊叹分享:
+    template: |
+      [情绪词！！]
+      [一句话核心亮点]
+      [补充说明]
+      [链接]
+    example: |
+      疯了，简直是疯了！！
+      硅谷炸了！人类已被踢出群聊
+      超过10万个AI智能体，自己建了个社交网络
+
+  教程分享:
+    template: |
+      [问题引入]
+      [解决方案]
+      1. 步骤1
+      2. 步骤2
+      3. 步骤3
+      [链接]
+    example: |
+      推荐两个openclaw的飞书接入开源项目
+      
+      希望5分钟完成接入：https://...
+      希望功能完善：https://...
+
+  观点表态:
+    template: |
+      [简短立场]
+      [链接/引用]
+    example: |
+      这次我站宝玉老师这边
+
+# 情绪词库
+vocabulary:
+  strong_approval:
+    - 绝了
+    - 太屌了
+    - 牛
+    - 太可以了
+    - 强烈推荐
+  exclamation:
+    - 疯了
+    - 我靠
+    - 笑死
+    - 哈哈哈哈
+  excitement:
+    - 终于来啦
+    - 停不下来
+    - 太好玩了
+  urgency:
+    - 速度收藏
+    - 等不及了
+    - 必须转
+    - 快冲
+
+# 标点与emoji
+punctuation:
+  - "！！"
+  - "！！！"
+emoji:
+  - 🔥  # 热点/推荐
+  - 📊  # 数据/报告
+  - 💡  # 想法/提示
+  - 👍  # 点赞/认可
+  - 📋  # 列表/摘要
+
+# 爆款规律
+viral_patterns:
+  - pattern: "熬夜/研究成果 + 案例"
+    success_rate: 90%
+  - pattern: "@群友作品 + 项目链接"
+    success_rate: 85%
+  - pattern: "功能列表（3-5点）"
+    success_rate: 80%
+  - pattern: "教程 + 步骤"
+    success_rate: 75%
+
+# 必须包含
+requirements:
+  emotion_words: 1      # 至少1个情绪词
+  exclamation_marks: 2  # 至少2个感叹号
+  oral_style: true      # 口语化表达
+
+# 禁止使用
+avoid:
+  - 贩卖焦虑（"不XX你就完了"）
+  - 夸大数据
+  - 过度营销
+  - 书面语/官方腔
+  - 长句子
+
+# 结构要求
+structure:
+  opening: 情绪词或惊叹开场，抓住注意力
+  body: 核心价值点，功能列表或步骤
+  closing: 链接或行动号召
+
+# 核心价值观
+values:
+  - 真实 > 完美：用真实数据，承认失败
+  - 实用 > 理论：提供可执行步骤
+  - 情绪 > 信息：每2句话1个强情绪词
+  - 对话 > 说教：像朋友分享
+
+# 自检清单
+checklist:
+  - 是否有强情绪开场词？
+  - 是否使用了！！或！！！？
+  - 内容是否简短有力（≤280字）？
+  - 是否有具体价值点？
+  - 是否口语化？
+
+# 成功标准
+success_metrics:
+  likes_good: 100
+  likes_viral: 200
+  retweets_good: 20
+
+# 元信息
+metadata:
+  version: "1.0.0"
+  updated: "2026-02-02"
+  author: "@servasyy_ai"
+  source: "35条推文分析 + twitter-writing-system"

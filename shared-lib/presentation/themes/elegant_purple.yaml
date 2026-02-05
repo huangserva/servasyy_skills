@@ -1,0 +1,31 @@
+# 优雅紫主题
+name: elegant_purple
+description: 优雅紫主题，适合创新、创意、设计
+
+background:
+  gradient: ["#FAF8FF", "#F3EEFA"]
+  texture_color: "lavender tones"
+  
+colors:
+  brand: "#5856D6"
+  accent: "#AF52DE"
+  border: "#E5DFFF"
+  
+description_template: |
+  Elegant Purple theme with luxurious gradient background from #FAF8FF to #F3EEFA,
+  extremely subtle geometric line texture 20-30% transparency in lavender tones,
+  flowing wave-like decorative elements in light purple #AF52DE with 15-25% transparency,
+  creative artistic pattern creating innovation sensation,
+  premium silk texture with slight sheen and elegance,
+  four corners with abstract geometric accents in lavender gradient,
+  brand color #5856D6 for accents
+
+keywords:
+  - 创新
+  - 创意
+  - 设计
+  - 艺术
+  - 奢华
+  - 高端
+  - 品牌
+  - 体验

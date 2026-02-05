@@ -1,0 +1,119 @@
+# 左文字右配图布局
+name: content_with_illustration
+description: 左侧文字卡片，右侧相关配图/图解，适合需要视觉化说明的内容
+
+size: [1920, 1080]
+
+text_zones:
+  - name: page_title
+    position: [120, 140, 900, 80]
+    align: left
+    font_size: 36
+    font_weight: bold
+    max_chars: 30
+  - name: content_area
+    position: [120, 260, 900, 700]
+    align: left
+    font_size: 18
+    line_height: 1.6
+    max_chars: 300
+  - name: illustration_area
+    position: [1060, 140, 740, 820]
+    align: center
+    description: 右侧配图区域
+
+# 模式1：纯背景（可编辑文字）
+prompt_template: |
+  16:9 landscape PPT content page background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  LEFT-RIGHT split layout design,
+  left side (55% width): large white card container for text,
+  right side (40% width): space for illustration/diagram,
+  rounded corners 24px, professional multi-layer shadow,
+  NO TEXT, NO WORDS, clean empty layout,
+  professional content slide with illustration area
+
+# 模式2：完整图片（AI生成风格化文字+配图）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Content slide with LEFT text + RIGHT illustration
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - a master visual storyteller who creates slides that perfectly balance informative text with explanatory illustrations.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: LEFT-RIGHT Split (CRITICAL)
+  
+  LEFT SIDE (55-60% of width):
+  - White card container with rounded corners (20-24px)
+  - Contains title at top
+  - Bullet points or paragraph content below
+  - Left-aligned text with generous padding
+  - Soft shadow for depth
+  
+  RIGHT SIDE (35-40% of width):
+  - Relevant illustration, diagram, or visual
+  - MUST visually explain or represent the text content
+  - Can be: concept diagram, icon composition, simple illustration, data visualization
+  - Style should match the overall theme
+  - Can be inside a card or floating
+  - Should feel integrated, not like a separate image
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Page Title: {title}
+
+  Content (for left side):
+  {content}
+
+  ## Illustration Guidelines (CRITICAL)
+  Based on the content, create an appropriate illustration on the right side:
+  - If content is about a PROCESS → show a flow diagram or steps
+  - If content is about a CONCEPT → show a metaphorical illustration
+  - If content is about DATA → show a simplified chart or infographic
+  - If content is about a SYSTEM → show components and relationships
+  - If content is about COMPARISON → show side-by-side visual
+  
+  The illustration should:
+  - Be simple and clear, not overly complex
+  - Use theme colors for consistency
+  - Have clean lines and shapes
+  - Include labels if needed (in same language as content)
+  - Feel professional and polished
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Title: Large (32-40px), bold/semibold, dark color
+  - Bullet points: Medium (16-20px), clear legibility
+  - Max 4-5 bullet points (leave room for illustration)
+  - Text should feel integrated with the visual design
+
+  ## Visual Balance
+  - Left and right sides should feel balanced
+  - Neither side should overpower the other
+  - Consistent visual language across both sides
+  - Unified color palette from theme
+
+  ## Core Principles
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - NO macOS window control dots
+  - Clean layout with clear visual hierarchy
+  - Illustration adds value, not just decoration
+
+  ## Language
+  - Render ALL text (including illustration labels) in the same language as provided content
+
+best_for:
+  - 概念解释
+  - 流程说明
+  - 模型介绍
+  - 技术原理
+  - 对比分析
+  - 数据解读

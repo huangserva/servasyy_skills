@@ -1,0 +1,82 @@
+# 关键数据页布局
+name: key_stat
+description: 单个大数字作为焦点，用于展示关键指标
+
+size: [1920, 1080]
+
+text_zones:
+  - name: stat_number
+    position: [160, 300, 1600, 200]
+    align: center
+    font_size: 120
+    font_weight: bold
+    max_chars: 10
+  - name: stat_label
+    position: [160, 520, 1600, 60]
+    align: center
+    font_size: 28
+    font_weight: regular
+    max_chars: 40
+  - name: stat_context
+    position: [160, 600, 1600, 80]
+    align: center
+    font_size: 20
+    font_weight: regular
+    max_chars: 80
+
+# 模式1：纯背景
+prompt_template: |
+  16:9 landscape PPT key statistic page background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  centered layout optimized for large number display,
+  subtle decorative elements framing the focal point,
+  NO TEXT, NO WORDS, empty background ready for statistic overlay,
+  clean impactful design
+
+# 模式2：完整图片（AI生成风格化文字）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Key statistic/metric slide
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - create impactful data visualization.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: Key Stat
+  - Single large number as the focal point
+  - Label below explaining the metric
+  - Optional context line for additional info
+  - Clean, uncluttered, maximum focus on the number
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Big Number: {title}
+  Label: {subtitle}
+  Context: {content}
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Number: EXTREMELY LARGE, bold, centered, dominant
+  - Label: Medium size, clear
+  - DO NOT use realistic or computer-generated fonts unless style specifies
+  - Font rendering must match the style aesthetic
+
+  ## Core Principles
+  - Hand-drawn quality if style requires
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - ONE clear focal metric
+
+  ## Language
+  - Render text in the same language as provided content
+
+best_for:
+  - 关键指标
+  - 统计数据
+  - 里程碑数字

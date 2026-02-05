@@ -1,0 +1,70 @@
+# Vector Illustration Style - 详细版
+name: vector_illustration
+display_name: 矢量插画
+description: Modern flat vector illustration style (Corporate Memphis / SaaS aesthetic)
+
+prompt_template: |
+  16:9 landscape aspect ratio, VECTOR ILLUSTRATION STYLE. Modern SaaS product aesthetic.
+
+  [DESIGN PHILOSOPHY]:
+  Modern Flat Vector aesthetic (often called Corporate Memphis or Alegria style). Used by Slack, Notion, Stripe, and modern SaaS companies. Geometric simplification, vibrant colors, exaggerated proportions, and optimistic energy. Clean, digital, and friendly.
+
+  [BACKGROUND SYSTEM]:
+  - Color: Cream Off-White #F5F0E6 or Very Light Blue-Grey #F0F4F8
+  - Texture: Flat digital perfection (no grain)
+  - Elements: Floating geometric shapes (circles, squiggles, dots) in background
+
+  [CARD SYSTEM]:
+  - Background: White #FFFFFF or slightly lighter than bg
+  - Border: None or 2px solid matching outline color
+  - Corner radius: 12-16px (friendly rounded corners)
+  - Shadow: Hard offset shadow (Pop art style) or flat
+
+  [TYPOGRAPHY]:
+  - Headlines: Rounded Sans-serif (Varela Round, Quicksand, Nunito)
+    * Weight: Bold (700)
+    * Color: Deep Charcoal #2D2D2D
+    * Friendly and approachable
+  - Body: Clean Sans-serif (Inter, DM Sans)
+    * Weight: Medium (500)
+    * Color: Dark Gray #4A5568
+  - Chinese: Rounded Heiti (圆体)
+
+  [COLOR PALETTE]:
+  - Background: Cream Off-White #F5F0E6
+  - Outlines (Optional): Deep Navy #1E293B (not pure black)
+  - Primary Text: Deep Charcoal #2D2D2D
+  - Accent 1: Coral Red #E07A5F (Warmth)
+  - Accent 2: Mint Green #81B29A (Nature)
+  - Accent 3: Mustard Yellow #F2CC8F (Energy)
+  - Accent 4: Royal Blue #4361EE (Tech)
+  - Accent 5: Lavender #7209B7 (Creative)
+  - Colors should be flat, solid fills. NO gradients.
+
+  [VISUAL ELEMENTS]:
+  - Characters: Stylized proportions (long limbs, small heads), diverse, active poses
+  - Objects: Simplified to geometric primitives
+  - Composition: Dynamic, floating elements
+  - Decor: Squiggles, stars, dots, motion lines
+  - Perspective: Flat 2D or Isometric
+  - Shadows: Hard edge shadows (no blur) for depth
+
+  [KEY RULES]:
+  ✅ Use solid, flat colors
+  ✅ Geometric simplification of all forms
+  ✅ Friendly, optimistic atmosphere
+  ✅ Consistent line weight (if lines are used)
+  ❌ No gradients or airbrushing
+  ❌ No photorealistic textures
+  ❌ No detailed faces (simple features only)
+  ❌ No messy sketchy lines
+  ❌ No macOS window controls
+
+supports_themes: false
+
+best_for:
+  - SaaS 产品介绍
+  - 现代企业文化
+  - 创意提案
+  - 团队建设
+  - 用户引导

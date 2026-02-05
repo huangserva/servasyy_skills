@@ -1,0 +1,98 @@
+# 场景扩展库
+# 自动学习发现的新场景，补充 SKILL.md 评分表
+
+version: "1.0"
+last_updated: "2025-01-24"
+
+# ============================================================
+# 已确认的新场景（经过验证，可加入主评分表）
+# ============================================================
+
+confirmed_scenes:
+
+  social:
+    description: "社会话题、时事讨论、民生议题、社会现象分析"
+    keywords:
+      - 社会
+      - 年轻人
+      - 困境
+      - 现状
+      - 讨论
+      - 话题
+      - 民生
+      - 就业
+      - 房价
+      - 内卷
+      - 躺平
+      - 焦虑
+    recommended_styles:
+      editorial_infographic: 9
+      sketch_notes: 8
+      apple: 7
+      notion: 6
+    best_audience:
+      - general
+      - youth
+    learned_from: "2025-01-24 社会话题对话PPT需求"
+    status: confirmed
+
+  documentary:
+    description: "纪录片风格、深度报道、调查分析"
+    keywords:
+      - 纪录
+      - 深度
+      - 调查
+      - 真实
+      - 报道
+      - 揭秘
+    recommended_styles:
+      dark_atmospheric: 8
+      editorial_infographic: 8
+      vintage: 7
+    best_audience:
+      - general
+      - experts
+    learned_from: "待验证"
+    status: pending
+
+  motivational:
+    description: "励志演讲、个人成长、激励内容"
+    keywords:
+      - 励志
+      - 成长
+      - 梦想
+      - 坚持
+      - 成功
+      - 奋斗
+    recommended_styles:
+      bold_editorial: 9
+      apple: 8
+      watercolor: 7
+    best_audience:
+      - general
+      - beginners
+    learned_from: "待验证"
+    status: pending
+
+# ============================================================
+# 待验证的新场景（需要更多用户反馈）
+# ============================================================
+
+pending_scenes: []
+
+# ============================================================
+# 使用说明
+# ============================================================
+# 
+# 1. 当 Claude 遇到评分表未覆盖的场景时：
+#    - 先检查此文件的 confirmed_scenes
+#    - 如果有匹配，使用其 recommended_styles
+#    - 如果没有，创建新条目到 pending_scenes
+#
+# 2. 用户反馈后：
+#    - good: 增加该场景的置信度
+#    - bad/changed: 记录并调整推荐
+#
+# 3. 当某场景积累 3+ 个 good 反馈后：
+#    - 从 pending_scenes 移到 confirmed_scenes
+#    - 考虑更新 SKILL.md 主评分表

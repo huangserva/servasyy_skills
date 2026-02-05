@@ -1,0 +1,31 @@
+# 技术蓝图风格
+name: blueprint
+description: 技术蓝图风格，工程制图感，适合架构和系统设计
+
+prompt_template: |
+  技术蓝图插画风格：
+  - 深蓝色工程图纸背景
+  - 白色线条和网格
+  - 精确的技术制图感
+  - 机械和建筑元素
+  - 专业的工程美学
+  - 图中不要有任何文字、标签、说明
+
+colors:
+  primary: "#FFFFFF"
+  accent: "#87CEEB"
+  background: "#0D3B66"
+
+characteristics:
+  - 蓝图背景
+  - 白色线条
+  - 技术制图
+  - 工程美学
+  - 精确感
+
+best_for:
+  - 系统架构
+  - 技术设计
+  - 工程项目
+  - 建筑规划
+  - 产品原理

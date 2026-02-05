@@ -1,0 +1,75 @@
+# Scientific Style - 详细版
+name: scientific
+description: 科学图解风格 - 学术精确的专业图表
+
+prompt_template: |
+  16:9 landscape aspect ratio, SCIENTIFIC STYLE for academic illustration and technical diagrams.
+
+  [DESIGN AESTHETIC]:
+  Academic scientific illustration aesthetic for biological pathways, chemical processes, and technical systems. Clean, precise diagrams with proper labeling and clear visual flow. Educational clarity with professional polish. Think textbook quality illustrations and academic journal figures.
+
+  [BACKGROUND]:
+  - Color: Off-White (#FAFAFA) or Light Blue-Gray (#F0F4F8)
+  - Texture: None or very subtle paper grain for print feel
+  - Clean, distraction-free for maximum clarity
+
+  [CARD SYSTEM]:
+  - Background: Pure White #FFFFFF
+  - Border: 1px solid Light Gray #E5E7EB
+  - Corner radius: 4-8px (minimal, professional)
+  - Shadow: Very subtle (0 1px 3px rgba(0,0,0,0.05))
+  - Clean, academic appearance
+
+  [TYPOGRAPHY]:
+  - Headlines: Clean serif font (Times New Roman style)
+    * Weight: Bold for main titles
+    * Color: Dark Slate #1E293B
+    * Professional, authoritative presence
+  - Labels: Sans-serif for diagram labels
+    * Clear, readable at small sizes
+    * Color: Medium Gray #475569
+  - Body: Serif for paragraphs, sans-serif for bullets
+  - Chinese: 宋体（标题）、黑体（正文）
+
+  [COLOR PALETTE]:
+  - Background: Off-White #FAFAFA
+  - Primary Text: Dark Slate #1E293B
+  - Label Text: Medium Gray #475569
+  - Pathway 1: Teal #0D9488
+  - Pathway 2: Blue #3B82F6
+  - Pathway 3: Purple #8B5CF6
+  - Membrane: Amber #F59E0B
+  - Alert: Red #EF4444
+  - Positive: Green #22C55E
+
+  Color Usage:
+  - Use colors to differentiate pathways/processes
+  - Consistent color coding throughout
+  - Muted, academic tones
+
+  [VISUAL ELEMENTS]:
+  - Precise scientific diagrams
+  - Labeled components with leader lines
+  - Flow arrows showing process direction
+  - Chemical formulas and molecular notation
+  - Cross-section diagrams
+  - Numbered step sequences
+  - Process summary boxes
+
+  [KEY RULES]:
+  ✅ Use precise, consistent line weights
+  ✅ Label all components clearly
+  ✅ Show directional flow with arrows
+  ✅ Maintain academic credibility
+  ❌ No decorative illustrations
+  ❌ No imprecise or artistic diagrams
+  ❌ No slide numbers, footers, or logos
+  ❌ No macOS window controls
+
+supports_themes: false
+
+best_for:
+  - 生物学讲座
+  - 化学演示
+  - 医学教育
+  - 学术会议

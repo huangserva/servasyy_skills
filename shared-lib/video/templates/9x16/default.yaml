@@ -1,0 +1,32 @@
+# 默认模板 - 竖屏抖音风格
+name: default
+description: 默认竖屏模板，白色超粗字幕+细黑边框，底部定位
+
+aspect_ratio: "9:16"
+resolution:
+  width: 1080
+  height: 1920
+
+subtitle:
+  position: bottom      # top / center / bottom
+  margin_bottom: 0.10   # 距底部10%
+  margin_sides: 0.075   # 左右边距7.5%
+  max_width: 0.85       # 最大宽度85%
+  
+  font:
+    family: "Heiti SC"
+    size: 80
+    weight: "ULTRABOLD"
+    
+  color: "#FFFFFF"
+  stroke:
+    width: 2
+    color: "#000000"
+    
+  animation:
+    style: write        # fade_in / write / typewriter / slide_in
+    duration_ratio: 0.5 # 动画占总时长的比例
+
+background:
+  overlay: null         # 可选：rgba(0,0,0,0.3)
+  blur: 0               # 背景模糊程度

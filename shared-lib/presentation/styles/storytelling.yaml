@@ -1,0 +1,64 @@
+# Storytelling Style - 详细版
+name: storytelling
+description: 视觉叙事风格 - 电影级情感驱动
+
+prompt_template: |
+  16:9 landscape aspect ratio, STORYTELLING STYLE. Cinematic visual narrative with emotional resonance.
+
+  [DESIGN PHILOSOPHY]:
+  Cinematic Storytelling - Every slide is a frame from a high-end documentary or film. The image carries the emotion; the text whispers the context. Focus on atmosphere, lighting, and human connection.
+
+  [CINEMATOGRAPHY SYSTEM]:
+  - Composition: Rule of Thirds, Leading Lines, or Center Symmetry
+  - Lighting: Natural "Golden Hour", Dramatic Side Lighting (Chiaroscuro), or Soft Window Light
+  - Depth of Field: Shallow depth (Bokeh) to focus attention on subjects
+  - Color Grade: Teal & Orange (Cinematic), Warm Vintage, or High Contrast Black & White
+  - Framing: Wide shots for context, Close-ups for emotion
+
+  [TEXT INTEGRATION STRATEGY]:
+  - Placement: Strictly in "Negative Space" (sky, dark shadows, clean walls)
+  - Overlay: Subtle linear gradient (transparent to black/dark) behind text for readability
+  - Hierarchy: One strong headline + minimal supporting text (Caption style)
+  - No boxes: Text floats directly on the image (with shadow/gradient protection)
+
+  [TYPOGRAPHY]:
+  - Headline: Elegant Serif (Playfair Display, Lora) or Humanist Sans (Montserrat)
+    * Weight: Bold or Italic
+    * Color: White #FFFFFF (95-100% opacity)
+    * Shadow: Soft drop shadow (blur 10px, opacity 50%)
+  - Body: Clean Sans-serif (Inter, Lato)
+    * Weight: Light or Regular
+    * Color: Off-White #E0E0E0
+  - Chinese: 思源宋体 (Source Han Serif) or 细黑体
+
+  [EMOTIONAL COLOR PALETTE (Adaptive)]:
+  - Hope/Inspiration: Warm Gold, Soft White, Sunrise Orange
+  - Serious/Professional: Deep Blue, Charcoal, Slate
+  - Urgent/Passion: Muted Red, Deep Burgundy
+  - Calm/Trust: Sage Green, Ocean Blue, Earth Tones
+  - *Key Rule*: Colors are derived from the photography, not a fixed palette.
+
+  [VISUAL SUBJECTS]:
+  - Authentic Human Moments: Candid gestures, eye contact, interaction
+  - Metaphorical Landscapes: Roads, mountains, horizons, open doors
+  - Abstract Textures: Light patterns, water reflections, fabric details
+  - Macro Details: Hands working, tools, natural elements
+
+  [KEY RULES]:
+  ✅ IMAGES MUST BE FULL-BLEED (Edge to Edge)
+  ✅ Text must be readable via contrast or gradient overlay
+  ✅ Emotional connection > Information density
+  ✅ Cinematic aspect ratio and composition
+  ❌ No white backgrounds or borders
+  ❌ No clipart or vector illustrations
+  ❌ No bullet points (use visual flow instead)
+  ❌ No stock photo clichés (men in suits shaking hands)
+
+supports_themes: false
+
+best_for:
+  - 品牌故事
+  - TED 演讲
+  - 愿景发布
+  - 公益慈善
+  - 个人经历分享

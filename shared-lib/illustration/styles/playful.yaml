@@ -1,0 +1,31 @@
+# 活泼可爱风格
+name: playful
+description: 活泼有趣，可爱俏皮，适合轻松教程和入门内容
+
+prompt_template: |
+  活泼可爱插画风格：
+  - 圆润的线条和形状
+  - 明亮饱和的色彩
+  - 卡通化的人物和元素
+  - 俏皮的表情和动作
+  - 轻松愉快的氛围
+  - 图中不要有任何文字、标签、说明
+
+colors:
+  primary: "#FF6B6B"
+  accent: "#4ECDC4"
+  background: "#FFF9E6"
+
+characteristics:
+  - 圆润线条
+  - 明亮色彩
+  - 卡通风格
+  - 俏皮可爱
+  - 轻松氛围
+
+best_for:
+  - 入门教程
+  - 儿童内容
+  - 轻松话题
+  - 新手指南
+  - 趣味科普

@@ -1,0 +1,78 @@
+# 金字塔层级布局
+name: pyramid
+description: 金字塔/层级布局，用于展示优先级或层次结构
+
+size: [1920, 1080]
+
+text_zones:
+  - name: page_title
+    position: [160, 40, 1600, 60]
+    align: center
+    font_size: 32
+    font_weight: bold
+    max_chars: 30
+  - name: pyramid_content
+    position: [160, 120, 1600, 900]
+    align: center
+    font_size: 18
+    line_height: 1.4
+    max_chars: 400
+
+# 模式1：纯背景
+prompt_template: |
+  16:9 landscape PPT pyramid hierarchy background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  pyramid or triangle shape with 3-5 horizontal layers,
+  layers narrow from bottom to top,
+  each layer visually distinct,
+  NO TEXT, NO WORDS, empty background ready for content overlay,
+  hierarchical structure design
+
+# 模式2：完整图片（AI生成风格化文字）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Pyramid/hierarchy diagram
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - create clear hierarchical visualizations.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: Hierarchical Pyramid
+  - Title at top or integrated
+  - Pyramid shape with 3-5 layers
+  - Top layer = most important/rare
+  - Bottom layer = foundation/common
+  - Each layer labeled
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Page Title: {title}
+
+  Pyramid Layers (top to bottom):
+  {content}
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Title: Large, bold
+  - Layer labels: Medium, centered in each layer
+  - DO NOT use realistic or computer-generated fonts unless style specifies
+
+  ## Core Principles
+  - Hand-drawn quality if style requires
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - Clear hierarchical structure
+
+  ## Language
+  - Render text in the same language as provided content
+
+best_for:
+  - 优先级排序
+  - 需求层次
+  - 组织架构

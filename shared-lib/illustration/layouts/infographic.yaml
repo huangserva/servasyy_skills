@@ -1,0 +1,30 @@
+# 信息图布局
+name: infographic
+description: 多要点信息图布局，适合知识卡片
+
+prompt_addition: |
+  信息图布局要求：
+  - 多个视觉区块，结构清晰
+  - 每个区块代表一个要点或概念
+  - 使用图标、小插图点缀
+  - 层次分明，视觉引导清晰
+  - 整体有序，不杂乱
+  - 适合展示3-6个并列要点
+
+structure:
+  focus: multiple
+  composition: grid
+  points: "3-6"
+  whitespace: 0.25
+
+aspect_ratios:
+  - "3:4"
+  - "9:16"
+  - "1:1"
+
+best_for:
+  - 知识卡片
+  - 要点总结
+  - 清单列表
+  - 干货分享
+  - 小红书信息图

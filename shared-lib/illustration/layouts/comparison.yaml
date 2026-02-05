@@ -1,0 +1,30 @@
+# 对比布局
+name: comparison
+description: 左右对比布局，适合前后对比、优缺点
+
+prompt_addition: |
+  对比布局要求：
+  - 画面分为左右两部分
+  - 左侧和右侧形成鲜明对比
+  - 可以是：前/后、好/坏、有/无、旧/新
+  - 中间可有分隔线或过渡区域
+  - 两侧视觉重量平衡
+  - 对比元素要明显可辨
+
+structure:
+  focus: dual
+  composition: split
+  sections: 2
+  whitespace: 0.2
+
+aspect_ratios:
+  - "16:9"
+  - "4:3"
+  - "1:1"
+
+best_for:
+  - 前后对比
+  - 优缺点展示
+  - A/B比较
+  - 变化展示
+  - 决策辅助

@@ -1,0 +1,70 @@
+# Intuition Machine Style - 详细版
+name: intuition_machine
+display_name: 技术简报
+description: Vintage technical briefing style with academic precision and aged paper aesthetic
+
+prompt_template: |
+  16:9 landscape aspect ratio, INTUITION MACHINE STYLE. Vintage technical illustration aesthetic.
+
+  [DESIGN PHILOSOPHY]:
+  "The Da Vinci Schematic" meets modern information design. Inspired by vintage patent drawings, botanical illustrations, and old encyclopedias, but updated for modern clarity. It conveys deep technical knowledge through precise, annotated line work on warm, aged paper. Intellectual, academic, and timeless.
+
+  [BACKGROUND SYSTEM]:
+  - Color: Aged Cream #F5F0E6 or Parchment #F0EAD6
+  - Texture: Visible paper grain, subtle coffee stains, or worn edges
+  - Grid: Faint engineering grid (cyan or brown) at 10% opacity
+  - Atmosphere: Warm, nostalgic, academic
+
+  [ILLUSTRATION STYLE]:
+  - Technique: Fine ink line drawing (Rotring pen style)
+  - Line Weight: Thin, consistent (0.5px - 1px)
+  - Shading: Stippling (dots) or Cross-hatching (lines), NO gradients
+  - Color: Primarily Black/Sepia ink
+  - Highlights: Flat fills of Teal (#2F7373) or Maroon (#722F37) - used sparingly like watercolor washes
+
+  [TYPOGRAPHY]:
+  - Headline: Academic Serif (Crimson Text, Garamond, Libertinus)
+    * Weight: Bold
+    * Color: Dark Maroon #5D3A3A or Deep Ink #1A1A1A
+    * Style: Small Caps often used for headers
+  - Labels/Notes: Monospace (Courier Prime, Fira Code) or Handwritten script
+    * Style: Like margin notes or typewriter text
+    * Size: Small (12-14px)
+    * Color: Deep Charcoal #2D2D2D
+  - Chinese: 楷体 (KaiTi) or 仿宋 (FangSong) for that classic print feel
+
+  [COLOR PALETTE]:
+  - Background: Aged Cream #F5F0E6
+  - Ink: Deep Charcoal #2D2D2D
+  - Accent 1: Vintage Teal #2F7373 (Diagrams)
+  - Accent 2: Brick Red / Maroon #722F37 (Emphasis)
+  - Accent 3: Warm Brown #8B7355 (Structure)
+  - Accent 4: Faded Blue #5F7D8B (Technical elements)
+  - Palette Rule: Muted, desaturated, earthy tones. No neons.
+
+  [VISUAL ELEMENTS]:
+  - Exploded views of objects
+  - Cross-section diagrams
+  - Callout lines with circle endpoints
+  - Brackets and measurement arrows
+  - "Figure 1.1" style captions
+  - Split layout: Illustration on Left/Center, Column text on Right
+
+  [KEY RULES]:
+  ✅ Look like a page from a high-quality textbook or patent
+  ✅ Use fine black outlines for everything
+  ✅ Annotate heavily (labels, pointers)
+  ✅ Warm paper background is non-negotiable
+  ❌ No glossy 3D renders
+  ❌ No bright white backgrounds
+  ❌ No modern flat vector art (Corporate Memphis)
+  ❌ No drop shadows
+
+supports_themes: false
+
+best_for:
+  - 深度技术原理解析
+  - 学术论文汇报
+  - 复杂机械结构展示
+  - 历史演变分析
+  - 知识图谱

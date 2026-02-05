@@ -1,0 +1,18 @@
+# 平衡布局 - 常规内容
+name: balanced
+display_name: 平衡布局
+description: 标准内容布局，信息量适中
+
+density: 3-4  # 信息点数量
+best_for:
+  - 常规内容页
+  - 概念解释
+  - 要点总结
+
+prompt_addition: |
+  小红书信息图布局：平衡布局
+  - 3-4个信息要点
+  - 图文均衡分布
+  - 清晰的视觉层次
+  - 易于扫读
+  - 竖版 3:4 比例

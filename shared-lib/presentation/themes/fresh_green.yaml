@@ -1,0 +1,31 @@
+# 清新绿主题
+name: fresh_green
+description: 清新绿主题，适合健康、环保、可持续
+
+background:
+  gradient: ["#F7FDF9", "#EDF8F1"]
+  texture_color: "mint tones"
+  
+colors:
+  brand: "#34C759"
+  accent: "#32D74B"
+  border: "#D4F0DC"
+  
+description_template: |
+  Fresh Green theme with natural gradient background from #F7FDF9 to #EDF8F1,
+  extremely subtle geometric line texture 20-30% transparency in mint tones,
+  flowing wave-like decorative elements in light green #32D74B with 15-25% transparency,
+  organic growth pattern creating vitality sensation,
+  premium frosted texture with fresh clean feel,
+  four corners with abstract geometric accents in mint gradient,
+  brand color #34C759 for accents
+
+keywords:
+  - 健康
+  - 环保
+  - 可持续
+  - 生态
+  - 绿色
+  - 自然
+  - 成长
+  - 发展

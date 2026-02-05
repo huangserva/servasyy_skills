@@ -1,0 +1,26 @@
+{
+  "name": "podcast-generator",
+  "version": "1.0.0",
+  "description": "从Markdown文档一键生成访谈式播客（MP3）",
+  "author": "Droid",
+  "keywords": ["podcast", "tts", "interview", "audio", "markdown"],
+  "dependencies": {
+    "edge-tts": ">=7.0.0",
+    "ffmpeg": "*"
+  },
+  "entry": "skill.py",
+  "commands": {
+    "generate": {
+      "description": "生成播客",
+      "usage": "python skill.py <markdown_file> [options]"
+    }
+  },
+  "settings": {
+    "female_voice": "zh-CN-XiaoyiNeural",
+    "male_voice": "zh-CN-YunyangNeural",
+    "female_rate": "+5%",
+    "male_rate": "+3%",
+    "pause_duration": 0.1,
+    "segment_length": 50
+  }
+}

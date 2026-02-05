@@ -1,0 +1,31 @@
+# 场景布局
+name: scene
+description: 叙事场景布局，适合故事和人物
+
+prompt_addition: |
+  场景布局要求：
+  - 完整的叙事场景
+  - 有人物或角色参与
+  - 有明确的环境背景
+  - 能传达情感或故事
+  - 有动态感或互动
+  - 像电影的一个画面
+
+structure:
+  focus: narrative
+  composition: cinematic
+  characters: true
+  environment: true
+  whitespace: 0.15
+
+aspect_ratios:
+  - "16:9"
+  - "21:9"
+  - "4:3"
+
+best_for:
+  - 故事叙述
+  - 人物介绍
+  - 情景描绘
+  - 历史场景
+  - 案例展示

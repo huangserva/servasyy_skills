@@ -1,0 +1,30 @@
+# 温暖橙主题
+name: warm_orange
+description: 温暖橙主题，适合活力、热情、社交
+
+background:
+  gradient: ["#FFFAF5", "#FFF4EA"]
+  texture_color: "peach tones"
+  
+colors:
+  brand: "#FF9500"
+  accent: "#FFBC5B"
+  border: "#FFE5C4"
+  
+description_template: |
+  Warm Orange theme with energetic gradient background from #FFFAF5 to #FFF4EA,
+  extremely subtle geometric line texture 20-30% transparency in peach tones,
+  flowing wave-like decorative elements in light orange #FFBC5B with 15-25% transparency,
+  dynamic energy pattern creating enthusiasm sensation,
+  premium warm texture with inviting feel,
+  four corners with abstract geometric accents in peach gradient,
+  brand color #FF9500 for accents
+
+keywords:
+  - 活力
+  - 热情
+  - 社交
+  - 社区
+  - 团队
+  - 协作
+  - 年轻

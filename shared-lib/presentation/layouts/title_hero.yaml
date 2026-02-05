@@ -1,0 +1,75 @@
+# 大标题英雄页布局
+name: title_hero
+description: 大标题英雄页，用于封面和章节分隔
+
+size: [1920, 1080]
+
+text_zones:
+  - name: hero_title
+    position: [160, 400, 1600, 160]
+    align: center
+    font_size: 72
+    font_weight: bold
+    max_chars: 20
+  - name: hero_subtitle
+    position: [160, 580, 1600, 80]
+    align: center
+    font_size: 28
+    font_weight: regular
+    max_chars: 60
+
+# 模式1：纯背景
+prompt_template: |
+  16:9 landscape PPT hero title page background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  dramatic centered layout with maximum visual impact,
+  bold decorative elements creating energy and movement,
+  NO TEXT, NO WORDS, empty background ready for large title overlay,
+  premium cinematic quality
+
+# 模式2：完整图片（AI生成风格化文字）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Hero title slide with maximum impact
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - a master visual storyteller. Create dramatic, memorable visuals.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: Title Hero
+  - Large centered title dominates the slide
+  - Subtitle below for context
+  - Dramatic visual impact
+  - Bold decorative elements creating energy
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Hero Title: {title}
+  Subtitle: {subtitle}
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Hero title: VERY LARGE, bold, centered, maximum impact
+  - DO NOT use realistic or computer-generated fonts unless style specifies
+  - Font rendering must match the style aesthetic
+  - Text should feel integrated with the visual design
+
+  ## Core Principles
+  - Hand-drawn quality if style requires
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - ONE clear focal message with dramatic presentation
+
+  ## Language
+  - Render text in the same language as provided content
+
+best_for:
+  - 封面
+  - 章节分隔
+  - 重要声明

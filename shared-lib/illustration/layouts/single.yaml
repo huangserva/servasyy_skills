@@ -1,0 +1,28 @@
+# 单一场景布局
+name: single
+description: 单一完整场景，适合封面和文章配图
+
+prompt_addition: |
+  布局要求：
+  - 单一完整的视觉场景
+  - 主体居中或黄金分割位置
+  - 背景简洁，不喧宾夺主
+  - 整体构图平衡协调
+  - 留有适当呼吸空间
+
+structure:
+  focus: single
+  composition: centered
+  whitespace: 0.3
+
+aspect_ratios:
+  - "16:9"
+  - "4:3"
+  - "3:4"
+  - "1:1"
+
+best_for:
+  - 文章封面
+  - 章节配图
+  - 单一概念展示
+  - 场景描绘

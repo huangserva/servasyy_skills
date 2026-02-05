@@ -1,0 +1,31 @@
+# 学术科学风格
+name: scientific
+description: 学术科学图表风格，精确严谨，适合科技和学术内容
+
+prompt_template: |
+  学术科学插画风格：
+  - 精确的科学图表和示意图
+  - 清晰的结构和标注线
+  - 专业的蓝白配色
+  - 生物或化学分子结构感
+  - 学术论文的严谨风格
+  - 图中不要有任何文字、标签、说明
+
+colors:
+  primary: "#1E3A5F"
+  accent: "#4A90D9"
+  background: "#F8FAFC"
+
+characteristics:
+  - 精确图表
+  - 清晰结构
+  - 专业配色
+  - 科学严谨
+  - 学术风格
+
+best_for:
+  - 科学论文
+  - 生物医学
+  - 化学物理
+  - 技术文档
+  - 学术研究

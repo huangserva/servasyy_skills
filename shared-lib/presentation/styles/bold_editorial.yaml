@@ -1,0 +1,76 @@
+# Bold Editorial Style - 详细版
+name: bold_editorial
+display_name: 杂志封面
+description: High-impact magazine editorial style with bold visual expression
+
+prompt_template: |
+  16:9 landscape aspect ratio, BOLD EDITORIAL STYLE. High-impact magazine cover aesthetic.
+
+  [DESIGN PHILOSOPHY]:
+  "Poster Design" methodology applied to slides. Maximum contrast, massive typography, and confident negative space. Inspired by Nike ads, high-end fashion magazine covers (Vogue, Harper's Bazaar), and Swiss Style graphic design. The text IS the image.
+
+  [BACKGROUND SYSTEM]:
+  - Primary: Deep Black #050505 or Stark White #FFFFFF
+  - Secondary: Electric Blue #0000FF or Neon Lime #CCFF00
+  - Texture: None - digital perfection OR high-grain monochrome photography background
+  - Contrast: Extreme (Black on White, White on Black)
+
+  [TYPOGRAPHY - THE HERO]:
+  Display/Headline (The Main Visual):
+  - Style: Ultra-Bold Condensed Sans (Druk, Impact style) or High-Contrast Serif (Didot)
+  - Scale: MASSIVE (120px+). Text should touch edges or overlap elements.
+  - Weight: Heavy/Black/Ultra-Bold
+  - Layout: Tight line-height (0.8-0.9), tight letter-spacing (-0.02em)
+  - Color: White, Black, or Neon Accent
+
+  Body Text:
+  - Style: Clean geometric sans-serif (Helvetica, Inter)
+  - Weight: Medium or Bold (no thin weights)
+  - Size: Small but readable (14-16px) creating contrast with huge headlines
+
+  Chinese Typography:
+  - Headline: Resource Han Serif Heavy (思源宋体 Ultra) or Alibaba PuHuiTi Heavy
+  - Body: PingFang SC Medium
+
+  [LAYOUT STRATEGY]:
+  - Asymmetrical Balance: Huge element on one side, small details on other
+  - Split Screen: 50/50 vertical or horizontal bold divisions
+  - Overlap: Text overlapping images or color blocks (magazine style)
+  - "The Big Number": Data points should be enormous
+
+  [VISUAL ELEMENTS]:
+  - Solid geometric color blocks (Rectangle, Circle) behind text
+  - Full-bleed photography (black and white or highly saturated)
+  - Thick divider lines (5px-10px)
+  - Arrows: Large, bold, functional
+  - No small decorative icons - go big or go home
+
+  [COLOR PALETTE]:
+  - Background: #050505 (Deep Black)
+  - Text: #FFFFFF (Pure White)
+  - Accents (Pick ONE per slide for maximum impact):
+    * Electric Blue: #2933F2
+    * Neon Lime: #CCFF00
+    * Hot Pink: #FF0099
+    * Safety Orange: #FF5500
+    * Signal Yellow: #FFFF00
+
+  [KEY RULES]:
+  ✅ TYPOGRAPHY IS THE IMAGE (make it huge)
+  ✅ Extreme contrast (lightest lights, darkest darks)
+  ✅ Use negative space to create tension
+  ✅ Overlap elements for depth
+  ❌ No small, timid text
+  ❌ No subtle gradients
+  ❌ No shadows (flat, bold style)
+  ❌ No clutter (1-3 key elements max)
+  ❌ No macOS window controls
+
+supports_themes: false
+
+best_for:
+  - 产品发布会
+  - 极具冲击力的演讲
+  - 品牌宣言
+  - 投资路演封面
+  - 关键数据展示

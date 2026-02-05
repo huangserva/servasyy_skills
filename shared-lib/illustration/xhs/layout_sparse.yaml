@@ -1,0 +1,21 @@
+# 小红书信息图布局系统
+# 参考 baoyu-skills 的 xhs-images
+
+# 稀疏布局 - 封面、引言
+name: sparse
+display_name: 稀疏布局
+description: 最少信息，最大视觉冲击，适合封面和引言
+
+density: 1-2  # 信息点数量
+best_for:
+  - 封面图
+  - 金句引言
+  - 重点强调
+
+prompt_addition: |
+  小红书信息图布局：稀疏布局
+  - 1-2个核心信息点
+  - 大面积留白
+  - 标题突出醒目
+  - 视觉冲击力强
+  - 竖版 3:4 比例

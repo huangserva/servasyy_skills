@@ -1,0 +1,69 @@
+# Fluent Design Style
+name: fluent
+description: Microsoft Fluent Design - 亚克力材质，光影深度
+
+prompt_template: |
+  16:9 landscape aspect ratio, FLUENT DESIGN STYLE following Microsoft's design principles, acrylic material aesthetic with depth, light, and motion.
+
+  [DESIGN PHILOSOPHY]:
+  Fluent Design System - inspired by light, depth, motion, material, and scale. Acrylic (frosted glass) as signature element. Light as a guiding principle.
+
+  [FIVE PILLARS]:
+  1. Light - Draws attention and creates hierarchy
+  2. Depth - Builds spatial relationships through layering
+  3. Motion - Smooth natural animations
+  4. Material - Acrylic (frosted glass) signature
+  5. Scale - Responsive and adaptive layouts
+
+  [BACKGROUND SYSTEM]:
+  - Soft gradient: Light grey #F3F3F3 to #E8E8E8
+  - Or: Soft blue-grey #E8EDF2 to #D6DFE8
+  - Subtle noise texture (1-2% opacity)
+  - Depth through layered panels
+
+  [ACRYLIC MATERIAL]:
+  - Background: White at 70-85% opacity (semi-transparent)
+  - Blur effect: 30-50px backdrop blur simulation
+  - Border: 1px with luminosity (top-left lighter, bottom-right darker)
+  - Corner radius: 8-12px (Microsoft standard)
+  - Reveal highlight: Radial gradient light spot
+
+  [COLOR PALETTE]:
+  Primary: #0078D4 (Fluent Blue), #8764B8 (Purple), #00B7C3 (Teal)
+  Neutral: #252525 (text), #606060 (secondary), #F3F3F3 (background)
+  - 80-90% saturation (softer than Material)
+
+  [TYPOGRAPHY]:
+  - Font: Segoe UI
+  - Chinese: Microsoft YaHei
+  - Display: 68px Light, Title: 28px Semibold
+  - Body: 14px Regular
+  - Button text: Title case (NOT all caps)
+
+  [SHADOW SYSTEM]:
+  Depth 4: 0 1.6px 3.6px rgba(0,0,0,0.13)
+  Depth 8: 0 3.2px 7.2px rgba(0,0,0,0.13)
+  Depth 16: 0 6.4px 14.4px rgba(0,0,0,0.13)
+  - Softer than Material, with blur
+
+  [KEY PRINCIPLES]:
+  ✅ Acrylic translucency, background blur, reveal highlights
+  ✅ Soft gradients, layered depth, light effects
+  ❌ No fully opaque cards, no heavy dark shadows
+
+supports_themes: false
+
+characteristics:
+  - 亚克力材质
+  - 毛玻璃效果
+  - 光影交互
+  - 深度层叠
+  - 柔和渐变
+  - 流畅动感
+
+best_for:
+  - Windows应用
+  - Microsoft 365
+  - 企业软件
+  - 商务效率
+  - 专业服务

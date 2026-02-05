@@ -1,0 +1,85 @@
+{
+  "name": "markdown-illustrator",
+  "version": "1.0.0",
+  "description": "为Markdown文档自动生成精美配图，支持纽约客、浮世绘等多种艺术风格",
+  "author": "Droid",
+  "keywords": ["markdown", "illustration", "image-generation", "newyorker", "ukiyoe", "ai-art"],
+  "dependencies": {
+    "python": ">=3.8",
+    "requests": "*",
+    "pillow": "*",
+    "shared-lib/image_api.py": "*"
+  },
+  "entry": "illustrate.py",
+  "commands": {
+    "illustrate": {
+      "description": "为Markdown文档生成配图",
+      "usage": "python illustrate.py <markdown_file> [--style newyorker|ukiyoe] [--num N] [--priority provider1,provider2,...]",
+      "examples": [
+        "python illustrate.py article.md",
+        "python illustrate.py article.md --style ukiyoe --num 3",
+        "python illustrate.py article.md --priority modelscope,google-local"
+      ]
+    },
+    "generate_image": {
+      "description": "根据提示词直接生成图片",
+      "usage": "python generate_image.py <prompt> [--style newyorker|ukiyoe|raw] [--provider auto|modelscope|...] [--priority ...] [-o output.jpg]",
+      "examples": [
+        "python generate_image.py 'A golden cat on a book'",
+        "python generate_image.py 'A warrior' --style newyorker",
+        "python generate_image.py 'Sunset' --provider modelscope -o sunset.jpg"
+      ]
+    }
+  },
+  "settings": {
+    "default_style": "newyorker",
+    "default_num_images": 5,
+    "default_priority": ["modelscope", "google-local", "zimage", "volcengine", "apimart"]
+  },
+  "providers": {
+    "google-local": {
+      "type": "local",
+      "model": "gemini-3-pro-image",
+      "speed": "fast (~7s)",
+      "quality": "high"
+    },
+    "modelscope": {
+      "type": "cloud",
+      "model": "Tongyi-MAI/Z-Image-Turbo",
+      "speed": "medium (~26s)",
+      "quality": "high",
+      "recommended": true
+    },
+    "zimage": {
+      "type": "local",
+      "model": "ComfyUI",
+      "speed": "fast (~15s)",
+      "quality": "high"
+    },
+    "volcengine": {
+      "type": "cloud",
+      "model": "doubao-4",
+      "speed": "fast (~10s)",
+      "quality": "high"
+    },
+    "apimart": {
+      "type": "cloud",
+      "model": "nano-banana-pro",
+      "speed": "slow (~30s)",
+      "quality": "medium"
+    }
+  },
+  "styles": {
+    "newyorker": {
+      "name": "New Yorker Style",
+      "description": "Black & white pen sketch with crimson accents",
+      "color": "#E34234",
+      "characteristics": ["minimalist", "editorial", "sophisticated"]
+    },
+    "ukiyoe": {
+      "name": "Ukiyo-e Style",
+      "description": "Japanese woodblock print with vibrant colors",
+      "characteristics": ["decorative", "flat-perspective", "cultural"]
+    }
+  }
+}

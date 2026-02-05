@@ -1,0 +1,28 @@
+# 玫瑰粉主题
+name: rose_pink
+description: 玫瑰粉主题，适合生活、美容、健康
+
+background:
+  gradient: ["#FFF8FA", "#FFEEF5"]
+  texture_color: "rose tones"
+  
+colors:
+  brand: "#FF2D55"
+  accent: "#FF6482"
+  border: "#FFD4DE"
+  
+description_template: |
+  Rose Pink theme with elegant gradient background from #FFF8FA to #FFEEF5,
+  extremely subtle geometric line texture 20-30% transparency in rose tones,
+  flowing wave-like decorative elements in light pink #FF6482 with 15-25% transparency,
+  gentle lifestyle pattern creating wellness sensation,
+  premium soft texture with delicate feel,
+  four corners with abstract geometric accents in rose gradient,
+  brand color #FF2D55 for accents
+
+keywords:
+  - 生活
+  - 美容
+  - 健康
+  - 女性
+  - 柔美

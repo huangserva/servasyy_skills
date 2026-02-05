@@ -1,0 +1,93 @@
+# 双栏内容页布局
+name: content_two_column
+description: 双栏布局，左侧要点右侧补充
+
+size: [1920, 1080]
+
+text_zones:
+  - name: page_title
+    position: [180, 140, 1560, 80]  # [x, y, width, height]
+    align: left
+    font_size: 36
+    font_weight: bold
+    max_chars: 30
+  - name: left_column
+    position: [180, 280, 740, 680]
+    align: left
+    font_size: 18
+    line_height: 1.6
+    max_chars: 200
+  - name: right_column
+    position: [1000, 280, 740, 680]
+    align: left
+    font_size: 18
+    line_height: 1.6
+    max_chars: 200
+
+# 模式1：纯背景（可编辑文字）
+prompt_template: |
+  16:9 landscape PPT two-column content page background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  large white card at position (120px, 100px),
+  card dimensions 1680x900 pixels,
+  subtle vertical divider line at center (960px) in theme-adjusted light grey,
+  rounded corners 24px, professional shadow,
+  empty card with two-column layout ready for content,
+  left and right sections with equal spacing,
+  NO TEXT, NO WORDS,
+  professional two-column slide design
+
+# 模式2：完整图片（AI生成风格化文字）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Two-column content slide
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - a master visual storyteller. Your slides balance information with visual clarity.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: Two Columns
+  - Large card with two-column layout
+  - Subtle vertical divider between columns
+  - Left and right sections with equal spacing
+  - Clear visual hierarchy
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Page Title: {title}
+
+  Left Column:
+  {left_content}
+
+  Right Column:
+  {right_content}
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Title: Large, bold, top position
+  - Column content: Clear, legible bullet points
+  - DO NOT use realistic or computer-generated fonts unless style specifies
+  - Font rendering must match the style aesthetic
+  - Text should feel integrated with the visual design
+
+  ## Core Principles
+  - Hand-drawn quality if style requires
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - Maintain balance between left and right columns
+  - Clean, organized information architecture
+
+  ## Language
+  - Render text in the same language as provided content
+
+best_for:
+  - 左右对比
+  - 要点+补充
+  - 双栏内容
+  - 并列信息

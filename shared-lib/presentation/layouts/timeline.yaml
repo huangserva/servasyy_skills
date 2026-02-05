@@ -1,0 +1,78 @@
+# 时间线布局
+name: timeline
+description: 时间线/流程布局，用于展示顺序步骤
+
+size: [1920, 1080]
+
+text_zones:
+  - name: page_title
+    position: [160, 60, 1600, 80]
+    align: center
+    font_size: 36
+    font_weight: bold
+    max_chars: 30
+  - name: timeline_content
+    position: [80, 180, 1760, 820]
+    align: left
+    font_size: 16
+    line_height: 1.4
+    max_chars: 500
+
+# 模式1：纯背景
+prompt_template: |
+  16:9 landscape PPT timeline page background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  horizontal timeline layout with 4-6 milestone points,
+  connecting line or path between points,
+  NO TEXT, NO WORDS, empty background ready for content overlay,
+  sequential flow design
+
+# 模式2：完整图片（AI生成风格化文字）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Timeline/process flow slide
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - create clear sequential flow visualizations.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: Timeline / Linear Progression
+  - Title at top
+  - Horizontal timeline with milestone points
+  - Each point has: number/icon + label + description
+  - Connecting line shows progression
+  - Left to right flow
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Page Title: {title}
+
+  Timeline Steps:
+  {content}
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Title: Large, bold, centered at top
+  - Step numbers/labels: Bold, prominent
+  - Step descriptions: Regular, concise
+  - DO NOT use realistic or computer-generated fonts unless style specifies
+
+  ## Core Principles
+  - Hand-drawn quality if style requires
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - Clear sequential flow from left to right
+
+  ## Language
+  - Render text in the same language as provided content
+
+best_for:
+  - 步骤流程
+  - 时间线
+  - 项目里程碑

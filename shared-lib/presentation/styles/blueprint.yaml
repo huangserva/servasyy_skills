@@ -1,0 +1,51 @@
+# Blueprint Style (from baoyu-slide-deck)
+name: blueprint
+description: 技术蓝图风格 - 精确专业的分析图表
+
+prompt_template: |
+  16:9 landscape aspect ratio, BLUEPRINT STYLE with precise technical schematic aesthetic.
+
+  [DESIGN AESTHETIC]:
+  Clean, structured visual metaphors using blueprints, diagrams, and schematics. Precise, analytical and aesthetically refined. Information presented in triptych or grid-based layouts with engineering precision.
+
+  [BACKGROUND]:
+  - Color: Blueprint Off-White (#FAF8F5)
+  - Texture: Subtle grid overlay, light engineering paper feel
+
+  [TYPOGRAPHY]:
+  - Headlines: Neue Haas Grotesk Display Pro or similar clean sans-serif. Bold weight for titles. Precise letterforms with consistent spacing. Technical, authoritative presence.
+  - Body: Tiempos Text or similar elegant serif for body explanations. Clean, readable at smaller sizes. Professional editorial quality.
+
+  [COLOR PALETTE]:
+  - Background: Blueprint Paper #FAF8F5
+  - Grid: Light Gray #E5E5E5
+  - Primary Text: Deep Slate #334155
+  - Primary Accent: Engineering Blue #2563EB
+  - Secondary Accent: Navy Blue #1E3A5F
+  - Tertiary: Light Blue #BFDBFE
+  - Warning: Amber #F59E0B
+
+  [VISUAL ELEMENTS]:
+  - Precise lines with consistent stroke weights
+  - Technical schematics and clean vector graphics
+  - Thin line work in technical drawing style
+  - Connection lines use straight lines or 90-degree angles only
+  - Data visualization with clean, minimal charts
+  - Dimension lines and measurement indicators
+  - Cross-section style diagrams
+  - Isometric or orthographic projections
+
+  [KEY RULES]:
+  ✅ Maintain consistent line weights throughout
+  ✅ Use grid alignment for all elements
+  ✅ Keep color palette restrained and unified
+  ❌ No hand-drawn or organic shapes
+  ❌ No decorative flourishes
+  ❌ No slide numbers, footers, or logos
+
+supports_themes: false
+best_for:
+  - 技术架构
+  - 系统设计
+  - 数据分析
+  - 工程文档

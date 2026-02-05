@@ -1,0 +1,32 @@
+# 卡片模板 - 方形
+name: card
+description: 卡片风格，适合小红书/Instagram
+
+aspect_ratio: "1:1"
+resolution:
+  width: 1080
+  height: 1080
+
+subtitle:
+  position: bottom
+  margin_bottom: 0.12
+  margin_sides: 0.08
+  max_width: 0.84
+  
+  font:
+    family: "Heiti SC"
+    size: 56
+    weight: "BOLD"
+    
+  color: "#FFFFFF"
+  stroke:
+    width: 2
+    color: "#000000"
+    
+  animation:
+    style: write
+    duration_ratio: 0.5
+
+background:
+  overlay: "rgba(0,0,0,0.2)"
+  blur: 0

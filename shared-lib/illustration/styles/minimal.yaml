@@ -1,0 +1,31 @@
+# 极简禅意风格
+name: minimal
+description: 极简主义，大量留白，禅意美学
+
+prompt_template: |
+  极简主义插画风格：
+  - 极致简洁，最少元素表达核心
+  - 大面积留白，呼吸感
+  - 单色或双色配色
+  - 几何形状，干净线条
+  - 禅意美学，宁静感
+  - 图中不要有任何文字、标签、说明
+
+colors:
+  primary: "#1A1A1A"
+  accent: "#E8E8E8"
+  background: "#FFFFFF"
+
+characteristics:
+  - 极致简洁
+  - 大量留白
+  - 单色为主
+  - 几何形状
+  - 禅意宁静
+
+best_for:
+  - 哲学思考
+  - 极简主义
+  - 冥想正念
+  - 高端品牌
+  - 概念阐述

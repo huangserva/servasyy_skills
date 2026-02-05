@@ -1,0 +1,28 @@
+# 清凉青主题
+name: cool_teal
+description: 清凉青主题，适合金融、财务、投资
+
+background:
+  gradient: ["#F5FCFC", "#EBF7F7"]
+  texture_color: "cyan tones"
+  
+colors:
+  brand: "#5AC8FA"
+  accent: "#64D2FF"
+  border: "#C9EEF7"
+  
+description_template: |
+  Cool Teal theme with professional gradient background from #F5FCFC to #EBF7F7,
+  extremely subtle geometric line texture 20-30% transparency in cyan tones,
+  flowing wave-like decorative elements in light cyan #64D2FF with 15-25% transparency,
+  stable trust pattern creating reliability sensation,
+  premium cool texture with trustworthy feel,
+  four corners with abstract geometric accents in cyan gradient,
+  brand color #5AC8FA for accents
+
+keywords:
+  - 金融
+  - 财务
+  - 投资
+  - 稳健
+  - 信任

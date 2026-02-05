@@ -1,0 +1,31 @@
+# 复古霓虹风格
+name: retro
+description: 80s/90s 复古霓虹风格，怀旧潮流，适合流行文化和娱乐
+
+prompt_template: |
+  80s/90s 复古霓虹风格：
+  - 鲜艳的霓虹色彩
+  - 渐变和光晕效果
+  - 几何图形和网格
+  - 合成波美学元素
+  - 怀旧的未来感
+  - 图中不要有任何文字、标签、说明
+
+colors:
+  primary: "#FF00FF"
+  accent: "#00FFFF"
+  background: "#1A0A2E"
+
+characteristics:
+  - 霓虹色彩
+  - 渐变光晕
+  - 几何网格
+  - 合成波美学
+  - 怀旧未来
+
+best_for:
+  - 流行文化
+  - 娱乐内容
+  - 音乐相关
+  - 复古潮流
+  - 游戏主题

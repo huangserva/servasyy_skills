@@ -1,0 +1,309 @@
+# Apple Design Style
+name: apple
+description: Apple 设计语言 - 极简优雅，精致细节
+
+prompt_template: |
+  16:9 landscape aspect ratio (default format for desktop presentations), APPLE DESIGN STYLE following Apple's design principles, elegant minimalist aesthetic with refined details and adaptive color themes.
+
+  [DESIGN PHILOSOPHY]:
+  Apple Design Language - inspired by Apple's product design: minimalism, clarity, precision, and breathing space. Every element serves a purpose. Restraint is power. Premium materials (glass, silk) metaphor. Attention to micro-details. Human-centered elegance.
+
+  [BACKGROUND SYSTEM]:
+
+  Adaptive Gradient Background:
+  - Soft gradient from lighter tint at top to slightly darker tint at bottom
+  - NOT flat (Apple uses subtle gradients everywhere)
+  - Gradient range: 5-8% lightness difference (very subtle)
+  - Creates depth without being obvious
+  {theme_description}
+
+  Texture Layers (Four-layer system):
+  Layer 1 (Gradient base):
+  - Theme gradient background
+  - Foundation layer
+
+  Layer 2 (Geometric texture):
+  - Extremely subtle line texture in theme color
+  - Diagonal lines, grid pattern, or geometric shapes
+  - Opacity: 20-30%
+  - Barely visible, adds sophistication
+
+  Layer 3 (Flow decoration):
+  - Flowing wave-like or curved decorative elements
+  - Theme accent color
+  - Opacity: 15-25%
+  - Positioned at edges or corners
+  - Creates organic movement
+
+  Layer 4 (Ambient effects):
+  - Optional soft glow or radial light effects
+  - At page corners or edges
+  - Theme gradient (light → lighter → transparent)
+  - Creates ambient depth
+  - Very subtle, atmospheric only
+
+  Overall Texture:
+  - Like premium frosted glass or fine silk
+  - Slight sheen, not matte
+  - Minimal but perceptible
+  - Adds tactile premium quality
+
+  Corner Accents (Optional):
+  - Abstract geometric shapes at corners
+  - Theme color gradient fading to transparent
+  - Very restrained, doesn't distract
+  - Adds visual interest without clutter
+
+  [CARD/CONTAINER SYSTEM]:
+
+  Apple Card Design:
+  - Background: Pure white #FFFFFF or extremely light theme-tinted white #FAFCFF (95-98% opacity)
+  - Border: 1px solid in theme-adjusted light color
+    * Soft Blue theme: Border #D6E4F7
+    * Adapts to each theme (10-15% opacity of brand color)
+  - Corner radius: 20-24px (Apple signature large rounded corners)
+  - Internal padding: 24-32px (generous breathing room)
+  - Clean modular layout
+
+  Card Shadows (Theme-tinted, very soft):
+  - Near shadow: 0 2px 4px rgba(theme-color-rgb, 0.06)
+  - Mid shadow: 0 6px 16px rgba(theme-color-rgb, 0.08)
+  - Far shadow: 0 20px 48px rgba(theme-color-rgb, 0.1)
+  - Shadows have subtle theme color tint (NOT pure black)
+  - Much softer than Material's 30% shadows
+  - Creates floating elegant effect
+
+  Optional Card Background:
+  - Subtle gradient within card: #FFFFFF → theme-tinted white
+  - Creates extra dimension
+  - Very subtle (2-3% difference)
+
+  [COLOR SYSTEM - Adaptive Themes]:
+
+  Universal Constants (All themes):
+  - Success: #34C759 (Apple green, never changes)
+  - Warning: #FF9500 (Apple orange) or #FF3B30 (Apple red)
+  - Text hierarchy: Always uses Apple standard blacks/greys
+  - Maintains consistency across themes
+
+  Theme Color Application:
+  - Background: 95-98% lightness with subtle theme tint
+  - Brand color: Used for buttons, links, primary highlights, key data
+  - Accent color: Used for secondary UI, decorative touches, charts
+  - Borders/dividers: 10-15% opacity of brand color
+  - Shadows: Subtle theme color tint in shadows
+
+  Color Saturation Philosophy:
+  - Apple uses 60-80% saturation (softer than Material's 100%)
+  - Colors are refined, not loud
+  - Tinted, not pure
+  - Sophisticated color relationships
+
+  Text Hierarchy (Apple Standard):
+  - Main title: #1D1D1F (Apple standard black)
+  - Body: #3C3C43 (87% opacity)
+  - Secondary: #8E8E93 (60% opacity)
+  - Auxiliary: #C7C7CC (48% opacity)
+
+  [TYPOGRAPHY SYSTEM - SF Pro / PingFang SC]:
+
+  Font Family Hierarchy:
+
+  Primary (Latin):
+  - SF Pro Display (headlines, large text)
+  - SF Pro Text (body text, UI)
+  - SF Mono (numbers, code, monospaced data)
+  - Alternative: Inter (if SF Pro unavailable)
+
+  Primary (Chinese):
+  - PingFang SC (Apple's Chinese system font)
+  - Weights: Ultralight, Light, Regular, Medium, Semibold
+  - Alternative: Source Han Sans, Noto Sans SC
+
+  Font Weights:
+  - Ultralight: 100 (rarely used, for huge text)
+  - Light: 300 (large display text)
+  - Regular: 400 (body text standard)
+  - Medium: 500 (emphasis, UI elements)
+  - Semibold: 600 (headings, strong emphasis)
+  - Bold: 700 (rarely used, Apple prefers medium/semibold)
+
+  For Presentations (Adapted scale):
+  - Hero/Display: 72-96px / Regular or Medium (super large data)
+  - Large Title: 40px / Semibold (page titles)
+  - Title: 32px / Semibold (section titles)
+  - Subtitle: 24px / Medium (secondary titles)
+  - Body Large: 17-18px / Regular (main content)
+  - Body: 15-17px / Regular (standard text)
+  - Caption: 13-14px / Regular (annotations)
+
+  Line Height (Apple standard):
+  - Headlines: 1.2-1.3 (tight, compact)
+  - Body: 1.5-1.6 (comfortable reading)
+  - Dense content: 1.4
+
+  Letter Spacing:
+  - Headlines: -0.5px to 0px (slightly tight for elegance)
+  - Body: 0 to 0.2px (comfortable)
+  - Numbers: Tabular spacing for alignment
+  - Apple avoids extreme tracking
+
+  [LAYOUT SYSTEM - 12 Column Grid]:
+
+  Grid Structure:
+  - 12-column grid system
+  - Maximum content width: 1440px (desktop optimization)
+  - Responsive breakpoints: 1920, 1440, 1024
+  - Margins: Generous outer margins (48-72px)
+
+  Spacing System (8-point grid):
+  - Base unit: 8pt
+  - Spacing scale: 8, 16, 24, 32, 48, 64, 96px
+  - Card spacing: 32-48px between cards
+  - Internal padding: 24-32px within cards
+  - Flexible but harmonious
+
+  Content Density:
+  - 50-60% content, 40-50% white space
+  - Apple emphasizes breathing room
+  - Balanced for elegance and information
+
+  Alignment:
+  - Primary: Left-aligned text (natural reading)
+  - Data: Centered displays acceptable
+  - Asymmetric balance common (not always centered)
+
+  [ICON SYSTEM - SF Symbols Enhanced]:
+
+  Icon Style:
+  - SF Symbols (Apple's system icons)
+  - Style: Ultralight/Thin/Light/Regular/Medium/Semibold
+  - Standard style: Light to Regular (2-2.5px stroke)
+  - Stroke weight: Matches text weight for harmony
+  - Rounded friendly style (not sharp geometric)
+
+  Icon Sizes:
+  - Small: 24px (inline with text)
+  - Standard: 32px (UI elements)
+  - Large: 48px (hero icons, emphasis)
+  - Decorative: 64px+ (background elements)
+
+  Icon Containers (Apple signature):
+  - Circular or rounded square (12px radius) containers
+  - Container size: 56-64px for standard icons (ENHANCED for better visibility)
+  - Background: Theme-tinted light color (10-15% opacity of brand color)
+    * Soft Blue: #EEF5FF
+    * Rose Pink: #FFF0F5
+  - Icon color: Theme brand color at full or 80% saturation
+  - Optional: Subtle glow effect (theme color, 15% opacity, 4px blur)
+
+  Icon Enhancement Features:
+  - STRONGER VISUAL PRESENCE: Icons use bolder stroke (2.5-3px) when needed
+  - LARGER CONTAINERS: 56-64px for better prominence
+  - ENHANCED CONTRAST: Full saturation of theme brand color
+  - OPTIONAL GLOW: Subtle outer glow for emphasis
+  - CONTEXTUAL SIZING: Primary 48px, Secondary 32px, Decorative 24px
+
+  [DATA VISUALIZATION - Apple Chart Style]:
+
+  Chart Aesthetics:
+  - Clean, minimal, elegant
+  - Theme color harmony (not bold Material multi-color)
+  - Smooth curves, rounded corners
+  - Subtle not aggressive
+
+  Axes & Grids:
+  - Axis lines: 1px, theme-adjusted light grey
+    * Soft Blue: #D6E4F7
+  - Grid lines: Dashed or extremely light, theme-tinted
+    * Soft Blue: #E8EEF5
+  - Minimal, doesn't overpower data
+
+  Chart Elements:
+  - Bar charts: 6-8px top corner radius (soft tops)
+    * Fill: Theme brand color gradient (solid → 80% opacity)
+  - Line charts: 2-3px smooth curves (Bezier, not angular)
+    * Area fill: Gradient transparent (brand color 40% → 0%)
+    * Creates soft underneath glow
+  - Ring/Donut charts: 24-32px ring thickness, 2px gap between segments
+    * Theme color variations for segments
+  - Data points: 8-12px circles with subtle outer glow
+    * Glow: Theme color at 20% opacity, 8px blur
+
+  Multi-Series Data:
+  - Use theme color + accent + lighter variations
+  - Example (Soft Blue): #007AFF → #5AC8FA → #A5E8FF
+  - Maintains color family harmony
+  - Avoids jarring contrast
+
+  [LABEL & TAG SYSTEM]:
+
+  Apple Tags/Chips:
+  - Height: 28-32px
+  - Corner radius: 8px (moderate, not fully rounded)
+  - Background: Theme brand color at 10-15% opacity
+    * Soft Blue: #E5F1FF (very light blue)
+  - Text: Theme brand color or Apple black #1D1D1F
+  - Padding: 12-16px horizontal
+  - Clean minimal design
+  - Can have small icon (18px) on left
+
+  Status Indicators:
+  - Success tags: Green #34C759 background at 15% opacity, text #248A3D
+  - Warning tags: Orange #FF9500 background at 15% opacity, text #C77000
+  - Neutral tags: Grey #8E8E93 background at 15% opacity
+
+  [DECORATIVE DETAILS]:
+
+  Four-layer background system:
+  - Layer 1: Theme gradient base
+  - Layer 2: Geometric/grid/wave pattern (25% transparency)
+  - Layer 3: Soft glow or radial effect at corners/edges
+  - Layer 4: White cards floating above
+
+  Apple-style corner radius system:
+  - Cards: 20-24px
+  - Buttons/labels: 8-12px
+  - Icon containers: 12px
+
+  CRITICAL - What NOT to include:
+  - NO macOS window control dots (red/yellow/green)
+  - NO decorative dots in corners
+  - NO window chrome elements
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - Pure content-focused design
+
+  [KEY PRINCIPLES]:
+  ✅ Subtle gradients, soft shadows, large corner radius
+  ✅ Generous whitespace (40-50% empty space)
+  ✅ Theme-tinted colors, not pure black shadows
+  ✅ Four-layer texture system for depth
+  ✅ Enhanced icon visibility with containers
+  ✅ Clean professional data visualization
+  ❌ No bold saturated colors, no sharp corners, no heavy shadows
+  ❌ No window decorations or system UI elements
+
+  [OVERALL ATMOSPHERE]:
+  Premium, refined, elegant, human-centered. Every element feels intentional. White space creates breathing room. Colors are sophisticated and harmonious. Perfect for: technology products, business presentations, data analysis, enterprise training, product launches. Conveys: "We care about every detail, and so should you."
+
+supports_themes: true
+default_theme: soft_blue
+
+characteristics:
+  - 极简优雅
+  - 大圆角
+  - 柔和阴影
+  - 主题色调
+  - 精致细节
+  - 呼吸留白
+  - 四层纹理系统
+  - 增强图标可见性
+
+best_for:
+  - 科技产品
+  - 商业报告
+  - 数据分析
+  - 企业培训
+  - 产品发布
+  - 学术科普
+  - 论文解读

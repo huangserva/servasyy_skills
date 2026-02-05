@@ -1,0 +1,32 @@
+# 极简模板 - 竖屏小字幕
+name: minimal
+description: 极简风格，小字幕底部居中
+
+aspect_ratio: "9:16"
+resolution:
+  width: 1080
+  height: 1920
+
+subtitle:
+  position: bottom
+  margin_bottom: 0.05   # 距底部5%
+  margin_sides: 0.05
+  max_width: 0.90
+  
+  font:
+    family: "PingFang SC"
+    size: 48
+    weight: "MEDIUM"
+    
+  color: "#FFFFFF"
+  stroke:
+    width: 1
+    color: "#333333"
+    
+  animation:
+    style: fade_in
+    duration_ratio: 0.2
+
+background:
+  overlay: null
+  blur: 0

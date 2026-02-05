@@ -1,0 +1,278 @@
+# Vintage Style
+name: vintage
+description: 复古纸张风格 - 历史探险的怀旧美学
+
+prompt_template: |
+  16:9 landscape aspect ratio (default format for desktop presentations), VINTAGE STYLE with aged-paper aesthetic for historical presentations, nostalgic antique document styling.
+
+  [DESIGN PHILOSOPHY]:
+  Vintage Design Language - inspired by explorer's journals, antique maps, museum exhibits, and historical documents. Evokes discovery, heritage, and timeless knowledge. Every element should feel like it has a story. Authenticity over perfection. Weathered beauty over pristine polish.
+
+  [BACKGROUND SYSTEM]:
+
+  Base Layer (Aged Paper):
+  - Primary color: Aged Parchment #F5E6D3 or Sepia Cream #FFF8DC
+  - NOT flat color - must have visible paper texture
+  - Subtle color variation across surface (darker at edges, lighter in center)
+  - Warm undertones throughout
+
+  Texture Layer System (Four layers):
+  
+  Layer 1 (Paper Grain):
+  - Fine paper fiber texture visible
+  - Subtle horizontal/vertical grain pattern
+  - Opacity: 30-40%
+  - Creates authentic paper feel
+
+  Layer 2 (Age Marks):
+  - Coffee/tea stain spots (2-4 subtle spots)
+  - Foxing marks (tiny brown age spots)
+  - Water damage hints at edges
+  - Opacity: 15-25%
+  - Positioned organically, not symmetrical
+
+  Layer 3 (Wear & Creases):
+  - Fold lines (1-2 subtle creases)
+  - Corner wear and dog-ears
+  - Edge darkening and fraying
+  - Opacity: 20-30%
+  - Creates well-loved document feel
+
+  Layer 4 (Decorative Elements):
+  - Ornate corner flourishes in gold/bronze
+  - Decorative border lines (hand-drawn style)
+  - Compass rose or period motifs (subtle, corner positioned)
+  - Opacity: 40-60%
+  - Adds historical character without overwhelming
+
+  [CARD/CONTAINER SYSTEM]:
+
+  Vintage Card Design:
+  - Background: Lighter parchment #FAF3E8 or cream #FFFEF5
+  - Border: Hand-drawn style double line in sepia #6B4423
+  - Corner treatment: Decorative flourishes or simple ornaments
+  - NO modern rounded corners - use slight irregularity or ornate corners
+  - Internal padding: 32-48px (generous, like manuscript margins)
+
+  Card Effects (Period-appropriate):
+  - Shadow: Subtle drop shadow suggesting paper lift
+    * Color: Warm brown rgba(61, 41, 20, 0.15)
+    * Offset: 4-6px, soft blur 8-12px
+  - Edge treatment: Slightly irregular, hand-cut appearance
+  - Optional: Wax seal, ribbon, or stamp decoration
+
+  Alternative Container Styles:
+  - Scroll/parchment roll ends at top and bottom
+  - Leather-bound book page appearance
+  - Framed specimen card (museum style)
+  - Map section with fold lines
+
+  [COLOR SYSTEM - Antique Palette]:
+
+  Primary Colors:
+  - Aged Parchment: #F5E6D3 (main background)
+  - Sepia Cream: #FFF8DC (card backgrounds)
+  - Dark Brown: #3D2914 (primary text, strong emphasis)
+  - Medium Brown: #6B4423 (secondary text, borders)
+  - Sepia Black: #3D3D3D (ink color, fine details)
+
+  Accent Colors (Use sparingly, 1-2 per slide):
+  - Forest Green: #2D5A3D (nature, maps, specimens)
+  - Navy Blue: #1E3A5F (nautical, authority, water)
+  - Burgundy: #722F37 (royal, important, warnings)
+  - Antique Gold: #C9A227 (decorations, highlights, precious)
+  - Copper/Bronze: #B87333 (metallic accents, compass elements)
+  - Faded Red: #8B4513 (stamps, seals, routes)
+
+  Color Usage Rules:
+  - 70% warm neutrals (parchment, browns)
+  - 20% sepia/ink tones (text, lines)
+  - 10% accent colors (highlights, decorations)
+  - All colors should feel slightly faded/aged
+  - NO bright saturated modern colors
+  - NO pure black #000000 (use Sepia Black instead)
+  - NO pure white #FFFFFF (use cream/parchment instead)
+
+  [TYPOGRAPHY SYSTEM - Historical Fonts]:
+
+  Font Family Selection:
+
+  Headlines (Display):
+  - Primary: Playfair Display, Crimson Text, or EB Garamond
+  - Style: Classic serif with historical character
+  - May include subtle decorative flourishes
+  - Weight: Regular to Bold (400-700)
+
+  Chinese Headlines:
+  - Primary: 思源宋体 (Source Han Serif), 方正清刻本悦宋
+  - Style: Traditional Song/Ming typeface
+  - Elegant, scholarly, timeless
+
+  Body Text:
+  - Primary: Libre Baskerville, Lora, or Crimson Text
+  - Style: Readable serif for extended reading
+  - Traditional book typography feel
+  - Weight: Regular (400)
+
+  Chinese Body:
+  - Primary: 思源宋体, 方正书宋
+  - Comfortable reading, traditional feel
+
+  Annotations/Labels:
+  - Style: Handwritten or condensed serif
+  - Simulating explorer's notes or map labels
+  - Slightly irregular, personal feel
+
+  Type Scale (Historical Document Style):
+  - Display/Hero: 64-80px / Serif Regular (proclamations, titles)
+  - Large Title: 40-48px / Serif Regular or Italic (chapter headings)
+  - Title: 32-36px / Serif Regular (section titles)
+  - Subtitle: 24-28px / Serif Italic (subtitles, quotes)
+  - Body Large: 18-20px / Serif Regular (introductions)
+  - Body: 16-17px / Serif Regular (main text)
+  - Caption: 13-14px / Serif Italic (annotations, credits)
+  - Small: 11-12px / Serif Regular (footnotes, dates)
+
+  Typography Details:
+  - Line height: 1.5-1.7 for body (generous, bookish)
+  - Line height: 1.2-1.3 for headlines
+  - Letter spacing: Normal to slightly loose
+  - Drop caps: Encouraged for opening paragraphs (3-4 lines tall)
+  - Decorative initials welcome for formal documents
+
+  [LAYOUT SYSTEM - Manuscript Style]:
+
+  Grid Philosophy:
+  - Asymmetric layouts welcome (not rigid grid)
+  - Wide margins like historical manuscripts (15-20% of page)
+  - Content centered with generous breathing room
+  - Organic placement over mechanical precision
+
+  Spacing:
+  - Outer margins: 80-120px (generous, like book margins)
+  - Between elements: 32-48px
+  - Internal padding: 24-40px
+  - Uneven spacing acceptable (hand-placed feel)
+
+  Content Density:
+  - 40-50% content, 50-60% empty/decorated space
+  - Less dense than modern slides
+  - Quality over quantity
+  - Each element given room to breathe
+
+  [ICON & ILLUSTRATION SYSTEM]:
+
+  Icon Style:
+  - Hand-drawn or engraved appearance
+  - Fine line work (like copper plate engravings)
+  - Sepia or dark brown color
+  - Period-appropriate subjects
+
+  Common Vintage Icons:
+  - Compass rose (navigation, direction)
+  - Quill pen and inkwell (writing, documents)
+  - Wax seal (authenticity, official)
+  - Hourglass (time, history)
+  - Ship/vessel (exploration, journey)
+  - Globe/map (geography, world)
+  - Magnifying glass (discovery, research)
+  - Keys (secrets, knowledge)
+  - Laurel wreath (achievement, honor)
+  - Scroll (documents, proclamations)
+
+  Illustration Style:
+  - Engraving/etching aesthetic
+  - Cross-hatching for shading
+  - Fine detailed line work
+  - Specimen drawing style for objects
+  - Antique map illustration style
+  - NO modern flat icons
+  - NO emoji-style graphics
+
+  [DATA VISUALIZATION - Antique Charts]:
+
+  Chart Aesthetics:
+  - Hand-drawn appearance
+  - Sepia/brown color scheme
+  - Decorative frames around charts
+  - Period-appropriate styling
+
+  Chart Elements:
+  - Axes: Hand-drawn lines in sepia, slight irregularity
+  - Grid: Faint dotted or dashed lines
+  - Data points: Decorative markers (stars, crosses, circles with centers)
+  - Lines: Slightly uneven, ink-drawn appearance
+  - Bars: Engraved/hatched fill patterns (not solid color)
+  - Labels: Handwritten or period serif font
+
+  Map Elements (if applicable):
+  - Decorative cartouche for title
+  - Compass rose in corner
+  - Distance scale with ornate design
+  - Route lines in red or contrasting color
+  - Location markers as period-appropriate symbols
+
+  [DECORATIVE ELEMENTS]:
+
+  Encouraged Decorations:
+  - Ornate corner flourishes (gold, bronze, or sepia)
+  - Decorative divider lines (simple rules with end ornaments)
+  - Wax seal graphics
+  - Ribbon banners for titles
+  - Rope or leather texture accents
+  - Brass hardware elements (corners, hinges)
+  - Specimen labels and museum tags
+  - Postage stamp or postmark effects
+  - Handwritten margin notes
+
+  Border Treatments:
+  - Double-line borders with ornate corners
+  - Rope/twisted border design
+  - Simple aged-edge vignette (darker edges)
+  - Decorative frame with period motifs
+
+  [CRITICAL PROHIBITIONS]:
+
+  ❌ DO NOT include:
+  - Modern UI elements (buttons, toggles, sliders)
+  - Flat design or material design shadows
+  - Bright saturated colors
+  - Sans-serif fonts for main content
+  - Perfect geometric shapes
+  - Gradient backgrounds (modern style)
+  - Slide numbers, page numbers, footers
+  - macOS window controls
+  - Modern icons (emoji, flat icons)
+  - Pure black or pure white
+  - Clean crisp edges (should be slightly worn)
+  - Digital/tech aesthetic of any kind
+
+  ✅ DO include:
+  - Visible paper texture throughout
+  - Warm sepia-toned color palette
+  - Period-appropriate typography
+  - Hand-drawn or engraved visual elements
+  - Subtle aging effects (stains, creases, wear)
+  - Decorative flourishes appropriate to era
+  - Organic, slightly imperfect layouts
+
+  [OVERALL ATMOSPHERE]:
+  Scholarly, adventurous, timeless, authentic. Each slide should feel like a page from an explorer's journal or a document in a museum archive. Warm and inviting, with the patina of age adding character rather than decay. Perfect for: historical presentations, heritage storytelling, museum exhibits, travel narratives, biographical stories, educational content about the past. Conveys: "This knowledge has stood the test of time, and we are honored to share it with you."
+
+supports_themes: false
+
+characteristics:
+  - 复古纸张纹理
+  - 手绘雕刻风格
+  - 暖棕色调
+  - 装饰性边框
+  - 历史探险美学
+  - 博物馆展品感
+
+best_for:
+  - 历史演示
+  - 探险旅行
+  - 博物馆展示
+  - 传记故事
+  - 文化遗产
+  - 古典文学

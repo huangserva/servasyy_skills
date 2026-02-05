@@ -1,0 +1,64 @@
+# Pixel Art Style - 详细版
+name: pixel_art
+display_name: 像素艺术
+description: Retro 16-bit pixel art aesthetic with crisp gaming visual style
+
+prompt_template: |
+  16:9 landscape aspect ratio, PIXEL ART STYLE. High-quality 16-bit gaming aesthetic.
+
+  [DESIGN PHILOSOPHY]:
+  Authentic Pixel Art - inspired by the golden age of 16-bit RPGs (SNES/GBA era) and modern indie hits like Stardew Valley or Celeste. Crisp, sharp pixels. No blurring, no anti-aliasing. A world built on a grid.
+
+  [BACKGROUND SYSTEM]:
+  - Environment: Isometric or side-scrolling landscape (sky, mountains, city)
+  - Color: Vibrant 16-bit palette (limited colors but rich saturation)
+  - Texture: Visible pixel grid (sharp edges)
+  - Sky: Gradient made of dithering patterns (checkerboard pixel mixing)
+
+  [UI CONTAINER SYSTEM (GAME HUD)]:
+  - Text Box: Classic RPG dialogue box
+    * Background: Dark Blue or Black (90% opacity)
+    * Border: White pixel frame (3px thickness)
+    * Corner: Sharp or stepped (pixelated roundness)
+  - Cards: Inventory slots or character stats windows
+
+  [TYPOGRAPHY]:
+  - Font: Pixel Font (Press Start 2P, VT323, or generic 8-bit bitmap font)
+  - Headlines: Large blocky pixels
+    * Color: White with black outline (1px stroke)
+  - Body: Readable pixel sans
+    * Color: Light Grey #E0E0E0
+  - Chinese: Unifont or pixelated bitmap style (点阵字体)
+
+  [COLOR PALETTE]:
+  - Palette Restriction: Limited color count (simulated 256 colors)
+  - Primary: Nintendo Red #FF0000, Sega Blue #0000FF
+  - UI Background: Midnight Blue #000033
+  - Highlights: Neon Green #00FF00, Cyan #00FFFF, Magenta #FF00FF
+  - No gradients - use Dithering for shading
+
+  [VISUAL ELEMENTS]:
+  - Sprites: Character sprites, items (potions, swords, floppy disks)
+  - Icons: 16x16 or 32x32 pixel grid icons
+  - Decor: Hearts (lives), Coins, Stars, Cursor hand pointer
+  - Glitch effects: Optional subtle glitch lines
+  - Scanlines: Optional subtle CRT monitor effect (very light opacity)
+
+  [KEY RULES]:
+  ✅ EVERYTHING must look like it aligns to a pixel grid
+  ✅ Sharp edges only - NO blurry vectors or photos
+  ✅ Use Dithering for shadows/gradients
+  ✅ Authentic retro game UI for text containers
+  ❌ No high-res smooth fonts
+  ❌ No round anti-aliased circles
+  ❌ No photorealistic elements
+  ❌ No macOS window controls
+
+supports_themes: false
+
+best_for:
+  - 游戏开发演讲
+  - 极客技术分享
+  - 怀旧主题活动
+  - 区块链/Web3 演示
+  - 创意编程教学

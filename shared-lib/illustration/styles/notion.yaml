@@ -1,0 +1,37 @@
+# 极简手绘风格（Notion风）
+name: notion
+description: 极简手绘线条风格，知识分享首选
+
+prompt_template: |
+  极简手绘线条插画风格（Notion/知识分享风格）：
+  - 简单的黑色线条手绘，线条有轻微抖动感
+  - 纯白或米白背景（#FFFFFF或#FAFAFA）
+  - 偶尔用柔和的彩色点缀（淡蓝#A8D4F0、淡黄#F9E79F、淡粉#FADBD8）
+  - 几何形状、简笔画人物、图标化元素
+  - 大量留白，呼吸感强
+  - 清爽干净，知识感强
+  - 图中不要有任何文字
+
+colors:
+  primary: "#1A1A1A"
+  secondary: "#4A4A4A"
+  background: "#FFFFFF"
+  accent_blue: "#A8D4F0"
+  accent_yellow: "#F9E79F"
+  accent_pink: "#FADBD8"
+
+characteristics:
+  - 简单线条
+  - 手绘质感
+  - 大量留白
+  - 几何形状
+  - 图标化
+  - 清爽干净
+
+best_for:
+  - 知识分享
+  - 效率工具
+  - SaaS产品
+  - 方法论
+  - 思维模型
+  - 教程指南

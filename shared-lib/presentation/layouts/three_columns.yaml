@@ -1,0 +1,89 @@
+# 三栏布局
+name: three_columns
+description: 三栏布局，用于并列对比或分类展示
+
+size: [1920, 1080]
+
+text_zones:
+  - name: page_title
+    position: [160, 80, 1600, 80]
+    align: center
+    font_size: 36
+    font_weight: bold
+    max_chars: 30
+  - name: col1
+    position: [80, 200, 560, 800]
+    align: left
+    font_size: 16
+    line_height: 1.5
+    max_chars: 150
+  - name: col2
+    position: [680, 200, 560, 800]
+    align: left
+    font_size: 16
+    line_height: 1.5
+    max_chars: 150
+  - name: col3
+    position: [1280, 200, 560, 800]
+    align: left
+    font_size: 16
+    line_height: 1.5
+    max_chars: 150
+
+# 模式1：纯背景
+prompt_template: |
+  16:9 landscape PPT three-column page background, 1920x1080 pixels,
+  {style_description}
+  {theme_description}
+  three-column layout with equal spacing,
+  subtle vertical dividers between columns,
+  NO TEXT, NO WORDS, empty background ready for content overlay,
+  balanced organized design
+
+# 模式2：完整图片（AI生成风格化文字）
+prompt_template_full: |
+  Create a presentation slide image following these guidelines:
+
+  ## Image Specifications
+  - Type: Three-column content slide
+  - Aspect Ratio: 16:9 (1920x1080 pixels)
+  - Style: Professional slide deck
+
+  ## Core Persona: The Architect
+  You are "The Architect" - create balanced, organized multi-column layouts.
+
+  ## Design Style
+  {style_description}
+  {theme_description}
+
+  ## Layout: Three Columns
+  - Title at top spanning full width
+  - Three equal columns below
+  - Each column may have header + content
+  - Subtle dividers between columns
+
+  ## Text Content (CRITICAL - MUST BE INCLUDED)
+  Page Title: {title}
+
+  Column Content:
+  {content}
+
+  ## Text Style Rules (CRITICAL)
+  - ALL text MUST match the designated style exactly
+  - Title: Large, bold, centered at top
+  - Column headers: Medium, bold
+  - Column content: Regular, legible
+  - DO NOT use realistic or computer-generated fonts unless style specifies
+
+  ## Core Principles
+  - Hand-drawn quality if style requires
+  - NO slide numbers, page numbers, footers, headers, or logos
+  - Balanced three-column layout
+
+  ## Language
+  - Render text in the same language as provided content
+
+best_for:
+  - 三方对比
+  - 分类展示
+  - 并列信息

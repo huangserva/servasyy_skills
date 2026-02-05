@@ -1,0 +1,36 @@
+# 风格选择反馈记录
+# 用于自学习优化风格匹配
+
+version: "1.0"
+last_updated: "2025-01-24"
+
+# 反馈记录
+records: []
+
+# 使用说明：
+# 每次生成 PPT 后，记录用户反馈
+# 格式：
+#   - timestamp: "2025-01-24 08:00"
+#     user_input: "用户的原始需求"
+#     detected_scenes: ["scene1", "scene2"]
+#     detected_audience: "beginners"
+#     selected_style: "editorial_infographic"
+#     user_feedback: "good"  # good / bad / changed_to:xxx
+#     notes: "可选备注"
+
+  - timestamp: "2026-01-24 09:35"
+    user_input: "当磁星开始摇摆论文解读PPT"
+    detected_scenes: ["academic", "tech"]
+    detected_audience: "general"
+    selected_style: "apple"
+    theme: "soft_blue"
+    user_feedback: "good"
+    notes: "更新apple.yaml后效果明显改善，4层纹理系统+详细提示词有效"
+
+  - timestamp: "2026-01-24 16:10"
+    user_input: "赤壁之战历史PPT"
+    detected_scenes: ["historical"]
+    detected_audience: "general"
+    selected_style: "vintage"
+    user_feedback: "good"
+    notes: "更新vintage.yaml详细版后效果良好，复古纸张纹理+左文右图布局符合预期"

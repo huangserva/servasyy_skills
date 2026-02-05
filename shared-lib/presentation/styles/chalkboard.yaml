@@ -1,0 +1,226 @@
+# Chalkboard Style - 详细版
+name: chalkboard
+description: 黑板粉笔风格 - 经典教室怀旧感
+
+prompt_template: |
+  16:9 landscape aspect ratio (default format for desktop presentations), CHALKBOARD STYLE with authentic classroom blackboard aesthetic and colorful chalk drawings.
+
+  [DESIGN PHILOSOPHY]:
+  Chalkboard Design Language - inspired by traditional classroom blackboards, teacher's handwriting, and nostalgic educational experiences. Every element should feel hand-drawn with real chalk. Imperfection is authenticity. Learning feels warm and personal.
+
+  [BACKGROUND SYSTEM]:
+
+  Base Layer (Chalkboard Surface):
+  - Primary color: Chalkboard Black #1A1A1A or Classic Green-Black #1C2B1C
+  - NOT flat color - must have realistic chalkboard texture
+  - Subtle color variation across surface (slightly lighter in center from years of use)
+
+  Texture Layer System:
+
+  Layer 1 (Board Grain):
+  - Fine scratches and grooves from years of chalk use
+  - Horizontal wood grain pattern (subtle)
+  - Opacity: 20-30%
+
+  Layer 2 (Chalk Residue):
+  - Faint ghosting from previously erased content
+  - White/grey smudges in random areas
+  - Opacity: 10-20%
+  - Creates "well-used" authentic feel
+
+  Layer 3 (Dust & Particles):
+  - Chalk dust particles scattered (especially near text)
+  - Concentrated at bottom edge (gravity effect)
+  - Small bright specks
+  - Opacity: 15-25%
+
+  Layer 4 (Eraser Marks):
+  - Smudged areas where content was erased
+  - Horizontal swipe patterns
+  - Slightly lighter than background
+  - 2-3 subtle eraser marks per slide
+
+  Edge Treatment:
+  - Wooden frame border (optional, dark brown #3D2914)
+  - Chalk tray at bottom with chalk dust accumulation
+  - Slightly darker corners (vignette effect)
+
+  [CHALK ILLUSTRATION STYLE]:
+
+  Core Aesthetic:
+  - Hand-drawn with real chalk appearance
+  - Lines should be slightly uneven, textured, NOT smooth
+  - Visible chalk grain/texture in every stroke
+  - Stroke edges slightly fuzzy (chalk dust effect)
+  - Color fills have visible stroke marks (not solid)
+
+  Line Characteristics:
+  - Stroke weight: 3-6px for main elements, 2-3px for details
+  - Line opacity varies slightly (pressure variation)
+  - Ends of lines slightly tapered or rough
+  - Chalk breaks/gaps occasionally in long lines
+
+  Icon Style:
+  - Simple, hand-drawn educational icons
+  - Sketchy, imperfect shapes
+  - Single color per icon (chalk stick limitation)
+  - Size: 48-80px for main icons
+
+  Diagram Style:
+  - Mathematical diagrams with chalk aesthetic
+  - Arrows with hand-drawn points
+  - Circles slightly wobbly
+  - Boxes with imperfect corners
+  - Connection lines with chalk texture
+
+  [COLOR PALETTE]:
+
+  Background Colors:
+  - Chalkboard Black: #1A1A1A (classic)
+  - Green-Black: #1C2B1C (traditional school)
+  - Dark Slate: #2F3640 (modern variant)
+
+  Chalk Colors (Primary):
+  - Chalk White: #F5F5F5 (main text, primary drawings)
+  - Chalk Yellow: #FFE566 (highlights, emphasis, important)
+  - Chalk Pink: #FF9999 (accents, love, warmth)
+  - Chalk Blue: #66B3FF (diagrams, water, calm)
+  - Chalk Green: #90EE90 (nature, correct, go)
+  - Chalk Orange: #FFB366 (energy, caution, attention)
+
+  Color Usage Rules:
+  - 60% Chalk White (primary content)
+  - 25% One primary accent color (yellow or pink)
+  - 15% Secondary accent colors
+  - All chalk colors should have slight texture/grain
+  - Colors should look like actual chalk, slightly dusty
+
+  [TYPOGRAPHY SYSTEM]:
+
+  Chalk Lettering Philosophy:
+  - Must look hand-written with chalk
+  - Imperfect baseline and spacing
+  - Visible chalk texture in strokes
+  - Personality and warmth over precision
+
+  Headlines:
+  - Style: Bold chalk hand-lettering
+  - Stroke: Thick, 4-6px equivalent
+  - Texture: Heavy chalk grain visible
+  - Baseline: Slightly uneven (hand-drawn)
+  - Can include underlines (wavy chalk lines)
+  - Color: White or bright accent (yellow/pink)
+
+  Body Text:
+  - Style: Neater chalk handwriting
+  - Stroke: Medium, 2-3px equivalent
+  - More consistent than headlines but still hand-drawn
+  - Clear and readable
+  - Color: Primarily white
+
+  Chinese Chalk Text:
+  - Simulated chalk brush strokes
+  - Slightly thicker strokes for visibility
+  - Hand-written feel, not typed
+
+  Type Scale:
+  - Headlines: 40-56px / Heavy chalk strokes
+  - Subheadings: 28-36px / Medium chalk
+  - Body: 18-24px / Light chalk, readable
+  - Annotations: 14-18px / Fine chalk lines
+  - Formulas: 24-32px / Clear chalk writing
+
+  Special Text Effects:
+  - Boxed text: Chalk rectangle around important terms
+  - Underlines: Wavy or double chalk lines
+  - Circled numbers: Hand-drawn chalk circles
+  - Arrows pointing to key concepts
+
+  [LAYOUT SYSTEM]:
+
+  Classroom Board Feel:
+  - Organic, teacher-style layout
+  - Content flows like lecture notes
+  - Not rigidly aligned
+  - Main concept prominent, details around it
+
+  Spacing:
+  - Margins: 80-100px (like chalkboard frame edge)
+  - Between elements: 30-50px
+  - Generous space (teacher doesn't cram)
+
+  Organization Patterns:
+  - Center: Main concept or title
+  - Sides: Supporting points
+  - Corners: Doodles, small diagrams
+  - Bottom: Summary or formula
+
+  [DECORATIVE ELEMENTS]:
+
+  Encouraged Chalk Doodles:
+  - Stars (5-point, hand-drawn)
+  - Arrows (curved, with chalk texture)
+  - Underlines (single, double, wavy)
+  - Checkmarks (for correct/done)
+  - X marks (for incorrect)
+  - Light bulbs (ideas)
+  - Question marks (curiosity)
+  - Exclamation points (important!)
+  - Simple stick figures
+  - Mathematical symbols (+, -, ×, ÷, =)
+  - Brackets and braces
+  - Speech bubbles
+
+  Mathematical Elements:
+  - Formulas with proper notation
+  - Geometric shapes (triangles, circles)
+  - Graphs with axes
+  - Number lines
+  - Venn diagrams
+
+  Chalk Dust Effects:
+  - Dust particles around text edges
+  - Smudge marks where "hand rested"
+  - Accumulation at bottom of letters
+  - Floating dust specks
+
+  [CRITICAL PROHIBITIONS]:
+
+  ❌ DO NOT include:
+  - Perfect geometric shapes
+  - Clean digital-looking lines
+  - Smooth gradients
+  - Solid color fills (must have chalk texture)
+  - Modern UI elements
+  - Photorealistic images
+  - Slide numbers, page numbers, footers
+  - macOS window controls
+  - Bright white background
+  - Sans-serif typed fonts
+
+  ✅ DO include:
+  - Authentic chalk texture on ALL elements
+  - Hand-drawn imperfect quality
+  - Chalk dust and smudge effects
+  - Nostalgic classroom atmosphere
+  - Educational warmth
+  - Visible chalkboard texture
+
+  [OVERALL ATMOSPHERE]:
+  Nostalgic, educational, warm, authentic. Each slide should feel like walking into a classroom and seeing the teacher's careful notes on the board. The imperfections add character and make learning feel personal and approachable. Perfect for: educational presentations, classroom content, tutorials, math and science topics, training materials, nostalgic themes. Conveys: "Let me explain this to you, just like a patient teacher would."
+
+supports_themes: false
+
+characteristics:
+  - 黑板纹理
+  - 粉笔质感
+  - 手绘风格
+  - 教室怀旧
+  - 温暖教育感
+
+best_for:
+  - 教育演示
+  - 课堂内容
+  - 教程培训
+  - 知识分享
+  - 数学科学

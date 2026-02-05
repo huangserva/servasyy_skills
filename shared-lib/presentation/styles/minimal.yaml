@@ -1,0 +1,71 @@
+# Minimal Style - 详细版
+name: minimal
+description: 极简风格 - 禅意留白的高端美学
+
+prompt_template: |
+  16:9 landscape aspect ratio, MINIMAL STYLE with ultra-clean zen-like simplicity.
+
+  [DESIGN AESTHETIC]:
+  Maximum whitespace with minimal elements. Zen-like simplicity where every element earns its place. Premium, refined aesthetic suitable for executive audiences. Less is more - remove until nothing more can be taken away.
+
+  [BACKGROUND]:
+  - Color: Pure White (#FFFFFF)
+  - Texture: None - absolute clean, no grain or patterns
+  - No decorations, no gradients
+
+  [CARD SYSTEM]:
+  - Background: Pure White or very light gray (#FAFAFA)
+  - Border: None or 1px hairline (#E5E7EB)
+  - Shadow: None or barely visible
+  - Corner radius: 0px or 4px maximum
+  - Maximum restraint
+
+  [TYPOGRAPHY]:
+  - Headlines: Clean geometric sans-serif (SF Pro, Inter, Helvetica Neue)
+    * Weight: Light (300) to Medium (500)
+    * Color: Near Black #1A1A1A
+    * Generous letter-spacing
+    * Large scale for impact without boldness
+  - Body: Same family, lighter weight
+    * Color: Medium Gray #6B7280
+    * Minimal size contrast
+  - Chinese: 苹方细体、思源黑体 Light
+
+  [COLOR PALETTE]:
+  - Background: Pure White #FFFFFF
+  - Primary Text: Near Black #1A1A1A
+  - Secondary Text: Medium Gray #6B7280
+  - Accent: Single Color #2563EB (ONE accent only, use sparingly)
+  - Dividers: Light Gray #E5E7EB
+
+  Color Rules:
+  - 90% white/grayscale
+  - 10% single accent color (maximum)
+  - NO multiple accent colors
+
+  [VISUAL ELEMENTS]:
+  - Generous margins (minimum 15% on all sides)
+  - Thin hairline rules for separation
+  - Simple geometric shapes only when necessary
+  - Single accent color used sparingly
+  - Center or left-aligned layouts
+  - Data visualizations in grayscale or single color
+
+  [KEY RULES]:
+  ✅ Embrace empty space as a design element
+  ✅ Use single accent color only
+  ✅ Every element must earn its place
+  ✅ Maximum restraint and elegance
+  ❌ No filling empty space with decoration
+  ❌ No multiple accent colors
+  ❌ No heavy shadows or effects
+  ❌ No slide numbers, footers, or logos
+  ❌ No macOS window controls
+
+supports_themes: false
+
+best_for:
+  - 高管汇报
+  - 主题演讲
+  - 高端品牌
+  - 投资会议

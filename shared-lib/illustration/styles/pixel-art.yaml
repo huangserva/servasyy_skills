@@ -1,0 +1,31 @@
+# 像素艺术风格
+name: pixel-art
+description: 像素艺术风格，8-bit 复古游戏感，适合游戏和开发者内容
+
+prompt_template: |
+  像素艺术插画风格：
+  - 8-bit 像素风格
+  - 复古游戏机美学
+  - 有限的调色板
+  - 方块化的形状
+  - 怀旧的电子游戏感
+  - 图中不要有任何文字、标签、说明
+
+colors:
+  primary: "#00FF00"
+  accent: "#FF0000"
+  background: "#000000"
+
+characteristics:
+  - 像素风格
+  - 8-bit 美学
+  - 有限色板
+  - 方块形状
+  - 游戏感
+
+best_for:
+  - 游戏主题
+  - 开发者内容
+  - 技术教程
+  - 复古科技
+  - 趣味编程

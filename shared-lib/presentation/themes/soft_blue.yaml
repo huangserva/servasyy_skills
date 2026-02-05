@@ -1,0 +1,33 @@
+# 柔和蓝主题
+name: soft_blue
+description: 柔和蓝主题，适合科技、商业、数据分析
+
+background:
+  gradient: ["#F8FAFF", "#EEF3FA"]
+  texture_color: "blue tones"
+  
+colors:
+  brand: "#007AFF"
+  accent: "#5AC8FA"
+  border: "#D6E4F7"
+  
+description_template: |
+  Soft Blue theme with elegant gradient background from #F8FAFF to #EEF3FA,
+  extremely subtle geometric line texture 20-30% transparency in blue tones,
+  flowing wave-like decorative elements in sky blue #5AC8FA with 15-25% transparency,
+  tech-inspired dot pattern creating data flow sensation,
+  premium frosted glass texture with silk-like sheen,
+  four corners with abstract geometric accents in soft blue gradient,
+  brand color #007AFF for accents
+
+keywords:
+  - 技术
+  - 科技
+  - 数据
+  - 分析
+  - AI
+  - 算法
+  - 系统
+  - 商业
+  - 企业
+  - 管理

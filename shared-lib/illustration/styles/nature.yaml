@@ -1,0 +1,31 @@
+# 自然有机风格
+name: nature
+description: 自然有机，清新绿色，适合环保和健康主题
+
+prompt_template: |
+  自然有机插画风格：
+  - 植物和自然元素
+  - 绿色和大地色调
+  - 手绘质感的线条
+  - 有机的形状和纹理
+  - 清新舒适的感觉
+  - 图中不要有任何文字、标签、说明
+
+colors:
+  primary: "#2D5A27"
+  accent: "#8FBC8F"
+  background: "#F5F5DC"
+
+characteristics:
+  - 自然元素
+  - 绿色调
+  - 手绘质感
+  - 有机形状
+  - 清新感
+
+best_for:
+  - 环保主题
+  - 健康养生
+  - 自然科学
+  - 可持续发展
+  - 有机产品

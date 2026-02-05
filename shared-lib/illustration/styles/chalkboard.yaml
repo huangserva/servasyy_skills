@@ -1,0 +1,31 @@
+# 黑板粉笔风格
+name: chalkboard
+description: 黑板粉笔风格，教室氛围，适合教育和教程内容
+
+prompt_template: |
+  黑板粉笔插画风格：
+  - 深绿色或黑色黑板背景
+  - 白色和彩色粉笔质感
+  - 手写的涂鸦风格
+  - 教室和学习的氛围
+  - 略带擦除痕迹的真实感
+  - 图中不要有任何文字、标签、说明
+
+colors:
+  primary: "#FFFFFF"
+  accent: "#FFD700"
+  background: "#2F4F4F"
+
+characteristics:
+  - 黑板背景
+  - 粉笔质感
+  - 手写风格
+  - 教室氛围
+  - 学习感
+
+best_for:
+  - 教育内容
+  - 课程教程
+  - 知识讲解
+  - 学习方法
+  - 培训材料

@@ -1,0 +1,76 @@
+# Dark Atmospheric Style - D版本（A风格+B色彩）
+name: dark_atmospheric
+display_name: 暗黑氛围
+description: Dark moody aesthetic with deep colors and glowing accent elements
+category: entertainment
+
+prompt_template: |
+  16:9 landscape aspect ratio, DARK ATMOSPHERIC STYLE.
+
+  [DESIGN AESTHETIC]:
+  Cinematic dark mode aesthetic with atmospheric depth. Deep purples, blacks, and rich shadows with glowing accents creating dramatic visual contrast. Mysterious, sophisticated, and visually striking. Perfect for evening events, creative industries, and premium brand presentations.
+
+  [BACKGROUND]:
+  - Color: Deep Purple-Black (#0D0D1A) or Rich Navy (#1A1A2E)
+  - Texture: Subtle gradient from darker edges to slightly lighter center, atmospheric fog effect
+  - Floating particles: Subtle dust, stars, or ember effects (very light, 10-15% opacity)
+  - Ambient glow: Soft purple/cyan light sources at corners or edges
+
+  [CARD SYSTEM - ACRYLIC/FROSTED GLASS]:
+  - Background: Semi-transparent dark with blur effect (frosted glass/acrylic)
+  - Opacity: 60-80% with backdrop blur
+  - Border: 1px subtle light border (rgba(255,255,255,0.1))
+  - Corner radius: 16-20px
+  - Creates depth while maintaining readability
+  - Premium glass-like appearance
+
+  [TYPOGRAPHY]:
+  - Headlines: Pure White #FFFFFF, clean and readable
+  - Body text: Light Gray #E2E8F0, high contrast
+  - Font: Modern sans-serif (Inter, SF Pro, PingFang SC)
+  - NO heavy glow on text - keep text clean and readable
+
+  [COLOR PALETTE]:
+  | Role | Color | Hex | Usage |
+  |------|-------|-----|-------|
+  | Background | Deep Purple-Black | #0D0D1A | Primary background |
+  | Alt Background | Rich Navy | #1A1A2E | Secondary areas |
+  | Card Background | Dark Translucent | rgba(20,20,40,0.7) | Acrylic cards |
+  | Primary Text | Pure White | #FFFFFF | Headlines |
+  | Secondary Text | Light Gray | #E2E8F0 | Body text |
+  | Glow Accent 1 | Electric Purple | #8B5CF6 | Primary glow |
+  | Glow Accent 2 | Cyan Blue | #06B6D4 | Secondary glow |
+  | Glow Accent 3 | Magenta Pink | #EC4899 | Tertiary accent |
+
+  [VISUAL ELEMENTS]:
+  - Glowing accent elements on illustrations and icons
+  - Subtle gradient backgrounds with purple/blue tones
+  - Atmospheric fog or particle effects
+  - Neon-style highlights on key visual elements
+  - Silhouettes with backlit edges
+  - Radiating light circles and orbs (on visuals, not text)
+
+  [KEY RULES]:
+  ✅ Use acrylic/frosted glass cards for text content
+  ✅ Keep text clean, white, highly readable
+  ✅ Apply glow effects to illustrations and icons
+  ✅ Deep purple-black atmospheric background
+  ✅ Subtle particles and ambient lighting
+  ❌ No heavy glow on text
+  ❌ No slide numbers, footers, or logos
+  ❌ No macOS window controls
+
+supports_themes: false
+default_theme: null
+
+characteristics:
+  - 深色电影感
+  - 亚克力卡片
+  - 发光配图
+  - 氛围颗粒
+
+best_for:
+  - entertainment presentations
+  - gaming content
+  - tech product launches
+  - creative agency pitches

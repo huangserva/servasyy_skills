@@ -1,0 +1,80 @@
+# Editorial Magazine Style - 详细版
+name: editorial
+description: 杂志排版风格 - 经典印刷，字体优先
+
+prompt_template: |
+  16:9 landscape aspect ratio, EDITORIAL MAGAZINE STYLE following classic high-end print design principles, typographic hierarchy with strong readability focus.
+
+  [DESIGN AESTHETIC]:
+  High-end Magazine Layout - inspired by Vogue, Monocle, Kinfolk, and The New Yorker. Emphasis on typographic excellence, whitespace, and sophisticated grid systems. It's not just a slide; it's a spread.
+
+  [BACKGROUND SYSTEM]:
+  - Color: Paper White #F9F9F9 or Warm Ivory #FAF8F5
+  - Texture: High-quality matte paper texture (subtle grain, 3-5% opacity)
+  - Layout: Asymmetrical balance, generous margins
+  - No gradients, flat colors only
+
+  [GRID SYSTEM]:
+  - 12-column modular grid
+  - Margins: Wide (60-80px) for "luxurious" whitespace
+  - Gutter: 24-32px
+  - Elements align strictly to grid lines
+  - Baseline grid: 8px vertical rhythm
+
+  [TYPOGRAPHY - The Soul of Editorial]:
+  Display/Headline (Serif):
+  - Style: High-contrast Serif (Didone style) like Playfair Display, Bodoni, or Caslon
+  - Weight: Bold or Italic for emphasis
+  - Size: Large (56-80px), tight leading (0.9-1.0)
+  - Color: Jet Black #111111
+
+  Body Text (Sans/Serif Mix):
+  - Style: Clean geometric Sans (Inter, Gill Sans) or readable Serif (Georgia, Merriweather)
+  - Size: 16-18px, generous leading (1.6-1.8) for readability
+  - Color: Dark Gray #333333
+
+  Chinese Typography:
+  - Headline: Noto Serif SC (宋体) or Founder Type (方正雅宋)
+  - Body: Noto Sans SC (黑体) or PingFang SC
+
+  [DECORATIVE ELEMENTS]:
+  - Drop Caps: Large initial letter (3-4 lines high) for start of text
+  - Pull Quotes: Large, centered or floating, in Italic Serif
+  - Divider Lines: Thin (0.5-1px) solid black lines
+  - Page Numbers: Small, elegant, often with folio (e.g., "PAGE 04 | ISSUE 24")
+  - Image Captions: Small (12px), italic, near images
+
+  [IMAGE TREATMENT]:
+  - Style: High-quality photography or artistic illustration
+  - Framing: Full bleed (edge-to-edge) OR precise rectangular crop with white border
+  - Filter: Subtle desaturation or warm film grain
+  - No drop shadows on images (flat print look)
+
+  [COLOR PALETTE]:
+  - Background: Paper White #F9F9F9
+  - Text: Jet Black #111111 (Primary), Charcoal #444444 (Body)
+  - Accents (Pick ONE per slide):
+    * Editorial Red: #D00000 (classic)
+    * Olive Green: #556B2F (natural)
+    * Navy Blue: #002244 (formal)
+    * Burnt Orange: #CC5500 (creative)
+
+  [KEY RULES]:
+  ✅ Strict grid alignment
+  ✅ Use Drop Caps and Pull Quotes
+  ✅ Mix Serif headlines with Sans body
+  ✅ Generous whitespace (macro and micro)
+  ❌ No system fonts (Arial, Calibri)
+  ❌ No drop shadows or 3D effects
+  ❌ No bright neon colors
+  ❌ No macOS window controls
+  ❌ No chaotic layouts
+
+supports_themes: false
+
+best_for:
+  - 时尚杂志
+  - 文化刊物
+  - 高端品牌手册
+  - 深度访谈
+  - 艺术作品集
