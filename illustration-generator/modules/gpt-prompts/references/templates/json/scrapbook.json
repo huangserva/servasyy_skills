@@ -1,0 +1,124 @@
+{
+  "category": "手帐与拼贴",
+  "description": "旅行日记、美食手帐、情侣纪念册等手工拼贴风格——像翻开的实体手帐被拍下来",
+  "presets": {
+    "quality": "Photograph of a real physical scrapbook, flat-lay on wooden desk, warm natural side lighting with soft shadows across the spread",
+    "paper": "Cream textured notebook paper (#F5EDE0) with visible paper grain/tooth, worn brown leather cover edges, stitched spine gutter at center. Slightly aged discolored page edges",
+    "photo_style": "Instax Polaroid photos with slightly rough uneven white borders like real prints, tiny corner wear. Each tilted 2-8 degrees randomly, NO two at same angle. Some photos overlap 5-10% for layered depth",
+    "text_style": "Authentic handwritten style with natural size/spacing/weight variations between characters, like real human writing with a fine-tip marker. Larger slightly bolder for titles, smaller for body notes. NOT uniform digital handwritten font",
+    "tape_style": "Washi tape: semi-transparent with visible paper texture underneath, subtle soft drop shadow at edges, slightly uneven torn/cut edges, applied at random angles on 1-2 corners only per photo",
+    "doodle_style": "Thin fineliner lines with natural hand wobble, uneven stroke weight, NOT smooth vector lines. Soft muted watercolor/colored pencil fills (semi-transparent, NOT opaque). Slightly childish but neat, NOT polished illustration",
+    "decorations": "Sketchy doodles — flowers, food icons, hearts, sparkles, transport icons, landmark doodles. Pressed dried flower decorations optional",
+    "photo_subject": "Primarily COUPLE/HUSBAND-WIFE travel photos — couple selfies, one partner photographing the other, candid couple moments, holding hands, posing together at landmarks. Mix of couple shots with occasional solo portrait (one partner) or food/scene close-up. This makes the travel diary feel REAL and personal, like a real couple's trip memories, NOT a stock photo collection or solo travel blog",
+    "color_palette": "Muted earthy pastel palette: cream base (#F5EDE0), charcoal text (#272522), accent blue (#6A9AC7), soft green (#83A878), muted purple (#8579B2), warm kraft (#D4996A)",
+    "layout": "Organic asymmetric layout, content density 75% with 25% intentional whitespace. Elements scattered organically NOT in grid. Photos overlap slightly. Text placed adjacent to relevant photos, not wrapped",
+    "map_style": "STYLIZED ILLUSTRATED MAP like a hand-drawn version of 高德地图/Amap navigation map — NOT a simple sketch with pins and arrows. Full cartographic detail: (1) Light blue water body with realistic curved coastline, soft watercolor fill (2) Light green patches for forests/parks like 高德地图 green areas (3) Thin grey/white road network grid connecting towns, like real navigation map (4) Darker grey line for main highway/railway (5) Small dots for smaller towns (6) Route overlay: thick bright blue line with arrows following real geographic path (7) Red teardrop map pins at accurate positions with white label tags and speech bubbles (light blue fill, sketchy border) (8) Landmark icons near pins — SMALL CUTE HAND-DRAWN DOODLE ICONS next to each pin matching location character (Buddha for temple, shopping bag for market, flower for garden, tiny train for station, bowl for food, snow mountain for scenic), sketchy and charming (9) Compass rose. Overall: illustrated cartographic map with watercolor style, NOT blank paper with pins connected by dashed line",
+    "constraint": "CRITICAL: Must look like a REAL PHYSICAL handmade scrapbook, NOT a digital design/collage. Every element must have natural imperfection — wobbly lines, uneven handwriting, tilted photos, semi-transparent tape with shadows"
+  },
+  "template": {
+    "type": "Handcrafted Scrapbook Journal Page",
+    "page_type": "{{page_type}}",
+    "paper_texture": "{{paper_texture}}",
+    "photos": {
+      "count": "{{photo_count}}",
+      "content": "{{photo_descriptions}}",
+      "arrangement": "{{photo_arrangement}}"
+    },
+    "handwritten_text": {
+      "title": "{{page_title}}",
+      "notes": "{{handwritten_notes}}",
+      "text_language": "{{text_language}}"
+    },
+    "decorations": "{{decorative_elements}}",
+    "color_palette": "{{color_adjustments}}",
+    "layout": "{{layout_description}}"
+  },
+  "pitfalls": [
+    "最重要：must look like a REAL PHYSICAL scrapbook，不是AI画的'手帐风格插画'——照片要是真实的拍立得风格照片，不是手绘插图",
+    "照片必须有厚白边框（Polaroid/Instax风格），这是手帐感的核心识别要素。边框要略有粗糙感，不是完美的白色矩形",
+    "【反数字感关键】必须明确要求 NOT smooth vector / NOT uniform digital font / NOT grid layout / NOT flat digital overlay。GPT-Image-2 默认倾向生成完美的数字设计，必须用否定指令对抗",
+    "和纸胶带要小条状贴照片角（每张1-2角），不能整张贴满。必须要求 semi-transparent + soft drop shadow + uneven edges",
+    "涂鸦线条必须有 natural hand wobble + uneven stroke weight。如果不说 NOT smooth vector，AI 会画成光滑矢量图",
+    "手写文字必须有 natural size/spacing/weight variations。如果不说 NOT uniform digital font，AI 会用数字手写字体",
+    "照片必须倾斜（每张不同角度2-8度）+ 部分重叠（5-10%）。如果不说 NOT in grid，AI 默认排成完美网格",
+    "手绘地图【重要】：必须像高德地图/Amap的插画化版本，不是简单的空白纸上画钉子和虚线。要求：(1)浅蓝色海域+真实海岸线 (2)浅绿色植被区域（像高德地图的公园绿地色块）(3)灰色道路网格网络（薄线连结城镇） (4)深灰主线铁路/高速 (5)蓝色粗线路线+方向箭头 (6)红色定位钉+白色标签+气泡备注 (7)地标图标 (8)指南针。必须明确说 NOT blank paper with pins connected by dashed line",
+    "色彩要柔和克制——大地色系，绝不能用高饱和霓虹色",
+    "双页展开用 16:9，单页竖版用 9:16",
+    "复杂prompt（6+照片+地图+文字）在4K下容易超时（>120s），建议先2K验证风格，确认后再精简prompt试4K",
+    "照片人物：以情侣/夫妻合照为主（自拍、互相拍照、牵手、一起摆pose），穿插少量单人照或食物特写。像真实的情侣旅行记忆，不是单人旅游博客",
+    "apimart 4K 限制：prompt 必须 <2000 字符，否则 OpenAI 后端 500 错误。2K 可承受 ~3500 字符。apimart gpt-image-2 + 2K 约需 200 秒，4K 约需 190 秒。DragonCode 16:9 + 复杂 prompt 容易超时（>120s），优先用 apimart"
+  ],
+  "examples": [
+    {
+      "description": "鎌倉旅行日记双页展开",
+      "filled": {
+        "type": "Handcrafted Scrapbook Journal Page",
+        "page_type": "Open double-page travel journal spread documenting a day trip to Kamakura, Japan",
+        "paper_texture": "Thick cream off-white recycled sketchbook paper with subtle natural fiber grain, worn tan-brown edges at spine and borders",
+        "photos": {
+          "count": "8-10 instax-style travel photos",
+          "content": "Couple selfies at Kamakura Great Buddha, purple hydrangea close-ups, Komachi street shopping candids, seaside portrait, railroad crossing photo, onsen entrance selfie, cafe candid",
+          "arrangement": "Left page: 4 photos arranged top to bottom chronologically with handwritten time stamps. Right page: hand-drawn route map taking top 2/3, 3 photos stacked on right edge"
+        },
+        "handwritten_text": {
+          "title": "鎌倉一日旅行手帳 (Kamakura One Day Travel Journal) in large brush-style script at top",
+          "notes": "Time stamps (10:00, 11:30, 13:30, etc.) in medium script next to each photo, with short casual diary notes in Traditional Chinese — descriptions like 真的好大！❤️ / 小吃好多~ / 在海邊發呆了一會 ❤️",
+          "text_language": "Traditional Chinese handwritten text, casual personal diary tone"
+        },
+        "decorations": "Small washi tape strips (polka dot, stripe, kraft patterns) on photo corners. Hand-drawn doodles: hydrangea flower, tiny Buddha icon, Enoden green train, coffee cup, seashell, wave lines, camera icon, hearts, star sparkles. Blue hand-drawn route map with red pin markers on right page. Checklist with tick marks at bottom left.",
+        "color_palette": "Muted earthy pastels: cream paper base (#F6F0E6), charcoal text (#272522), accent blue (#6A9AC7) for map, soft green (#83A878) for nature doodles, muted purple (#8579B2) for hydrangeas, warm kraft (#D4996A) for tape and map pins",
+        "layout": "Asymmetric double-page spread. Left page: header → chronological photo+text pairs → checklist. Right page: large hand-drawn map → stacked photos → footer notes. Natural spacing, slight overlaps between photos and doodles. Organic hand-assembled feel."
+      }
+    },
+    {
+      "description": "东京美食探店单页竖版",
+      "filled": {
+        "type": "Handcrafted Scrapbook Journal Page",
+        "page_type": "Single vertical page from a food exploration diary, reviewing a ramen shop visit in Tokyo",
+        "paper_texture": "Cream off-white notebook paper with subtle grain, slightly worn edges",
+        "photos": {
+          "count": "4 instax-style food photos",
+          "content": "1) Couple selfie in front of shop signage 2) Couple sharing steaming ramen bowl, one feeding the other 3) His-and-hers ramen close-ups side by side 4) Couple with matcha ice cream, laughing",
+          "arrangement": "Top: shop exterior photo centered. Middle: large ramen bowl photo with two smaller photos flanking it. Bottom: dessert photo with handwritten rating section"
+        },
+        "handwritten_text": {
+          "title": "東京拉麵巡り 🍜 in large casual script at top",
+          "notes": "Shop name and address in medium script. Dish names next to each photo in smaller script. Tasting notes in smallest script — 一蘭拉麵 / 豚骨湯底超濃郁！/ 叉燒入口即化~ / ★★★★★. Hand-drawn 5-star rating system.",
+          "text_language": "Japanese + Traditional Chinese mix"
+        },
+        "decorations": "Washi tape in red and beige patterns on photo corners. Hand-drawn doodles: steam wisps above ramen, chopsticks, chili pepper, noodle bowl icon, star ratings. Small price tags handwritten.",
+        "color_palette": "Warm food photography tones against cream paper. Accent red for chili/rating highlights. Warm amber for ramen broth glow."
+      }
+    },
+    {
+      "_note": "✅ PROVEN prompt structure — 4 iterations refined, rated 9/10 authenticity. Use this as the MASTER TEMPLATE for travel scrapbook generation",
+      "description": "云南慢旅行双页展开（高德地图风格路线图）",
+      "prompt_structure": "The proven prompt has 3 sections: (1) CRITICAL STYLE RULES block upfront with all anti-digital directives, (2) LEFT PAGE with specific photo tilts/angles/overlap instructions, (3) RIGHT PAGE with MAP BASE (geographic elements) + ROUTE OVERLAY (pins/route) as separate subsections",
+      "filled": {
+        "type": "Handcrafted Scrapbook Journal Page",
+        "page_type": "Open double-page travel scrapbook, flat-lay on wooden desk, warm natural side lighting. Cream textured notebook paper #F5EDE0 with visible paper grain, worn brown leather cover edges, stitched spine gutter center. Aged discolored page edges.",
+        "anti_digital_rules": "CRITICAL STYLE: Real handmade scrapbook NOT digital. Photos tilted 2-8 degrees randomly, some overlapping 5-10%. Doodles sketchy loose wobbly lines. Handwriting natural with size variations. Washi tape semi-transparent with soft shadows and rough edges.",
+        "photos": {
+          "count": "6 instax polaroid photos (4 left + 2 right bottom)",
+          "content": "Yuanyang rice terraces golden hour, woman Bai ethnic Dali Three Pagodas, couple cycling Erhai Lake, Lijiang Old Town dusk red lanterns, Xishuangbanna woman Dai dress rainforest, crossing-the-bridge noodles steaming close-up",
+          "arrangement": "LEFT PAGE scattered organically NOT in grid, each with specific tilt angle (-4deg, 3deg, 5deg, -2deg), some overlapping corners. Torn kraft paper date tag top-left. Checklist section bottom-left (今日小確幸). RIGHT PAGE bottom: 2 photos stacked with tilt/overlap"
+        },
+        "handwritten_text": {
+          "title": "雲南慢旅行 ✈️ / 蒏集風花雪月的日常 ❤️",
+          "notes": "Short notes next to each photo: 元陽梯田/金黃時刻超美！❤️ 大理三塔/白族服裝好出片！ 洱海騎行/風好舒服~ 麗江古城/紅燈籠浪漫✨ 西雙版納/熱帶雨林🦋 過橋米線/超鮮！★★★★★",
+          "text_language": "Traditional Chinese, casual diary tone, natural handwriting with variations"
+        },
+        "map": {
+          "style": "高德地图风格插画化地图 — full cartographic detail with watercolor rendering",
+          "base_elements": "Off-white land, light blue ocean with realistic coastline (Erhai Lake + southern coast), light green forest/park patches, thin grey road network grid, darker grey railway/highway line, small town dots",
+          "route": "Thick bright blue line with arrows: Kunming→Dali→Lijiang→Shangri-La→Xishuangbanna",
+          "pins": "5 red teardrop pins at accurate positions, each with white label + speech bubble note (light blue fill, sketchy border)",
+          "icons": "Small cute landmark doodle next to each pin: lake(Kunming), pagoda(Dali), old town(Lijiang), snow mountain(Shangri-La), palm tree(Xishuangbanna)",
+          "labels": "Blue wavy banner 雲南慢旅行路線圖, compass rose, 總路程: 約1500公里"
+        },
+        "decorations": "Sketchy doodles: butterflies, tea leaves, peacock, camellia, chili pepper, lantern. Pressed blue dried flower. Hearts sparkles. Patterned washi border bottom. Green train doodle footer.",
+        "color_palette": "Muted warm earthy palette. Cream base #F5EDE0, charcoal #272522, accent blue #6A9AC7, soft green #83A878"
+      }
+    }
+  ]
+}

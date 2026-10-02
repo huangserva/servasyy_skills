@@ -1,0 +1,4 @@
+interface:
+  display_name: "黄总的生图与提示词库"
+  short_description: "统一生成文章配图、海报、人像和场景，按分类复用风格模板并收藏认可的提示词"
+  default_prompt: "使用 $illustration-generator，按我的用途选择分类和风格，复用提示词库完成出图。"

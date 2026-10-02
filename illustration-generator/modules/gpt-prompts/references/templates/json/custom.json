@@ -1,0 +1,36 @@
+{
+  "category": "通用/自定义",
+  "description": "兜底模板，任何不匹配上述分类的需求",
+  "presets": {
+    "aspect_ratio": "1:1",
+    "quality": "High quality, detailed"
+  },
+  "template": {
+    "type": "Custom Generation",
+    "subject": "{{main_subject}}",
+    "style": "{{artistic_style}}",
+    "composition": "{{composition_description}}",
+    "colors": "{{color_preferences}}",
+    "mood": "{{mood_or_atmosphere}}",
+    "constraints": "{{any_special_constraints}}"
+  },
+  "pitfalls": [
+    "兜底模板最少信息也能出图，但质量依赖描述详细程度",
+    "至少要明确主体和风格，否则结果不可控",
+    "比例/色调/情绪是三个最有影响力的参数"
+  ],
+  "examples": [
+    {
+      "description": "抽象概念可视化",
+      "filled": {
+        "type": "Custom Generation",
+        "subject": "The concept of 'Time' visualized as an hourglass where sand becomes galaxies",
+        "style": "Surrealist digital art, dreamlike",
+        "composition": "Centered hourglass, cosmic background, flowing sand morphing into spiral galaxies",
+        "colors": "Deep space purple, golden sand, blue nebula accents",
+        "mood": "Contemplative, vast, mystical",
+        "constraints": "Square format, no text, highly detailed"
+      }
+    }
+  ]
+}

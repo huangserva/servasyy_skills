@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "skill validation",
+    "GPT source byte-for-byte preservation",
+    "seven modules byte-for-byte preservation",
+    "reference links",
+    "template value substitution",
+    "article and GPT dry-run",
+    "collection save/read/dedup",
+    "approval feedback required",
+    "missing image and empty prompt rejection",
+    "VSC discovery",
+    "specialist prompt generation",
+    "configured GPT model and dependencies"
+  ],
+  "live_generation_tested": false,
+  "gpt_style_categories": 17,
+  "gpt_styles": 63,
+  "gpt_json_templates": 15,
+  "article_styles": 20
+}

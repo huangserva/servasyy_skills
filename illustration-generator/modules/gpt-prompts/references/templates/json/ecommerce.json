@@ -1,0 +1,57 @@
+{
+  "category": "商品与电商",
+  "description": "电商主图、生活方式场景图、美食摄影",
+  "presets": {
+    "background": "Minimalist studio, soft gradient",
+    "lighting": "Softbox overhead, sharp rim light on edges",
+    "quality": "Commercial photography quality, hyper-realistic textures"
+  },
+  "template": {
+    "type": "E-commerce Hero Image",
+    "product": {
+      "name": "{{product_name}}",
+      "material": "{{material_description}}",
+      "angle": "{{camera_angle}}"
+    },
+    "setting": {
+      "background": "{{background}}",
+      "lighting": "{{lighting}}"
+    },
+    "copywriting": {
+      "badges": "ARRAY of badge strings",
+      "slogan": "{{slogan}}"
+    },
+    "constraints": "{{quality_constraints}}"
+  },
+  "pitfalls": [
+    "材质和光影是灵魂：必须堆叠材质关键词（磨砂/金属/丝绸）和灯光（轮廓光/侧光）",
+    "文案只给核心1-2句（新品/限时/特价），字多了画面毁",
+    "商品角度要明确（3/4侧/正面/俯拍），不同角度质感差异巨大",
+    "食品摄影必须写明角度（flat lay俯拍/45°/侧面）+ 道具搭配"
+  ],
+  "examples": [
+    {
+      "description": "降噪耳机电商主图",
+      "filled": {
+        "type": "E-commerce Hero Image",
+        "product": {
+          "name": "无线降噪耳机",
+          "material": "Matte black finish with metallic accents",
+          "angle": "3/4 profile, floating slightly"
+        },
+        "setting": {
+          "background": "Minimalist studio, soft gray gradient",
+          "lighting": "Softbox overhead, sharp rim light on edges"
+        },
+        "copywriting": {
+          "badges": [
+            "NEW",
+            "¥1299"
+          ],
+          "slogan": "静界·无界"
+        },
+        "constraints": "Commercial photography quality, hyper-realistic textures"
+      }
+    }
+  ]
+}

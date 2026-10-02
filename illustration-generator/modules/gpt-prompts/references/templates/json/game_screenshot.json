@@ -1,0 +1,56 @@
+{
+  "category": "游戏截图",
+  "description": "游戏UI、游戏场景、游戏宣传图",
+  "presets": {
+    "engine": "Unreal Engine 5",
+    "render": "ray tracing, photorealistic rendering",
+    "aspect_ratio": "16:9"
+  },
+  "template": {
+    "type": "Game Screenshot",
+    "game_info": {
+      "genre": "{{game_genre}}",
+      "setting": "{{game_setting}}"
+    },
+    "scene": {
+      "environment": "{{environment}}",
+      "characters": "{{characters}}",
+      "action": "{{action}}"
+    },
+    "ui_overlay": {
+      "hud": "{{hud_elements}}",
+      "minimap": "{{minimap_description}}",
+      "health_bar": "{{health_bar_style}}"
+    },
+    "render": "{{render_quality}}"
+  },
+  "pitfalls": [
+    "游戏截图必须加引擎关键词（Unreal Engine 5 / Unity），否则画面太'干净'",
+    "HUD元素要具体列出（血条位置/小地图位置/弹药数/技能图标），模糊描述会出乱码",
+    "游戏类型决定画面风格：FPS要第一人称/TPS要过肩视角",
+    "场景截图不要角色——纯场景展示时明确写'no characters'"
+  ],
+  "examples": [
+    {
+      "description": "开放世界RPG城镇场景",
+      "filled": {
+        "type": "Game Screenshot",
+        "game_info": {
+          "genre": "Open World RPG",
+          "setting": "Medieval Fantasy"
+        },
+        "scene": {
+          "environment": "Bustling medieval market square, stone buildings, lanterns",
+          "characters": "NPCs walking, a merchant at a stall, player character in center",
+          "action": "Player browsing a merchant's wares"
+        },
+        "ui_overlay": {
+          "hud": "Minimal HUD: top-left health/stamina bars, bottom center ability icons",
+          "minimap": "Top-right circular minimap showing nearby NPCs as dots",
+          "health_bar": "Green/red gradient bar, character portrait next to it"
+        },
+        "render": "Unreal Engine 5, ray tracing, photorealistic, volumetric fog"
+      }
+    }
+  ]
+}

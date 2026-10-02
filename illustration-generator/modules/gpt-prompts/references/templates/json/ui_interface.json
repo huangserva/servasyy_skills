@@ -1,0 +1,80 @@
+{
+  "category": "UI界面设计",
+  "description": "App截图、Web界面、Dashboard、交互设计稿",
+  "presets": {
+    "platform": "iOS",
+    "layout": "Card-based feed with bottom tab bar",
+    "theme": "Light Mode",
+    "primary_color": "System Blue",
+    "aspect_ratio": "9:16",
+    "text_constraint": "Readable Chinese text, proper spacing, no placeholder content"
+  },
+  "template": {
+    "type": "UI Screenshot",
+    "platform": "{{platform}}",
+    "product": "{{product_name}}",
+    "layout": "{{layout}}",
+    "style": {
+      "theme": "{{theme}}",
+      "primary_color": "{{primary_color}}",
+      "accent_color": "{{accent_color}}",
+      "typography": "{{typography}}"
+    },
+    "content": {
+      "header": "{{header_text}}",
+      "main_area": "{{main_content_description}}",
+      "navigation": "{{nav_description}}"
+    },
+    "constraints": "High fidelity, readable text, {{aspect_ratio}} aspect ratio"
+  },
+  "pitfalls": [
+    "必须明确平台 + 比例 + 布局，否则模型乱排版",
+    "强制文字锁定：要求'文字绝对可读，必须显示指定的中文'，避免乱码火星文",
+    "不要写模糊的'好看的界面'，要写具体结构（Tab Bar/卡片流/列表）",
+    "主色/强调色要指定具体颜色名或hex，不能只说'蓝色'"
+  ],
+  "examples": [
+    {
+      "description": "iOS健身App界面",
+      "filled": {
+        "type": "UI Screenshot",
+        "platform": "iOS",
+        "product": "Fitness App",
+        "layout": "Card-based feed with bottom tab bar",
+        "style": {
+          "theme": "Dark Mode",
+          "primary_color": "Neon Green",
+          "accent_color": "Dark Charcoal",
+          "typography": "Clean sans-serif, SF Pro"
+        },
+        "content": {
+          "header": "今日活动",
+          "main_area": "运动数据卡片：跑步5.2km，消耗340kcal，步数8,200",
+          "navigation": "底部Tab Bar：首页/运动/发现/我的"
+        },
+        "constraints": "High fidelity, readable Chinese text, 9:16 aspect ratio"
+      }
+    },
+    {
+      "description": "Dashboard数据看板",
+      "filled": {
+        "type": "UI Screenshot",
+        "platform": "Web",
+        "product": "Analytics Dashboard",
+        "layout": "Left sidebar navigation + top header + main content with 4 KPI cards and 2 chart panels",
+        "style": {
+          "theme": "Dark Mode",
+          "primary_color": "Electric Blue",
+          "accent_color": "Neon Purple",
+          "typography": "Inter, clean data-driven sans-serif"
+        },
+        "content": {
+          "header": "数据概览 — 2026年4月",
+          "main_area": "顶部4个KPI卡片（DAU/收入/转化率/留存），下方折线图+柱状图",
+          "navigation": "左侧栏：概览/用户/收入/设置"
+        },
+        "constraints": "Professional data visualization, realistic data values, 16:9 aspect ratio"
+      }
+    }
+  ]
+}

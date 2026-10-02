@@ -1,0 +1,40 @@
+{
+  "category": "插画与艺术",
+  "description": "水墨、赛璐璐、厚涂、概念设计、吉卜力蒸汽朋克等各种插画风格",
+  "presets": {
+    "quality": "High quality illustration, suitable for cover or social media"
+  },
+  "template": {
+    "type": "Artistic Illustration",
+    "art_style": "{{art_style}}",
+    "scene": {
+      "description": "{{scene_description}}",
+      "details": "{{scene_details}}"
+    },
+    "palette": "{{color_palette}}",
+    "technique": "{{technique}}",
+    "mood": "{{mood}}"
+  },
+  "pitfalls": [
+    "锁定笔触：不限制笔触（厚涂/水彩晕染），AI会出默认塑料风",
+    "慎用大师名：建议提取特征（如'旋转星空笔触'）而非直接写大师名",
+    "传统中国画要写明'authentic traditional painting, not digital art'约束",
+    "吉卜力风满构图是核心：画面每个角落都塞满细节"
+  ],
+  "examples": [
+    {
+      "description": "吉卜力飞天鲸鱼",
+      "filled": {
+        "type": "Artistic Illustration",
+        "art_style": "Studio Ghibli inspired anime style",
+        "scene": {
+          "description": "A giant flying whale carrying a small cozy village on its back",
+          "details": "Windmills turning, tiny people looking over the edge, fluffy white clouds"
+        },
+        "palette": "Vibrant sky blue, lush greens, soft pastel accents",
+        "technique": "Cel shading, detailed background art, soft glowing magical aura",
+        "mood": "Whimsical, adventurous, nostalgic"
+      }
+    }
+  ]
+}

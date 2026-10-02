@@ -1,0 +1,45 @@
+{
+  "krea2-t2i": {
+    "nodes": ["CLIPTextEncode", "ConditioningZeroOut"],
+    "clip_type": "krea2",
+    "models_any": ["krea2_turbo_fp8.safetensors", "krea2_turbo_fp8_scaled.safetensors"],
+    "clips_any": ["qwen3vl_4b_fp8_scaled.safetensors", "qwen3vl_4b_bf16.safetensors"],
+    "vaes": ["qwen_image_vae.safetensors"]
+  },
+  "krea2-identity": {
+    "nodes": ["Krea2EditModelPatch", "Krea2EditGroundedEncode"],
+    "node_required_inputs": {
+      "Krea2EditModelPatch": ["model", "source_latent"],
+      "Krea2EditGroundedEncode": ["clip", "prompt"]
+    },
+    "clip_type": "krea2",
+    "models_any": ["krea2_turbo_fp8.safetensors", "krea2_turbo_fp8_scaled.safetensors"],
+    "clips_any": ["qwen3vl_4b_fp8_scaled.safetensors", "qwen3vl_4b_bf16.safetensors"],
+    "vaes": ["qwen_image_vae.safetensors"],
+    "loras": ["krea2_identity_edit_v1.safetensors"]
+  },
+  "krea2-ostris": {
+    "nodes": ["Krea2OstrisEditModelPatch", "TextEncodeKrea2OstrisEdit"],
+    "node_required_inputs": {
+      "Krea2OstrisEditModelPatch": ["model"],
+      "TextEncodeKrea2OstrisEdit": ["clip", "prompt"]
+    },
+    "clip_type": "krea2",
+    "models_any": ["krea2_turbo_fp8.safetensors", "krea2_turbo_fp8_scaled.safetensors"],
+    "clips_any": ["qwen3vl_4b_fp8_scaled.safetensors", "qwen3vl_4b_bf16.safetensors"],
+    "vaes": ["qwen_image_vae.safetensors"],
+    "loras": ["krea2_lora-edit-step00005310.safetensors"]
+  },
+  "qwen-edit": {
+    "nodes": ["TextEncodeQwenImageEditPlus", "FluxKontextMultiReferenceLatentMethod", "ModelSamplingAuraFlow", "CFGNorm"],
+    "models_any": ["qwen_image_edit_2511_bf16.safetensors", "qwen_image_edit_2511_fp8_lightning_4steps.safetensors"],
+    "clips_any": ["qwen_2.5_vl_7b_fp8_scaled.safetensors"],
+    "vaes": ["qwen_image_vae.safetensors"]
+  },
+  "zimage": {
+    "nodes": ["ZImageLoader", "ZImageSampler"]
+  },
+  "ltx-director": {
+    "nodes": ["LTXDirector", "LTXDirectorGuide", "LTXVConcatAVLatent"]
+  }
+}

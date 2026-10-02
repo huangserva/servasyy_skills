@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-27",
+  "backup": "/Users/serva/.codex/skill-backups/image-unification-20260927-131210",
+  "gpt_source": "/Users/serva/.hermes/skills/creative/prompt-generator-gpt",
+  "moved_modules": [
+    "rare-style-explorer",
+    "shan-ze-school",
+    "character-candid-photography",
+    "vibeshot-candid-photography",
+    "summer-boyfriend-pov",
+    "guizang-social-card-skill",
+    "cinematic-i2i-continuity"
+  ],
+  "old_paths": "compatibility symlinks; no SKILL.md entrypoints",
+  "gpt_resources": "Copied; Codex collection is independent of Hermes updates",
+  "backend": "Reuse existing Claude/Hermes installations, no credentials copied"
+}

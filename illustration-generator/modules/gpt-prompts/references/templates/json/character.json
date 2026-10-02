@@ -1,0 +1,83 @@
+{
+  "category": "人物与角色",
+  "description": "3D潮玩人格卡、角色设计、二次元人物、人像海报",
+  "presets": {
+    "style": "3D blind box toy style, chibi proportions, matte clay texture",
+    "background": "Clean pastel gradient, soft studio lighting",
+    "aspect_ratio": "9:16"
+  },
+  "template": {
+    "type": "Character Design",
+    "character": {
+      "name": "{{character_name}}",
+      "personality": "{{personality_keywords}}",
+      "appearance": {
+        "hair": "{{hair_description}}",
+        "outfit": "{{outfit_description}}",
+        "accessories": "{{accessories}}",
+        "expression": "{{expression}}"
+      }
+    },
+    "pose": "{{pose_description}}",
+    "style": "{{art_style}}",
+    "background": "{{background}}",
+    "ui_elements": {
+      "name_tag": "{{name_tag_style}}",
+      "stats": "ARRAY of {label, value}",
+      "badges": "ARRAY of badge descriptions"
+    }
+  },
+  "pitfalls": [
+    "人格卡必须带参考图(--image)生成，纯文字prompt效果差很多",
+    "配色统一不要冷暖反差：人物和背景同一色系，靠发色/白色衣物自然区分",
+    "男生角色不用粉色，用藏蓝+红或深青+红，保留米白亮底",
+    "暗底会丢掉可爱反差感，坚持浅色/亮底",
+    "角色属性标签要写具体数值（如'创造力 92'），不要模糊描述"
+  ],
+  "examples": [
+    {
+      "description": "赛博朋克少女人格卡",
+      "filled": {
+        "type": "Character Design",
+        "character": {
+          "name": "GLITCH",
+          "personality": [
+            "叛逆",
+            "技术天才",
+            "外表冷酷内心柔软"
+          ],
+          "appearance": {
+            "hair": "荧光粉短发，一侧剃短",
+            "outfit": "oversized黑色卫衣+荧光绿背包带",
+            "accessories": "大号耳机挂在脖子，右手持全息投影设备",
+            "expression": "自信微笑，眼神带点桀骜"
+          }
+        },
+        "pose": "3/4侧身，一手叉腰一手举设备，微微仰头",
+        "style": "3D blind box toy style, chibi proportions, matte clay texture",
+        "background": "Mint green + pink pastel gradient, soft studio lighting",
+        "ui_elements": {
+          "name_tag": "底部居中，圆角胶囊形标签'GLITCH'",
+          "stats": [
+            {
+              "label": "技术力",
+              "value": 95
+            },
+            {
+              "label": "叛逆值",
+              "value": 88
+            },
+            {
+              "label": "社交力",
+              "value": 42
+            }
+          ],
+          "badges": [
+            "⚡黑客",
+            "🎮电竞"
+          ]
+        }
+      }
+    }
+  ]
+}

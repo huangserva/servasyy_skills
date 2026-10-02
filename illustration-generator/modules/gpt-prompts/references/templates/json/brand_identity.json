@@ -1,0 +1,54 @@
+{
+  "category": "品牌与标志",
+  "description": "Logo设计、VI品牌识别系统",
+  "presets": {
+    "background": "Pure white background",
+    "style": "Modern corporate, flat vector, high contrast",
+    "deliverables": [
+      "Logo mark",
+      "Color palette",
+      "Business card mockup"
+    ]
+  },
+  "template": {
+    "type": "Brand Identity Design",
+    "brand": {
+      "name": "{{brand_name}}",
+      "industry": "{{industry}}",
+      "keywords": "ARRAY of brand attribute strings"
+    },
+    "deliverables": "ARRAY of deliverable descriptions",
+    "style": "{{visual_style}}",
+    "constraints": "No gradients (unless intentional), scalable vector style, clean white background"
+  },
+  "pitfalls": [
+    "先定义品牌关键词（innovative/minimalist/trustworthy），再要求视觉输出",
+    "强制纯白背景方便后期抠图",
+    "做减法：别让它画复杂插画当Logo，Logo要简洁可缩放",
+    "展示多种变体（彩色/单色/反白）更专业"
+  ],
+  "examples": [
+    {
+      "description": "AI科技公司品牌设计",
+      "filled": {
+        "type": "Brand Identity Design",
+        "brand": {
+          "name": "Nova Dynamics",
+          "industry": "AI Technology",
+          "keywords": [
+            "Innovative",
+            "Minimalist",
+            "Trustworthy"
+          ]
+        },
+        "deliverables": [
+          "Logo mark (geometric fusion of a neural network node and a star)",
+          "Color palette (Electric Blue and Pure White)",
+          "Business card mockup"
+        ],
+        "style": "Modern corporate, flat vector, high contrast",
+        "constraints": "No gradients, scalable vector style, clean white background for logo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "category": "建筑与空间",
+  "description": "室内设计效果图、建筑外观渲染",
+  "presets": {
+    "camera": "Eye-level perspective, wide-angle lens",
+    "render_quality": "Unreal Engine 5 style, hyper-realistic, ray tracing"
+  },
+  "template": {
+    "type": "Architectural Visualization",
+    "space": {
+      "type": "{{space_type}}",
+      "function": "{{function}}",
+      "materials": "{{materials}}"
+    },
+    "environment": "{{surrounding_environment}}",
+    "camera": {
+      "angle": "{{camera_angle}}",
+      "lighting": "{{lighting}}"
+    },
+    "render_quality": "{{render_quality}}"
+  },
+  "pitfalls": [
+    "建筑图最容易透视变形，用'Eye-level perspective'压住",
+    "冷暖对比是作弊码：室外冷蓝+室内暖黄",
+    "材质要具体（混凝土/木地板/大理石/金属），不能只说'现代材质'",
+    "时间/天气要指定（白天/黄昏/夜景），不同时间氛围差异巨大"
+  ],
+  "examples": [
+    {
+      "description": "雪林中现代木屋",
+      "filled": {
+        "type": "Architectural Visualization",
+        "space": {
+          "type": "Modern Cabin Interior",
+          "function": "Living room",
+          "materials": "Exposed concrete, large floor-to-ceiling glass, warm timber accents"
+        },
+        "environment": "Nestled in a dense, snowy pine forest visible through the glass",
+        "camera": {
+          "angle": "Eye-level perspective, wide-angle lens",
+          "lighting": "Golden hour, warm interior lights glowing, cool blue ambient light outside"
+        },
+        "render_quality": "Unreal Engine 5 style, hyper-realistic, ray tracing"
+      }
+    }
+  ]
+}

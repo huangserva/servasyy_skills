@@ -1,0 +1,58 @@
+{
+  "category": "历史与古风题材",
+  "description": "仙侠、武侠、古风人物、水墨、国潮古风",
+  "presets": {
+    "aspect_ratio": "9:16",
+    "style": "CG级古风写实+幻想化，高精度人物渲染"
+  },
+  "template": {
+    "type": "Historical Fantasy Art",
+    "era": "{{historical_era_or_setting}}",
+    "subject": {
+      "character": "{{character_description}}",
+      "attire": "{{costume_details}}",
+      "weapon_or_item": "{{signature_item}}"
+    },
+    "scene": "{{scene_description}}",
+    "atmosphere": {
+      "color_palette": "{{color_palette}}",
+      "lighting": "{{lighting}}",
+      "effects": "{{special_effects}}"
+    },
+    "text_overlay": {
+      "calligraphy": "{{calligraphy_text}}",
+      "position": "{{text_position}}"
+    }
+  },
+  "pitfalls": [
+    "朝代服饰要写明确（唐圆领袍/明制汉服/宋制褙子），否则会串朝代",
+    "武器/法器是古风角色的灵魂，必须详细描述",
+    "水墨风要加'authentic Chinese ink wash, rice paper texture, not digital filter'",
+    "仙侠场景特效关键词：灵气/仙雾/法阵光芒/九天玄雷",
+    "古风文字排版要用'书法体竖排'，不要用现代字体"
+  ],
+  "examples": [
+    {
+      "description": "仙侠魔尊",
+      "filled": {
+        "type": "Historical Fantasy Art",
+        "era": "上古洪荒，魔界深渊",
+        "subject": {
+          "character": "冷酷魔尊，面容俊美，血红色瞳孔，银白长发飘逸",
+          "attire": "黑底暗纹宽袖长袍，肩甲为龙骨造型，腰系血玉佩",
+          "weapon_or_item": "右手持漆黑长剑，剑身缠绕紫色魔气"
+        },
+        "scene": "深渊魔宫之上，脚下万丈深渊，身后巨型魔族图腾",
+        "atmosphere": {
+          "color_palette": "暗紫+深黑+血红点缀",
+          "lighting": "逆光，从身后魔阵中射出紫光",
+          "effects": "紫色魔气缭绕，头发随风飘动"
+        },
+        "text_overlay": {
+          "calligraphy": "魔道至尊",
+          "position": "左侧竖排，行书体"
+        }
+      }
+    }
+  ]
+}

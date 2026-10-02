@@ -1,0 +1,29 @@
+# Local test workspace — demos, screenshots, downloaded assets, debug scripts.
+# Skill iterates only on SKILL.md / references/ / assets/ / agents/ / validate.
+local-tests/
+outputs/
+
+# Guard against accidental task artifacts created in the skill root.
+/social-card-*/
+/livephoto-*/
+/wechat-*/
+/output/
+/*.png
+/*.jpg
+/*.jpeg
+/*.mov
+/*.mp4
+/*.pvt/
+
+# Node + macOS
+node_modules/
+py-libs/
+.DS_Store
+*.log
+npm-debug.log*
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vscode/
+.idea/

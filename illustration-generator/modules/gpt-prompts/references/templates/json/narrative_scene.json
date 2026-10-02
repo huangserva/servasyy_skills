@@ -1,0 +1,62 @@
+{
+  "category": "场景与叙事",
+  "description": "电影分镜、故事场景、概念设定、短剧帧",
+  "presets": {
+    "aspect_ratio": "16:9",
+    "quality": "Cinematic quality, dramatic lighting"
+  },
+  "template": {
+    "type": "Narrative Scene",
+    "story_context": {
+      "setting": "{{time_and_place}}",
+      "mood": "{{mood}}",
+      "narrative_beat": "{{what_is_happening}}"
+    },
+    "characters": "ARRAY of {description, action, emotion}",
+    "composition": {
+      "shot_type": "{{shot_type}}",
+      "camera_angle": "{{camera_angle}}",
+      "focus": "{{focal_point}}"
+    },
+    "environment": "{{environment_details}}",
+    "lighting": "{{lighting}}"
+  },
+  "pitfalls": [
+    "场景和角色必须分开描述：先写环境再写角色动作",
+    "用电影术语控制画面：close-up/medium shot/wide shot/over-the-shoulder",
+    "叙事节拍(narrative beat)要明确——画面里正在发生什么事",
+    "情绪关键词比场景描述更能决定画面氛围"
+  ],
+  "examples": [
+    {
+      "description": "雨夜巷道对峙",
+      "filled": {
+        "type": "Narrative Scene",
+        "story_context": {
+          "setting": "Neon-lit alleyway, heavy rain, midnight",
+          "mood": "Tense, noir atmosphere",
+          "narrative_beat": "Two figures face each other, a secret about to be revealed"
+        },
+        "characters": [
+          {
+            "description": "Woman in trench coat, wet hair",
+            "action": "Holding up a glowing USB drive",
+            "emotion": "Determined, slightly fearful"
+          },
+          {
+            "description": "Man in dark suit",
+            "action": "Reaching toward her",
+            "emotion": "Urgent, conflicted"
+          }
+        ],
+        "composition": {
+          "shot_type": "Medium shot, waist up",
+          "camera_angle": "Slightly low angle",
+          "focus": "The glowing USB drive between them"
+        },
+        "environment": "Neon signs reflecting on wet pavement, steam rising from manhole",
+        "lighting": "Neon blue and pink cross-lighting, rain backlit"
+      }
+    }
+  ]
+}

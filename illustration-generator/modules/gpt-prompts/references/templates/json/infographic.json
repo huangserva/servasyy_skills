@@ -1,0 +1,70 @@
+{
+  "category": "图表与信息可视化",
+  "description": "信息图、数据可视化、科普海报、流程图",
+  "presets": {
+    "style": "科技产品发布风格",
+    "background": "纯白 #FFFFFF",
+    "primary_color": "亮红 #E74C3C",
+    "layout": "圆角卡片网格",
+    "aspect_ratio": "9:16"
+  },
+  "template": {
+    "type": "Infographic",
+    "topic": "{{topic}}",
+    "audience": "{{audience}}",
+    "structure": {
+      "title_area": "{{title}}",
+      "layout": "{{layout_description}}",
+      "modules": "ARRAY of {icon, title, description}"
+    },
+    "style": {
+      "aesthetic": "{{aesthetic}}",
+      "colors": "{{color_scheme}}",
+      "background": "{{background}}"
+    },
+    "constraints": "No cyberpunk, no gibberish text, strict structural layout"
+  },
+  "pitfalls": [
+    "控制模块数量：强制定制模块数和图表类型，降低画面混乱",
+    "文案克制：用短句文案，不要把大段正文塞进画面",
+    "所有文字在prompt中明确写出具体内容，不要让模型自由发挥",
+    "右上角主题线稿插图是灵魂，不要用通用图标"
+  ],
+  "examples": [
+    {
+      "description": "城市生命系统信息图",
+      "filled": {
+        "type": "Infographic",
+        "topic": "城市代谢系统",
+        "audience": "General Public",
+        "structure": {
+          "title_area": "城市生命系统图谱",
+          "layout": "Isometric cutaway, 12 numbered panels",
+          "modules": [
+            {
+              "icon": "lightning",
+              "title": "能源",
+              "description": "城市电力流向"
+            },
+            {
+              "icon": "water_drop",
+              "title": "水循环",
+              "description": "供水与排水系统"
+            },
+            {
+              "icon": "recycle",
+              "title": "废物",
+              "description": "垃圾分类与处理"
+            }
+          ]
+        },
+        "style": {
+          "aesthetic": "Scientific atlas",
+          "colors": "Low saturation, color-coded flows",
+          "background": "Light paper texture"
+        },
+        "constraints": "No cyberpunk, no gibberish text, strict structural layout, 9:16"
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "category": "摄影与写实",
+  "description": "人像写真、街拍纪实、商业产品摄影",
+  "presets": {
+    "film_aesthetic": "Natural color, subtle grain",
+    "quality": "Ultra-realistic, detailed skin texture"
+  },
+  "template": {
+    "type": "Hyper-realistic Photography",
+    "subject": {
+      "description": "{{subject_description}}",
+      "details": "{{subject_details}}"
+    },
+    "setting": "{{setting}}",
+    "camera_specs": {
+      "gear": "{{camera_gear}}",
+      "aperture": "{{aperture}}",
+      "lighting": "{{lighting}}"
+    },
+    "film_aesthetic": "{{film_style}}"
+  },
+  "pitfalls": [
+    "加瑕疵让AI人更真实：skin pores/雀斑/轻微胶片颗粒",
+    "用参数说话：f/1.4代替'浅景深'，50mm代替'半身照'",
+    "描述服装和情绪比写镜头参数更重要（人像写真类）",
+    "街拍要强调'生活气息'和'正在发生的事'"
+  ],
+  "examples": [
+    {
+      "description": "咖啡馆咖啡师",
+      "filled": {
+        "type": "Hyper-realistic Photography",
+        "subject": {
+          "description": "A weary 30-year-old barista wiping a coffee cup",
+          "details": "Subtle sweat on forehead, detailed skin pores, wearing a denim apron"
+        },
+        "setting": "Dimly lit vintage cafe, rain visible through the window behind",
+        "camera_specs": {
+          "gear": "Shot on Sony A7R IV, 50mm lens",
+          "aperture": "f/1.4, shallow depth of field, background completely blurred",
+          "lighting": "Cinematic lighting, neon sign reflecting on wet window, soft rim light on subject's hair"
+        },
+        "film_aesthetic": "Kodak Portra 400 emulation, subtle film grain"
+      }
+    }
+  ]
+}

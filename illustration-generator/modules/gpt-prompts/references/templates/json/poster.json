@@ -1,0 +1,105 @@
+{
+  "category": "海报与排版",
+  "description": "电影海报、社媒配图、国潮海报、品牌海报、自然科普海报等",
+  "presets": {
+    "aspect_ratio": "9:16",
+    "text_rendering": "exact text rendering, no extra words",
+    "quality": "high resolution, suitable for social media"
+  },
+  "template": {
+    "type": "{{poster_type}} Poster",
+    "theme": "{{theme}}",
+    "typography": {
+      "headline": "{{headline_text}}",
+      "subheading": "{{subheading_text}}",
+      "layout": "{{text_layout}}"
+    },
+    "visuals": {
+      "subject": "{{subject_description}}",
+      "style": "{{visual_style}}",
+      "color_palette": "{{color_palette}}"
+    },
+    "vibe": "{{mood_keywords}}"
+  },
+  "pitfalls": [
+    "主视觉必须写清楚具体是什么，不能只说'做一张海报'",
+    "主标题和副标题都要写死，否则模型疯狂加戏瞎编文字",
+    "自然科普海报主体必须极度放大占50-70%画面",
+    "国潮海报文字即设计元素，要在prompt中写明每段文字的内容和位置",
+    "文字排版要精确描述（如'左上大号竖排'），不能笼统说'添加中文文字'"
+  ],
+  "examples": [
+    {
+      "description": "星际旅行电影海报",
+      "filled": {
+        "type": "Movie Poster",
+        "theme": "Interstellar Journey",
+        "typography": {
+          "headline": "BEYOND STARS",
+          "subheading": "A New Era Begins",
+          "layout": "Centered, bold cinematic font, bottom heavy"
+        },
+        "visuals": {
+          "subject": "Silhouette of an astronaut looking at a glowing nebula",
+          "style": "Cinematic lighting, high contrast, dramatic shadows",
+          "color_palette": "Deep space blue, glowing orange accents"
+        },
+        "vibe": "Epic, mysterious, vast"
+      }
+    },
+    {
+      "description": "国潮概念海报",
+      "filled": {
+        "type": "Guochao AIGC Concept Poster",
+        "theme": "李白·醉酒诗仙",
+        "typography": {
+          "headline": "醉劍詩仙",
+          "subheading": "將進酒·杯莫停",
+          "layout": "左上大号书法竖排标题，右中散布竖排诗句"
+        },
+        "visuals": {
+          "subject": "CG级古风人物动态舞剑姿态，高精度写实+幻想化",
+          "style": "暗夜底色+暖金方向光，牡丹花瓣飘落，传统宫殿背景",
+          "color_palette": "深蓝夜空+暖金光+酒红点缀"
+        },
+        "vibe": "奢华梦幻，浪漫豪放"
+      }
+    },
+    {
+      "description": "历史传记史诗海报（叶卡捷琳娜大帝风格）",
+      "filled": {
+        "type": "Historical Epic Biopic Promotional Poster",
+        "theme": "CATHERINE THE GREAT — Empress of All Russia, 1729-1796",
+        "typography": {
+          "headline": "CATHERINE / THE GREAT",
+          "subheading": "EMPRESS. REFORMER. LEGEND. / FROM PRINCESS TO IMMORTAL.",
+          "layout": "Top-left: small white uppercase serif text with character name, dates, narrative lines. Center: heraldic double-headed eagle Romanov crest. Bottom: massive 3D polished gold uppercase title with filigree scroll ornamentation and small crown above. Below title: gold handwritten-script tagline. Very bottom: small white uppercase taglines."
+        },
+        "visuals": {
+          "subject": "Multi-layered composition — (1) Upper right: giant semi-translucent profile bust portrait of Catherine facing right, warm golden sunlight on one half, other half in shadow, hair dissolving into storm clouds (ghost portrait element). (2) Center foreground: full-body standing portrait in ornate royal gown with gold embroidery, ermine-trimmed royal cloak, blue Order of St. Andrew sash, small crown, holding golden scepter with eagle ornament. (3) Background: St. Petersburg baroque palaces with gilded onion domes on right, 18th-century imperial sailing ships with double-headed eagle flags on left. (4) Bottom: churning dark blue-grey seawater, waves crashing around hem of gown.",
+          "style": "Hollywood historical epic biopic poster, dramatic chiaroscuro lighting, dark storm clouds contrasted with golden sunlight breaking through, rich polished gold + deep royal blue + cream/ivory palette",
+          "color_palette": "Rich gold (#D4AF37), deep royal blue (#1B2A4A), cream/ivory (#FFFFF0), charcoal grey (#36454F), warm golden highlights"
+        },
+        "vibe": "Grandeur, regal authority, epic historical drama, power and destiny"
+      }
+    },
+    {
+      "description": "ACG角色史诗海报（路飞·海贼王风格）",
+      "filled": {
+        "type": "ACG Character Epic Promotional Poster",
+        "theme": "MONKEY D. LUFFY — Captain, Straw Hat Pirates, Future Pirate King",
+        "typography": {
+          "headline": "LUFFY (textured 3D scratched worn-metal gold letters, silhouette cut into letter U)",
+          "subheading": "I'M GONNA BE KING OF THE PIRATES / モンキー・D・ルフィ / THE FUTURE PIRATE KING",
+          "layout": "Top-left: wanted-poster style text block — 'WANTED' large serif header, 'MONKEY D. LUFFY' / 'STRAW HAT PIRATES', 'CAPTAIN' / 'STRAW HAT LUFFY', jolly roger icon, vertical quote block. Bottom: massive 3D gold/steel title with character silhouette. Below title: handwritten brush-style gold tagline. Very bottom: small Japanese + English bilingual text."
+        },
+        "visuals": {
+          "subject": "Multi-layered composition — (1) Upper 1/3: massive close-up profile portrait of Luffy facing right, backlit by golden sunlight through storm clouds, straw hat with red ribbon, X-scar under left eye, serious resolute expression, rim lighting. (2) Center: dynamic full-body shot of Luffy rushing toward viewer, right fist outstretched with depth blur, grinning wide, wearing red jacket (unbuttoned), scarred torso, blue shorts, black flip-flops, leaping over turbulent ocean waves with water spray. (3) Background: pirate ship fleet on choppy ocean, massive stone castle with Straw Hat jolly roger banners, dark storm + golden sunset sky. (4) Bottom: foamy dark ocean waves splashing around Luffy's legs.",
+          "style": "Hyperrealistic cinematic ACG poster, golden-hour backlight, lens flare, dark/light contrast, floating spark/ember particles, worn metallic textures",
+          "color_palette": "Warm gold/orange, dark ocean blue, Luffy's signature red, worn wood brown, cream highlights"
+        },
+        "vibe": "Adventure, freedom, unstoppable willpower, epic pirate saga"
+      }
+    }
+  ]
+}

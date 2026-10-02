@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematic I2I Continuity"
+  short_description: "Plan and execute consistent multi-shot image pipelines"
+  default_prompt: "Use $cinematic-i2i-continuity to plan and execute a consistent multi-shot image pipeline from fixed character masters."

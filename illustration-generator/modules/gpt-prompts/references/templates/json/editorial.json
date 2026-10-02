@@ -1,0 +1,49 @@
+{
+  "category": "文档与出版物",
+  "description": "杂志封面、书籍封面、社论配图、报告封面",
+  "presets": {
+    "aspect_ratio": "3:4",
+    "style": "Professional editorial design"
+  },
+  "template": {
+    "type": "Editorial Design",
+    "publication_type": "{{magazine_cover|book_cover|report_cover}}",
+    "title": "{{main_title}}",
+    "subtitle": "{{subtitle}}",
+    "cover_visual": {
+      "subject": "{{subject}}",
+      "style": "{{visual_style}}"
+    },
+    "layout": {
+      "text_placement": "{{text_layout}}",
+      "masthead": "{{masthead_or_imprint}}"
+    },
+    "color_scheme": "{{color_scheme}}"
+  },
+  "pitfalls": [
+    "杂志封面文字布局要预留——标题放顶部/底部，主体放中间",
+    "书籍封面主体必须和内容强关联，不能随便配图",
+    "报告封面简洁大方：几何图案+公司色+标题，不要堆砌",
+    "封面文字必须精确给出，包括字体风格（如'bold sans-serif'）"
+  ],
+  "examples": [
+    {
+      "description": "科技杂志封面",
+      "filled": {
+        "type": "Editorial Design",
+        "publication_type": "magazine_cover",
+        "title": "TECH FRONTIER",
+        "subtitle": "2026年4月刊 · AI觉醒之年",
+        "cover_visual": {
+          "subject": "Glowing AI brain made of light fibers merging with a human silhouette",
+          "style": "Futuristic, clean, high-tech, holographic"
+        },
+        "layout": {
+          "text_placement": "Title at top center bold, subtitle below in smaller font",
+          "masthead": "科技前沿"
+        },
+        "color_scheme": "Deep navy blue background, electric blue and white text, cyan accents"
+      }
+    }
+  ]
+}
