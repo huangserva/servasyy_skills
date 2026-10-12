@@ -17,6 +17,24 @@ STYLES_DIR = MODULE_DIR / 'styles'
 LAYOUTS_DIR = MODULE_DIR / 'layouts'
 
 
+# 13 大顶级领域 (Domains) 与谱系风格映射（来自 Vibeshot 风格图谱体系）
+DOMAINS = {
+    "01": {"id": "A", "name": "西方艺术史与绘画", "name_en": "Western Art and Painting", "styles": ["baroque", "mannerism", "minimal", "elegant"]},
+    "02": {"id": "B", "name": "东方与全球传统", "name_en": "Eastern and Global Traditions", "styles": ["dunhuang", "blue-green-landscape", "ukiyoe"]},
+    "03": {"id": "C", "name": "插画、出版与概念设计", "name_en": "Illustration, Publishing and Concept Design", "styles": ["risograph", "gouache", "newyorker", "watercolor", "sketch", "editorial", "warm"]},
+    "04": {"id": "D", "name": "漫画、动漫与角色", "name_en": "Comics, Anime and Characters", "styles": ["anime", "cel-shading", "cute"]},
+    "05": {"id": "E", "name": "平面、海报与排版", "name_en": "Graphic Design, Posters and Typography", "styles": ["art-deco-graphic", "psychedelic-poster", "flat", "chalkboard"]},
+    "06": {"id": "F", "name": "摄影、光学与胶片", "name_en": "Photography, Optics and Film", "styles": ["film-35mm", "long-exposure"]},
+    "07": {"id": "G", "name": "电影、电视与视频", "name_en": "Cinema, Television and Video", "styles": ["three-strip-technicolor", "hollywood-musical", "vintage", "retro"]},
+    "08": {"id": "H", "name": "CG、3D、数字与游戏", "name_en": "CG, 3D, Digital Art and Games", "styles": ["low-poly", "voxel-art", "pixel-art", "tech", "blueprint", "scientific"]},
+    "09": {"id": "I", "name": "动画与动态设计", "name_en": "Animation and Motion Design", "styles": ["clay-stop-motion", "cel-animation", "playful"]},
+    "10": {"id": "J", "name": "UI、UX与界面", "name_en": "UI, UX and Interfaces", "styles": ["liquid-glass-ui", "claymorphic-ui", "notion"]},
+    "11": {"id": "K", "name": "流行文化、亚文化与网络审美", "name_en": "Popular Culture, Subcultures and Internet Aesthetics", "styles": ["cyberpunk", "solarpunk", "nature"]},
+    "12": {"id": "L", "name": "建筑、空间与环境", "name_en": "Architecture, Spaces and Environments", "styles": ["art-nouveau-architecture", "postmodern-architecture"]},
+    "13": {"id": "M", "name": "材质、表面与产品", "name_en": "Materials, Surfaces and Products", "styles": ["cloisonne-enamel", "playful-rounded-product"]},
+}
+
+
 class IllustrationGenerator:
     """配图生成器，支持风格和布局组合"""
     
@@ -38,6 +56,21 @@ class IllustrationGenerator:
     def list_layouts(self) -> List[str]:
         """列出所有可用布局"""
         return [f.stem for f in LAYOUTS_DIR.glob('*.yaml')]
+
+    def list_domains(self) -> Dict[str, Any]:
+        """列出 13 大风格领域及其下属风格"""
+        return DOMAINS
+
+    def get_styles_by_domain(self, domain_key: str) -> List[str]:
+        """获取指定领域的风格列表（支持 '01'/'09'/'A'/'I'/中文关键字）"""
+        k = str(domain_key).strip().lower()
+        for num, info in DOMAINS.items():
+            if (num == k or 
+                num.lstrip('0') == k.lstrip('0') or 
+                info['id'].lower() == k or 
+                k in info['name'].lower()):
+                return info['styles']
+        return []
     
     def get_style_info(self, style: str) -> Optional[Dict[str, Any]]:
         """获取风格详情"""
@@ -403,6 +436,30 @@ class IllustrationGenerator:
             'mannerism': {
                 'words': ['矫饰主义', '拉长', '优雅冷色', '文艺复兴晚期'],
                 'layout': 'single'
+            },
+            'art-nouveau-architecture': {
+                'words': ['新艺术', '建筑', '高迪', '立面', '有机曲线', '空间美学', '铁艺'],
+                'layout': 'scene'
+            },
+            'postmodern-architecture': {
+                'words': ['后现代', '孟菲斯', '波普建筑', '反叛', '拼贴建筑', '现代空间'],
+                'layout': 'scene'
+            },
+            'playful-rounded-product': {
+                'words': ['产品设计', '硬件', '数码', '圆润', '工业设计', '硅胶', '造型', '好物'],
+                'layout': 'single'
+            },
+            'cel-animation': {
+                'words': ['逐帧', '手绘动画', '吉卜力', '宫崎骏', '动画电影', '手绘质感', '童话'],
+                'layout': 'scene'
+            },
+            'hollywood-musical': {
+                'words': ['歌舞', '百老汇', '音乐剧', '盛大', '舞台', '戏剧', '高光'],
+                'layout': 'scene'
+            },
+            'anime': {
+                'words': ['番剧', '轻小说', '日系', '少年感', '二次元壁纸', '热血', '青春'],
+                'layout': 'single'
             }
         }
         
@@ -421,15 +478,18 @@ class IllustrationGenerator:
             score = info['score']
             confidence = min(score / 5.0, 1.0) if score > 0 else 0.3
             
-            # 生成推荐理由
-            style_config = self._load_style(style)
+            # 生成推荐理由与领域信息
+            style_config = self._load_style(style) or {}
             reason = self._generate_style_reason(style, content)
             
             result = {
                 'style': style,
                 'layout': info['layout'],
                 'confidence': confidence,
-                'reason': reason
+                'reason': reason,
+                'domain': style_config.get('domain', ''),
+                'domain_id': style_config.get('domain_id', ''),
+                'lineage': style_config.get('lineage', '')
             }
             
             if detailed and style_config:
@@ -442,18 +502,43 @@ class IllustrationGenerator:
             
             results.append(result)
         
-        # 如果没有匹配，返回默认
+        # 如果没有匹配，返回多领域经典推荐
         if not results or all(r['confidence'] < 0.1 for r in results):
             results = [
-                {'style': 'newyorker', 'layout': 'single', 'confidence': 0.5, 'reason': '通用风格，适合大多数内容'},
-                {'style': 'notion', 'layout': 'infographic', 'confidence': 0.4, 'reason': '极简手绘，知识分享'},
-                {'style': 'flat', 'layout': 'flow', 'confidence': 0.4, 'reason': '扁平插画，商业通用'}
+                {
+                    'style': 'newyorker', 
+                    'layout': 'single', 
+                    'confidence': 0.5, 
+                    'reason': '【03 插画、出版与概念设计 · 编辑与文学插画】人文极简钢笔线条，通用经典',
+                    'domain': '03 插画、出版与概念设计',
+                    'lineage': '编辑与文学插画'
+                },
+                {
+                    'style': 'notion', 
+                    'layout': 'infographic', 
+                    'confidence': 0.4, 
+                    'reason': '【10 UI、UX与界面 · 界面系统与极简卡片】极简手绘卡片，适合知识点拆解',
+                    'domain': '10 UI、UX与界面',
+                    'lineage': '界面系统与极简卡片'
+                },
+                {
+                    'style': 'clay-stop-motion', 
+                    'layout': 'scene', 
+                    'confidence': 0.4, 
+                    'reason': '【09 动画与动态设计 · 木偶与黏土定格】实体手工温暖质感，亲和力极强',
+                    'domain': '09 动画与动态设计',
+                    'lineage': '木偶与黏土定格'
+                }
             ]
         
         return results
     
     def _generate_style_reason(self, style: str, content: str) -> str:
-        """生成风格推荐理由"""
+        """生成风格推荐理由（附带 13 领域与谱系信息）"""
+        style_config = self._load_style(style) or {}
+        domain = style_config.get('domain', '')
+        lineage = style_config.get('lineage', '')
+
         reasons = {
             'tech': '科技/数据类内容',
             'notion': '知识分享/方法论',
@@ -462,7 +547,6 @@ class IllustrationGenerator:
             'ukiyoe': '历史/东方文化',
             'flat': '商业/流程类内容',
             'watercolor': '艺术/自然类内容',
-            # 新增风格
             'elegant': '高端商务/专业领域',
             'minimal': '极简主义/哲学思考',
             'playful': '入门教程/趣味内容',
@@ -475,9 +559,39 @@ class IllustrationGenerator:
             'retro': '复古潮流/娱乐文化',
             'blueprint': '系统架构/技术设计',
             'pixel-art': '游戏开发/程序员向',
-            'cute': '小红书/可爱甜美风'
+            'cute': '小红书/可爱甜美风',
+            'dunhuang': '古典神话/丝路文旅',
+            'blue-green-landscape': '名山大川/东方美学',
+            'risograph': '独立出版/波普版画',
+            'gouache': '治愈故事/温情绘本',
+            'three-strip-technicolor': '电影大片/高饱和戏剧',
+            'film-35mm': '胶片抓拍/人文真实',
+            'long-exposure': '流光溢彩/丝滑动态',
+            'clay-stop-motion': '定格动画/手工物理质感',
+            'voxel-art': '3D微缩/体素空间',
+            'low-poly': '极简几何/现代清爽',
+            'cel-shading': '二次元动漫画风',
+            'art-deco-graphic': '复古奢华/几何装饰',
+            'psychedelic-poster': '迷幻摇滚/酸性波普',
+            'cyberpunk': '赛博科幻/高科技夜景',
+            'solarpunk': '生态未来/绿色共生',
+            'liquid-glass-ui': '前沿毛玻璃/流体界面',
+            'claymorphic-ui': '轻软3D拟态界面',
+            'cloisonne-enamel': '非遗瑰宝/掐丝金线釉料',
+            'baroque': '古典史诗/戏剧明暗',
+            'mannerism': '优雅拉长/文艺复兴冷调',
+            'art-nouveau-architecture': '新艺术自然曲线/建筑空间',
+            'postmodern-architecture': '后现代解构/孟菲斯戏剧感',
+            'playful-rounded-product': '温润亲和/工业造型设计',
+            'cel-animation': '吉卜力手绘逐帧/治愈动势',
+            'hollywood-musical': '好莱坞盛大歌舞/黄金舞台',
+            'anime': '当代日系热血青春/精细角色'
         }
-        return reasons.get(style, '通用风格')
+        
+        base_desc = reasons.get(style, style_config.get('description', '专业视觉风格')[:25])
+        if domain and lineage:
+            return f"【{domain} · {lineage}】{base_desc}"
+        return base_desc
 
     def analyze_article(self, markdown_path: str) -> Dict[str, Any]:
         """

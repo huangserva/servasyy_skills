@@ -1,0 +1,31 @@
+name: cel-animation
+domain: 09 动画与动态设计
+domain_id: I
+lineage: 传统逐帧动画
+description: 经典黄金时代手绘胶片逐帧动画，带有纯手绘背景与灵动的赛璐璐角色上色。
+prompt_template: '经典手绘逐帧动画风格 (Classic Hand-Drawn Cel Animation)：
+
+  - 核心特征：吉卜力/迪士尼黄金时代纯手绘感，温暖水彩/不透明水粉背景，灵动流畅的角色动态线条
+
+  - 英文艺术关键词：Golden era hand-drawn frame-by-frame animation, painted background, fluid
+  character movement, nostalgic anime film still
+
+  - 材质光影：温暖自然日光，丰富云层与微风动势，胶片呼吸感
+
+  - 图中不要有任何文字、标签、水印或说明'
+colors:
+  primary: '#1E3A8A'
+  secondary: '#059669'
+  accent: '#F59E0B'
+  background: '#FEF3C7'
+characteristics:
+- 传统逐帧动画
+- 吉卜力手绘质感
+- 温暖治愈
+- 叙事张力
+best_for:
+- 故事绘本
+- 温暖散文
+- 动画影视
+- 旅行游记
+- 情感共鸣

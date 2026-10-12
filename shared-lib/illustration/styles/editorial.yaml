@@ -1,31 +1,36 @@
-# 杂志编辑风格
 name: editorial
 description: 杂志信息图风格，专业媒体感，适合科技解读和新闻
+prompt_template: '杂志编辑信息图风格：
 
-prompt_template: |
-  杂志编辑信息图风格：
   - 专业杂志的排版美感
+
   - 扁平化图标和图形
+
   - 清晰的信息层次
+
   - 现代的配色方案
+
   - 数据可视化元素
+
   - 图中不要有任何文字、标签、说明
 
+  '
 colors:
-  primary: "#1A1A2E"
-  accent: "#E94560"
-  background: "#FFFFFF"
-
+  primary: '#1A1A2E'
+  accent: '#E94560'
+  background: '#FFFFFF'
 characteristics:
-  - 杂志排版
-  - 扁平图形
-  - 信息层次
-  - 现代配色
-  - 数据可视化
-
+- 杂志排版
+- 扁平图形
+- 信息层次
+- 现代配色
+- 数据可视化
 best_for:
-  - 科技解读
-  - 新闻报道
-  - 数据分析
-  - 行业报告
-  - 深度调查
+- 科技解读
+- 新闻报道
+- 数据分析
+- 行业报告
+- 深度调查
+domain: 03 插画、出版与概念设计
+domain_id: C
+lineage: 编辑与文学插画

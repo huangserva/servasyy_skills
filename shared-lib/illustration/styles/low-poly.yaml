@@ -1,30 +1,35 @@
-# 低多边形三维风格（来自 Vibeshot 风格图谱）
 name: low-poly
 description: 低多边形三维以较少的面构成物体，最初与计算和实时显示资源有限有关，后来发展为主动保留几何概括的造型语言。大块切面、简洁轮廓和明确色面能让景物像折纸或雕刻；面数本...
+prompt_template: '低多边形三维风格：
 
-prompt_template: |
-  低多边形三维风格：
   - 核心特征：低多边形3D，可见多边形面，低网格密度，平面着色，纹理细节少，调色板有限，俯视或等距相机
-  - 英文艺术关键词：low-poly 3D, visible polygon facets, low mesh density, flat shading, little texture detail, limited palette, elevated or isometric camera
+
+  - 英文艺术关键词：low-poly 3D, visible polygon facets, low mesh density, flat shading, little
+  texture detail, limited palette, elevated or isometric camera
+
   - 严格保持该流派独有的材质质感、笔触与光影氛围
+
   - 构图讲究，色彩层次丰富和谐
+
   - 图中不要有任何文字、标签、水印或说明
 
+  '
 colors:
-  primary: "#2B3A42"
-  secondary: "#4F6D7A"
-  accent: "#C0D6DF"
-  background: "#FFFFFF"
-
+  primary: '#2B3A42'
+  secondary: '#4F6D7A'
+  accent: '#C0D6DF'
+  background: '#FFFFFF'
 characteristics:
-  - 低多边形三维
-  - 3D与几何
-  - 专业艺术质感
-  - 考究材质与光影
-
+- 低多边形三维
+- 3D与几何
+- 专业艺术质感
+- 考究材质与光影
 best_for:
-  - 几何美学
-  - 现代科技
-  - 多边形艺术
-  - 极简3D
-  - 游戏美术
+- 几何美学
+- 现代科技
+- 多边形艺术
+- 极简3D
+- 游戏美术
+domain: 08 CG、3D、数字与游戏
+domain_id: H
+lineage: 风格化几何

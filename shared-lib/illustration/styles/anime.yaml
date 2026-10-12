@@ -1,0 +1,31 @@
+name: anime
+domain: 04 漫画、动漫与角色
+domain_id: D
+lineage: 动漫造型与上色
+description: 现代精细日系动漫厚涂与光影插画，透亮发丝与神态细腻的角色特写。
+prompt_template: '当代精细日漫插画风格 (Modern Anime Illustration)：
+
+  - 核心特征：细腻日漫美学，清透眼神与发丝高光，精致角色动态，半厚涂质感与层次分明的背景光效
+
+  - 英文艺术关键词：Modern Japanese anime aesthetic, vibrant expressive eyes, clean line art,
+  high detail illustration, anime movie still, cinematic backlighting
+
+  - 材质光影：清澈逆光与空气丁达尔效应，通透日系色调
+
+  - 图中不要有任何文字、标签、水印或说明'
+colors:
+  primary: '#2563EB'
+  secondary: '#EC4899'
+  accent: '#67E8F9'
+  background: '#FFFFFF'
+characteristics:
+- 当代日漫
+- 角色塑造
+- 细腻神态
+- 电影感光效
+best_for:
+- 二次元角色
+- 青春故事
+- 动漫测评
+- 同人创作
+- 年轻人潮流

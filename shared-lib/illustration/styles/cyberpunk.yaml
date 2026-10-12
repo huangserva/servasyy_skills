@@ -1,30 +1,35 @@
-# 赛博朋克风格（来自 Vibeshot 风格图谱）
 name: cyberpunk
 description: 名称把 cyber 所代表的计算与控制技术和 punk 的边缘反叛态度结合，是科幻文学与影像中的重要类型。城市巨构、企业权力、网络与身体改造常围绕普通人的生存展...
+prompt_template: '赛博朋克风格：
 
-prompt_template: |
-  赛博朋克风格：
   - 核心特征：赛博朋克，密集未来都市，霓虹招牌，雨中倒影，赛博义体与电缆，青品红色调，体积雾气，24/35mm低角度
-  - 英文艺术关键词：cyberpunk, dense futuristic megacity, neon signage, rain reflections, cybernetics and cables, cyan-magenta palette, volumetric haze, 24/35mm low angle
+
+  - 英文艺术关键词：cyberpunk, dense futuristic megacity, neon signage, rain reflections,
+  cybernetics and cables, cyan-magenta palette, volumetric haze, 24/35mm low angle
+
   - 严格保持该流派独有的材质质感、笔触与光影氛围
+
   - 构图讲究，色彩层次丰富和谐
+
   - 图中不要有任何文字、标签、水印或说明
 
+  '
 colors:
-  primary: "#2B3A42"
-  secondary: "#4F6D7A"
-  accent: "#C0D6DF"
-  background: "#FFFFFF"
-
+  primary: '#2B3A42'
+  secondary: '#4F6D7A'
+  accent: '#C0D6DF'
+  background: '#FFFFFF'
 characteristics:
-  - 赛博朋克
-  - 潮流与未来
-  - 专业艺术质感
-  - 考究材质与光影
-
+- 赛博朋克
+- 潮流与未来
+- 专业艺术质感
+- 考究材质与光影
 best_for:
-  - 科幻未来
-  - AI与赛博
-  - 黑客技术
-  - 霓虹夜市
-  - 反乌托邦
+- 科幻未来
+- AI与赛博
+- 黑客技术
+- 霓虹夜市
+- 反乌托邦
+domain: 11 流行文化、亚文化与网络审美
+domain_id: K
+lineage: 朋克未来想象

@@ -1,30 +1,37 @@
-# 掐丝珐琅风格（来自 Vibeshot 风格图谱）
 name: cloisonne-enamel
 description: 先用金属丝在胎体上围出图案区隔，再填入珐琅料烧制和打磨，掐丝一词描述了金属线分隔色块的工序。细线像边框一样勾住明亮釉色，形成清楚而精密的装饰，中国景泰蓝是这一工...
+prompt_template: '掐丝珐琅风格：
 
-prompt_template: |
-  掐丝珐琅风格：
   - 核心特征：掐丝珐琅物件研究，细金属隔断包围精心嵌合的彩色珐琅格，沿物件表面连贯的装饰，抛光玻璃色彩区域与克制的金属高光，宏观细节展示凸起的分隔丝线。
-  - 英文艺术关键词：a cloisonne enamel object study, thin metal partitions enclosing carefully fitted colored enamel cells, a coherent ornament following the object surface, polished glassy color areas and restrained metallic highlights, macro detail showing the raised dividing wires
+
+  - 英文艺术关键词：a cloisonne enamel object study, thin metal partitions enclosing carefully
+  fitted colored enamel cells, a coherent ornament following the object surface, polished
+  glassy color areas and restrained metallic highlights, macro detail showing the
+  raised dividing wires
+
   - 严格保持该流派独有的材质质感、笔触与光影氛围
+
   - 构图讲究，色彩层次丰富和谐
+
   - 图中不要有任何文字、标签、水印或说明
 
+  '
 colors:
-  primary: "#2B3A42"
-  secondary: "#4F6D7A"
-  accent: "#C0D6DF"
-  background: "#FFFFFF"
-
+  primary: '#2B3A42'
+  secondary: '#4F6D7A'
+  accent: '#C0D6DF'
+  background: '#FFFFFF'
 characteristics:
-  - 掐丝珐琅
-  - 材质与传统工艺
-  - 专业艺术质感
-  - 考究材质与光影
-
+- 掐丝珐琅
+- 材质与传统工艺
+- 专业艺术质感
+- 考究材质与光影
 best_for:
-  - 国潮非遗
-  - 传统工艺
-  - 宫廷古风
-  - 珠宝首饰
-  - 华丽纹饰
+- 国潮非遗
+- 传统工艺
+- 宫廷古风
+- 珠宝首饰
+- 华丽纹饰
+domain: 13 材质、表面与产品
+domain_id: M
+lineage: 首饰与精密装饰工艺

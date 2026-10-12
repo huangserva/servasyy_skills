@@ -1,0 +1,31 @@
+name: hollywood-musical
+domain: 07 电影、电视与视频
+domain_id: G
+lineage: 戏剧、歌舞与浪漫影像
+description: 好莱坞黄金时代歌舞大片电影视效，华丽舞台布景、梦幻聚光灯与极致浪漫光晕。
+prompt_template: '好莱坞黄金歌舞电影风格 (Golden Age Hollywood Musical)：
+
+  - 核心特征：华丽舞台布景，梦幻戏剧聚光灯，高饱和度丝绸服饰，电影摄影机低角度仰拍，华美浪漫
+
+  - 英文艺术关键词：Golden Age Hollywood musical cinematic scene, lavish theatrical sets,
+  dramatic spotlight, Technicolor glamour, elegant motion
+
+  - 材质光影：强烈聚光灯束与柔和光晕，舞台镜面反射，浓郁戏剧氛围
+
+  - 图中不要有任何文字、标签、水印或说明'
+colors:
+  primary: '#831843'
+  secondary: '#BE185D'
+  accent: '#FCD34D'
+  background: '#0F172A'
+characteristics:
+- 好莱坞歌舞
+- 戏剧光影
+- 华丽舞台
+- 黄金年代
+best_for:
+- 文艺评论
+- 音乐戏剧
+- 盛大活动
+- 人物高光
+- 浪漫叙事

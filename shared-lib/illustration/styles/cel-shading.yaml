@@ -1,30 +1,35 @@
-# 赛璐璐上色风格（来自 Vibeshot 风格图谱）
 name: cel-shading
 description: 赛璐璐上色的名称来自传统动画在透明片上描线和填色的制作方式，如今也指类似的数字分色。清晰轮廓、平整固有色与边界明确的阴影让角色易于识别，少量色阶强调形体转折，避...
+prompt_template: '赛璐璐上色风格：
 
-prompt_template: |
-  赛璐璐上色风格：
   - 核心特征：传统赛璐璐风格，干净线条，2–3级硬边阴影，平涂色彩，几乎无渐变，清晰的角色调色板，动画构图。
-  - 英文艺术关键词：traditional cel-anime look, clean line art, 2–3 hard-edged shadow levels, flat colors, almost no gradients, clear character palette, animation framing
+
+  - 英文艺术关键词：traditional cel-anime look, clean line art, 2–3 hard-edged shadow levels,
+  flat colors, almost no gradients, clear character palette, animation framing
+
   - 严格保持该流派独有的材质质感、笔触与光影氛围
+
   - 构图讲究，色彩层次丰富和谐
+
   - 图中不要有任何文字、标签、水印或说明
 
+  '
 colors:
-  primary: "#2B3A42"
-  secondary: "#4F6D7A"
-  accent: "#C0D6DF"
-  background: "#FFFFFF"
-
+  primary: '#2B3A42'
+  secondary: '#4F6D7A'
+  accent: '#C0D6DF'
+  background: '#FFFFFF'
 characteristics:
-  - 赛璐璐上色
-  - 动漫与二次元
-  - 专业艺术质感
-  - 考究材质与光影
-
+- 赛璐璐上色
+- 动漫与二次元
+- 专业艺术质感
+- 考究材质与光影
 best_for:
-  - 二次元
-  - 动漫角色
-  - 游戏立绘
-  - ACGN评论
-  - 国漫日漫
+- 二次元
+- 动漫角色
+- 游戏立绘
+- ACGN评论
+- 国漫日漫
+domain: 04 漫画、动漫与角色
+domain_id: D
+lineage: 动漫造型与上色

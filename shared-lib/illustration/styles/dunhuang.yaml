@@ -1,30 +1,35 @@
-# 敦煌壁画风格（来自 Vibeshot 风格图谱）
 name: dunhuang
 description: 敦煌壁画指莫高窟等石窟中历经多个时代积累的绘画，位置处于丝路文化交流的重要节点。佛教故事、经变、供养人和装饰纹样覆盖洞窟，人物、服饰与设色随时代而变化；理解画面...
+prompt_template: '敦煌壁画风格：
 
-prompt_template: |
-  敦煌壁画风格：
   - 核心特征：敦煌壁画词汇，矿物颜料，陈旧灰泥质感，流动的天女丝带，扁平叙事构图，赭红孔雀石蓝
-  - 英文艺术关键词：Dunhuang mural vocabulary, mineral pigments, aged plaster texture, flowing celestial ribbons, flattened narrative composition, ochre red malachite blue
+
+  - 英文艺术关键词：Dunhuang mural vocabulary, mineral pigments, aged plaster texture, flowing
+  celestial ribbons, flattened narrative composition, ochre red malachite blue
+
   - 严格保持该流派独有的材质质感、笔触与光影氛围
+
   - 构图讲究，色彩层次丰富和谐
+
   - 图中不要有任何文字、标签、水印或说明
 
+  '
 colors:
-  primary: "#2B3A42"
-  secondary: "#4F6D7A"
-  accent: "#C0D6DF"
-  background: "#FFFFFF"
-
+  primary: '#2B3A42'
+  secondary: '#4F6D7A'
+  accent: '#C0D6DF'
+  background: '#FFFFFF'
 characteristics:
-  - 敦煌壁画
-  - 东方与全球传统
-  - 专业艺术质感
-  - 考究材质与光影
-
+- 敦煌壁画
+- 东方与全球传统
+- 专业艺术质感
+- 考究材质与光影
 best_for:
-  - 古典文学
-  - 东方历史
-  - 神话志怪
-  - 壁画艺术
-  - 宗教文化
+- 古典文学
+- 东方历史
+- 神话志怪
+- 壁画艺术
+- 宗教文化
+domain: 02 东方与全球传统
+domain_id: B
+lineage: 中国壁画与宗教绘画

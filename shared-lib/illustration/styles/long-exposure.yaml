@@ -1,30 +1,35 @@
-# 长曝光摄影风格（来自 Vibeshot 风格图谱）
 name: long-exposure
 description: 长曝光摄影通过延长快门开启时间，把一段时间内的光与运动累积在同一张照片中。静止建筑保持清晰，行人可能消失，水流化作柔滑雾面，车灯留下连续线条；这些差异使时间本身...
+prompt_template: '长曝光摄影风格：
 
-prompt_template: |
-  长曝光摄影风格：
   - 核心特征：长曝光摄影，三脚架，1–30秒快门，光轨/丝滑水面/移动人群，低ISO，蓝调或夜色调
-  - 英文艺术关键词：long-exposure photography, tripod, 1–30 second shutter, light trails/silky water/moving crowds, low ISO, blue-hour or night palette
+
+  - 英文艺术关键词：long-exposure photography, tripod, 1–30 second shutter, light trails/silky
+  water/moving crowds, low ISO, blue-hour or night palette
+
   - 严格保持该流派独有的材质质感、笔触与光影氛围
+
   - 构图讲究，色彩层次丰富和谐
+
   - 图中不要有任何文字、标签、水印或说明
 
+  '
 colors:
-  primary: "#2B3A42"
-  secondary: "#4F6D7A"
-  accent: "#C0D6DF"
-  background: "#FFFFFF"
-
+  primary: '#2B3A42'
+  secondary: '#4F6D7A'
+  accent: '#C0D6DF'
+  background: '#FFFFFF'
 characteristics:
-  - 长曝光摄影
-  - 摄影与光学
-  - 专业艺术质感
-  - 考究材质与光影
-
+- 长曝光摄影
+- 摄影与光学
+- 专业艺术质感
+- 考究材质与光影
 best_for:
-  - 夜景光影
-  - 都市流光
-  - 科技未来
-  - 速度与流动
-  - 抽象光效
+- 夜景光影
+- 都市流光
+- 科技未来
+- 速度与流动
+- 抽象光效
+domain: 06 摄影、光学与胶片
+domain_id: F
+lineage: 光学表现与长曝光

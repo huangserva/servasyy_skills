@@ -1,0 +1,31 @@
+name: postmodern-architecture
+domain: 12 建筑、空间与环境
+domain_id: L
+lineage: 后现代、解构与参数建筑
+description: 后现代主义建筑风格，打破现代主义冷硬，融合古典拼贴、大胆几何、孟菲斯色块与戏谑隐喻。
+prompt_template: '后现代主义建筑风格 (Postmodern Architecture)：
+
+  - 核心特征：戏谑古典拼贴，孟菲斯几何色块，夸张三角楣与柱式，色彩斑斓的建筑外立面，幽默与反叛
+
+  - 英文艺术关键词：Postmodern architecture, whimsical classical collages, bold geometric
+  colors, Memphis design accents, playful ironic columns
+
+  - 材质光影：鲜艳粉彩粉蓝与高反差阳光阴影，明媚现代戏剧感
+
+  - 图中不要有任何文字、标签、水印或说明'
+colors:
+  primary: '#E06D53'
+  secondary: '#4A90E2'
+  accent: '#F5A623'
+  background: '#F9F6F0'
+characteristics:
+- 后现代建筑
+- 孟菲斯色彩
+- 反叛拼贴
+- 趣味空间
+best_for:
+- 前卫设计
+- 文化批判
+- 现代生活方式
+- 潮流空间
+- 艺术评论

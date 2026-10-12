@@ -1,0 +1,31 @@
+name: playful-rounded-product
+domain: 13 材质、表面与产品
+domain_id: M
+lineage: 工业设计与产品造型
+description: 圆润趣味产品工业设计，亲和力极强的温润哑光触感、糖果色系与膨胀感造型。
+prompt_template: '圆润趣味产品造型风格 (Playful Rounded Product Design)：
+
+  - 核心特征：亲和圆角造型，膨胀感软质外壳，温润哑光硅胶与陶瓷喷砂质感，极简亲切人机工学
+
+  - 英文艺术关键词：Playful rounded industrial product design, tactile matte silicone, ergonomic
+  soft friendly curves, candy pastel tones, studio product photography
+
+  - 材质光影：专业柔光箱布光，温润微反光，柔和环境光遮蔽
+
+  - 图中不要有任何文字、标签、水印或说明'
+colors:
+  primary: '#3B82F6'
+  secondary: '#F472B6'
+  accent: '#FBBF24'
+  background: '#F3F4F6'
+characteristics:
+- 产品工业设计
+- 圆润亲和
+- 哑光触感
+- 现代硬件
+best_for:
+- 数码硬件
+- 智能家居
+- 消费电子
+- 生活好物
+- 科技产品体验

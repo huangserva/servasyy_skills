@@ -63,6 +63,16 @@ from .xhs_generator import (
 )
 
 # 便捷函数
+def list_domains():
+    """列出 13 大风格领域"""
+    gen = IllustrationGenerator()
+    return gen.list_domains()
+
+def get_styles_by_domain(domain_key: str):
+    """获取指定领域的风格"""
+    gen = IllustrationGenerator()
+    return gen.get_styles_by_domain(domain_key)
+
 def recommend_styles(content: str, top_n: int = 3, detailed: bool = False):
     """3变体预览：推荐风格"""
     gen = IllustrationGenerator()
@@ -83,6 +93,8 @@ __all__ = [
     'IllustrationGenerator',
     'list_styles',
     'list_layouts',
+    'list_domains',
+    'get_styles_by_domain',
     'generate',
     'recommend_styles',
     'analyze_article',

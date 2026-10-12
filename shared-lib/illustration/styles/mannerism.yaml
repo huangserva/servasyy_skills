@@ -1,30 +1,35 @@
-# 矫饰主义风格（来自 Vibeshot 风格图谱）
 name: mannerism
 description: 16世纪欧洲绘画中的一种倾向，名称与意大利语中风格或手法的含义相关。艺术家在文艺复兴的造型基础上，进一步拉长身体、扭转姿态、压缩空间并使用不寻常色彩，以精巧复杂...
+prompt_template: '矫饰主义风格：
 
-prompt_template: |
-  矫饰主义风格：
   - 核心特征：矫饰主义，拉长的解剖结构，优雅不自然的姿势，复杂空间，精致冷色调，蛇形构图
-  - 英文艺术关键词：Mannerism, elongated anatomy, elegant unnatural poses, complex space, refined cool colors, serpentine composition
+
+  - 英文艺术关键词：Mannerism, elongated anatomy, elegant unnatural poses, complex space,
+  refined cool colors, serpentine composition
+
   - 严格保持该流派独有的材质质感、笔触与光影氛围
+
   - 构图讲究，色彩层次丰富和谐
+
   - 图中不要有任何文字、标签、水印或说明
 
+  '
 colors:
-  primary: "#2B3A42"
-  secondary: "#4F6D7A"
-  accent: "#C0D6DF"
-  background: "#FFFFFF"
-
+  primary: '#2B3A42'
+  secondary: '#4F6D7A'
+  accent: '#C0D6DF'
+  background: '#FFFFFF'
 characteristics:
-  - 矫饰主义
-  - 西方艺术史
-  - 专业艺术质感
-  - 考究材质与光影
-
+- 矫饰主义
+- 西方艺术史
+- 专业艺术质感
+- 考究材质与光影
 best_for:
-  - 文艺复兴晚期
-  - 优雅拉长
-  - 冷色优雅
-  - 宫廷肖像
-  - 古典前卫
+- 文艺复兴晚期
+- 优雅拉长
+- 冷色优雅
+- 宫廷肖像
+- 古典前卫
+domain: 01 西方艺术史与绘画
+domain_id: A
+lineage: 古典至浪漫主义

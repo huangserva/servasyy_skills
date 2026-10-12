@@ -1,0 +1,31 @@
+name: art-nouveau-architecture
+domain: 12 建筑、空间与环境
+domain_id: L
+lineage: 复兴、工艺与装饰建筑
+description: 新艺术运动建筑风格，强调自然有机形态、植物藤蔓流线与优美铁艺锻造。
+prompt_template: '新艺术运动建筑风格 (Art Nouveau Architecture)：
+
+  - 核心特征：有机自然曲线，高迪/霍塔式流线立面，锻铁植物藤蔓阑珊，彩色花窗玻璃，自然雕塑形态
+
+  - 英文艺术关键词：Art Nouveau architectural facade, organic whip-lash curved wrought iron,
+  natural floral motifs, stained glass window, fluid stone sculpting
+
+  - 材质光影：精细石雕、铜绿锻铁与暖日光影穿透彩绘玻璃
+
+  - 图中不要有任何文字、标签、水印或说明'
+colors:
+  primary: '#3A4A3F'
+  secondary: '#8A6D3B'
+  accent: '#C49A45'
+  background: '#F4F1EA'
+characteristics:
+- 新艺术建筑
+- 自然流线
+- 高迪有机形态
+- 建筑空间美学
+best_for:
+- 空间设计
+- 建筑美学
+- 自然共生
+- 欧洲历史
+- 高端美学

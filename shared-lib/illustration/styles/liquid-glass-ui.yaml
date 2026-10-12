@@ -1,30 +1,35 @@
-# Liquid风格（来自 Vibeshot 风格图谱）
 name: liquid-glass-ui
 description: Apple 于 2025 年推出的界面材质，以玻璃般的透光、折射和动态形变表现导航与控件层。它会随背景内容和交互变化调整外观，让浮动操作区与主要内容形成层次，重...
+prompt_template: 'Liquid风格：
 
-prompt_template: |
-  Liquid风格：
   - 核心特征：Liquid Glass灵感界面，动态半透明玻璃材质，折射与高光，内容层与交互层分离，精致圆角
-  - 英文艺术关键词：Liquid Glass-inspired interface, dynamic translucent glass material, refraction and highlights, separation of content and interactive layer, refined corners
+
+  - 英文艺术关键词：Liquid Glass-inspired interface, dynamic translucent glass material, refraction
+  and highlights, separation of content and interactive layer, refined corners
+
   - 严格保持该流派独有的材质质感、笔触与光影氛围
+
   - 构图讲究，色彩层次丰富和谐
+
   - 图中不要有任何文字、标签、水印或说明
 
+  '
 colors:
-  primary: "#2B3A42"
-  secondary: "#4F6D7A"
-  accent: "#C0D6DF"
-  background: "#FFFFFF"
-
+  primary: '#2B3A42'
+  secondary: '#4F6D7A'
+  accent: '#C0D6DF'
+  background: '#FFFFFF'
 characteristics:
-  - Liquid
-  - UI与界面
-  - 专业艺术质感
-  - 考究材质与光影
-
+- Liquid
+- UI与界面
+- 专业艺术质感
+- 考究材质与光影
 best_for:
-  - UI/UX设计
-  - 苹果拟态
-  - 产品概念
-  - 毛玻璃质感
-  - 未来操作系统
+- UI/UX设计
+- 苹果拟态
+- 产品概念
+- 毛玻璃质感
+- 未来操作系统
+domain: 10 UI、UX与界面
+domain_id: J
+lineage: 当代界面视觉
