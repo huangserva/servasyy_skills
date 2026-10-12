@@ -322,6 +322,87 @@ class IllustrationGenerator:
             'cute': {
                 'words': ['可爱', '少女', '粉色', '甜美', '小红书', '美妆', '护肤', '穿搭', '仙女'],
                 'layout': 'infographic'
+            },
+            # Vibeshot 风格图谱扩充
+            'dunhuang': {
+                'words': ['敦煌', '莫高窟', '壁画', '飞天', '佛', '石窟', '丝绸之路', '神话', '经变'],
+                'layout': 'scene'
+            },
+            'blue-green-landscape': {
+                'words': ['青绿山水', '千里江山', '山水', '古风', '国画', '古典文旅', '丹青'],
+                'layout': 'scene'
+            },
+            'risograph': {
+                'words': ['riso', '孔版', '网点', '荧光', '独立出版', 'zine', '错位', '插画海报'],
+                'layout': 'single'
+            },
+            'gouache': {
+                'words': ['水粉', '绘本', '儿童绘本', '手账', '哑光', '插图', '治愈'],
+                'layout': 'single'
+            },
+            'three-strip-technicolor': {
+                'words': ['电影', '特艺彩色', 'technicolor', '胶片色彩', '好莱坞', '复古电影', '大片'],
+                'layout': 'scene'
+            },
+            'film-35mm': {
+                'words': ['胶片', '35mm', '街头', '纪实', '拍立得', '柯达', '富士', '颗粒', '摄影'],
+                'layout': 'single'
+            },
+            'long-exposure': {
+                'words': ['长曝光', '光轨', '车流', '慢门', '星轨', '夜景', '流动', '丝滑'],
+                'layout': 'single'
+            },
+            'clay-stop-motion': {
+                'words': ['定格动画', '黏土', '粘土', '泥塑', '手工', '定格', '阿德曼'],
+                'layout': 'scene'
+            },
+            'voxel-art': {
+                'words': ['体素', 'voxel', '纪念碑谷', '我的世界', 'minecraft', '3d像素', '方块'],
+                'layout': 'single'
+            },
+            'low-poly': {
+                'words': ['低多边形', 'lowpoly', '多边形', '几何3d', '三维几何'],
+                'layout': 'single'
+            },
+            'cel-shading': {
+                'words': ['二次元', '动漫', '动画', '立绘', '日漫', '国漫', '手办', '角色'],
+                'layout': 'single'
+            },
+            'art-deco-graphic': {
+                'words': ['装饰艺术', 'art deco', '盖茨比', '爵士时代', '金边', '对称几何'],
+                'layout': 'single'
+            },
+            'psychedelic-poster': {
+                'words': ['迷幻', '嬉皮', '摇滚', '音乐节', '酸性', '旋涡', '波普'],
+                'layout': 'single'
+            },
+            'cyberpunk': {
+                'words': ['赛博朋克', '赛博', '黑客', '义体', '仿生人', '反乌托邦', '夜之城'],
+                'layout': 'scene'
+            },
+            'solarpunk': {
+                'words': ['太阳朋克', 'solarpunk', '绿色科技', '生态未来', '垂直森林', '植物科技'],
+                'layout': 'scene'
+            },
+            'liquid-glass-ui': {
+                'words': ['liquid glass', '毛玻璃', '透明玻璃', '拟物', 'ui', '苹果', 'visionos'],
+                'layout': 'infographic'
+            },
+            'claymorphic-ui': {
+                'words': ['粘土拟态', 'claymorphism', '软萌ui', '3d卡片', '立体图标'],
+                'layout': 'infographic'
+            },
+            'cloisonne-enamel': {
+                'words': ['掐丝珐琅', '景泰蓝', '非遗', '宫廷', '鎏金', '珠宝', '国宝'],
+                'layout': 'single'
+            },
+            'baroque': {
+                'words': ['巴洛克', '油画', '明暗对比', '伦勃朗', '卡拉瓦乔', '宫廷', '史诗'],
+                'layout': 'scene'
+            },
+            'mannerism': {
+                'words': ['矫饰主义', '拉长', '优雅冷色', '文艺复兴晚期'],
+                'layout': 'single'
             }
         }
         

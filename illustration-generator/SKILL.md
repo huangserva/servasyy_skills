@@ -17,7 +17,7 @@ metadata:
 
 | 分类 | 适用任务 | 按需读取 |
 | --- | --- | --- |
-| 文章配图 | 文章插图、横版封面、多风格比较 | [文章配图](references/article.md)，复用 Claude 20 种风格库，以实际查询为准 |
+| 文章配图 | 文章插图、横版封面、多风格比较 | [文章配图](references/article.md)，复用 Claude 风格库（已扩充至 40 种，集成 Vibeshot 视觉图谱），以实际查询为准 |
 | 海报与商业设计 | 海报、信息图、电商、品牌、界面、出版物、手帐 | [通用提示词与模板](modules/gpt-prompts/GUIDE.md)；归藏社交卡片/公众号封面对使用 [归藏原工作流](modules/guizang-social-card-skill/GUIDE.md)；出图后端默认 [Qwen-Image 2.1 本地](modules/qwen-image-21-t2i/GUIDE.md) |
 | 人物与角色 | 生活摄影、角色扮演、夏季人物照片 | 普通生活抓拍：[生活摄影](modules/vibeshot-candid-photography/GUIDE.md)；指定成年角色：[角色摄影](modules/character-candid-photography/GUIDE.md)；夏季泳装伴侣/朋友视角：[夏季摄影](modules/summer-boyfriend-pov/GUIDE.md)；其余用通用模板 |
 | 绘画与风格探索 | 插画、国画、油画、稀有风格、东方幻想 | 常规绘画用通用风格库；[稀有风格探索](modules/rare-style-explorer/GUIDE.md)；[东方神怪工笔水墨](modules/shan-ze-school/GUIDE.md) |

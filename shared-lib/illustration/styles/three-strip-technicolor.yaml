@@ -1,0 +1,30 @@
+# 三条片特艺彩色风格（来自 Vibeshot 风格图谱）
+name: three-strip-technicolor
+description: 三条片特艺彩色是历史上的彩色电影工艺，用特殊摄影机把不同颜色信息分别记录在三条黑白胶片上，再经印片组合成彩色。它在经典好莱坞视觉中留下鲜明印记，饱满色彩与精心美...
+
+prompt_template: |
+  三条片特艺彩色风格：
+  - 核心特征：经典三条片Technicolor风格电影，丰富饱和的原色，精致服装和布景，柔和的影棚灯光，1.37:1构图
+  - 英文艺术关键词：classic three-strip-Technicolor-inspired cinema, rich saturated primaries, elaborate costumes and sets, soft studio lighting, 1.37:1 framing
+  - 严格保持该流派独有的材质质感、笔触与光影氛围
+  - 构图讲究，色彩层次丰富和谐
+  - 图中不要有任何文字、标签、水印或说明
+
+colors:
+  primary: "#2B3A42"
+  secondary: "#4F6D7A"
+  accent: "#C0D6DF"
+  background: "#FFFFFF"
+
+characteristics:
+  - 三条片特艺彩色
+  - 影视与摄影
+  - 专业艺术质感
+  - 考究材质与光影
+
+best_for:
+  - 电影拉片
+  - 好莱坞复古
+  - 年代叙事
+  - 影视评论
+  - 戏剧舞台

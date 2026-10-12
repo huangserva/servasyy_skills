@@ -1,0 +1,30 @@
+# 体素艺术风格（来自 Vibeshot 风格图谱）
+name: voxel-art
+description: 体素艺术把空间划分为立体单元，像在三维中搭积木一样组织人物、建筑与地形。体素可理解为空间中的体积采样，艺术表现常将它显露为小方块，形成像素画的立体亲缘；块面尺度...
+
+prompt_template: |
+  体素艺术风格：
+  - 核心特征：体素艺术，立方体体素构造，边缘清晰，网格尺度一致，明亮调色板，等距或正交摄像机
+  - 英文艺术关键词：voxel art, cubic voxel construction, crisp edges, consistent grid scale, bright palette, isometric or orthographic camera
+  - 严格保持该流派独有的材质质感、笔触与光影氛围
+  - 构图讲究，色彩层次丰富和谐
+  - 图中不要有任何文字、标签、水印或说明
+
+colors:
+  primary: "#2B3A42"
+  secondary: "#4F6D7A"
+  accent: "#C0D6DF"
+  background: "#FFFFFF"
+
+characteristics:
+  - 体素艺术
+  - 3D与数字艺术
+  - 专业艺术质感
+  - 考究材质与光影
+
+best_for:
+  - 沙盒游戏
+  - 立体模型
+  - 微缩世界
+  - 元宇宙
+  - 像素3D

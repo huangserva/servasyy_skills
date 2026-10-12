@@ -1,0 +1,30 @@
+# 巴洛克风格（来自 Vibeshot 风格图谱）
+name: baroque
+description: 17世纪在意大利发展并传向欧洲的艺术风格，与教会和宫廷的宏大委托密切相关。绘画中的斜线构图、强烈明暗、旋转姿态，常与雕塑和建筑共同营造戏剧现场，使观众仿佛被卷入...
+
+prompt_template: |
+  巴洛克风格：
+  - 核心特征：巴洛克油画，戏剧性明暗对比，定向光，丰富的织物和油画质感，深红金黑色，斜向动态构图
+  - 英文艺术关键词：Baroque oil painting, dramatic chiaroscuro, directional light, rich fabric and oil texture, deep red gold and black, diagonal dynamic composition
+  - 严格保持该流派独有的材质质感、笔触与光影氛围
+  - 构图讲究，色彩层次丰富和谐
+  - 图中不要有任何文字、标签、水印或说明
+
+colors:
+  primary: "#2B3A42"
+  secondary: "#4F6D7A"
+  accent: "#C0D6DF"
+  background: "#FFFFFF"
+
+characteristics:
+  - 巴洛克
+  - 西方艺术史
+  - 专业艺术质感
+  - 考究材质与光影
+
+best_for:
+  - 古典庄严
+  - 油画鉴赏
+  - 剧烈光影
+  - 历史史诗
+  - 宏大叙事

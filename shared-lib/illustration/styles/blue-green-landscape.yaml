@@ -1,0 +1,30 @@
+# 青绿山水风格（来自 Vibeshot 风格图谱）
+name: blue-green-landscape
+description: 青绿山水因以石青、石绿等矿物颜料描绘山石而得名，在中国山水画中有悠久传统。画家先组织山形与线条，再以层层设色建立峰峦的厚度和装饰感；颜色浓艳时可呈现富丽境界，较...
+
+prompt_template: |
+  青绿山水风格：
+  - 核心特征：青绿山水，细致轮廓，孔雀石和绿松石矿物颜料，点缀金色，层叠的山峦与云雾
+  - 英文艺术关键词：blue-green Chinese landscape, fine outlines, azurite and malachite mineral pigments, touches of gold, layered mountains and clouds
+  - 严格保持该流派独有的材质质感、笔触与光影氛围
+  - 构图讲究，色彩层次丰富和谐
+  - 图中不要有任何文字、标签、水印或说明
+
+colors:
+  primary: "#2B3A42"
+  secondary: "#4F6D7A"
+  accent: "#C0D6DF"
+  background: "#FFFFFF"
+
+characteristics:
+  - 青绿山水
+  - 东方与全球传统
+  - 专业艺术质感
+  - 考究材质与光影
+
+best_for:
+  - 山水诗词
+  - 国风美学
+  - 古典文旅
+  - 历史长卷
+  - 传统文化

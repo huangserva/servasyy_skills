@@ -1,0 +1,30 @@
+# 黏土定格动画风格（来自 Vibeshot 风格图谱）
+name: clay-stop-motion
+description: 用黏土或橡皮泥塑造角色，拍一帧便调整一次姿态或形状，再把照片连续播放。柔软材料允许身体融化、拉长和重新捏合，指纹与细小凹痕也会留下手工温度；动作可以细腻流畅，并...
+
+prompt_template: |
+  黏土定格动画风格：
+  - 核心特征：黏土定格动画，带指纹的手工黏土，实体布景，轻微逐帧抖动，柔和的工作室灯光，12–24fps
+  - 英文艺术关键词：clay stop-motion, handmade clay with fingerprints, physical set, slight frame-to-frame jitter, soft studio lighting, 12–24fps
+  - 严格保持该流派独有的材质质感、笔触与光影氛围
+  - 构图讲究，色彩层次丰富和谐
+  - 图中不要有任何文字、标签、水印或说明
+
+colors:
+  primary: "#2B3A42"
+  secondary: "#4F6D7A"
+  accent: "#C0D6DF"
+  background: "#FFFFFF"
+
+characteristics:
+  - 黏土定格动画
+  - 动画与动态
+  - 专业艺术质感
+  - 考究材质与光影
+
+best_for:
+  - 趣味手工
+  - 童趣故事
+  - 产品趣味展示
+  - 定格创意
+  - 黏土拟物

@@ -1,0 +1,30 @@
+# Riso风格（来自 Vibeshot 风格图谱）
+name: risograph
+description: Riso 孔版印刷得名于 RISOGRAPH 速印设备，将数字制版与油墨穿过孔版的原理结合。图像按色版分次印制，叠色可生成新的色调，颗粒、纸感与轻微套印偏差常被...
+
+prompt_template: |
+  Riso风格：
+  - 核心特征：孔版印刷，2–4种专色，颗粒状墨水，轻微错位，吸墨纸质感，荧光红蓝黄，海报布局
+  - 英文艺术关键词：risograph print, 2–4 spot colors, grainy ink, slight misregistration, absorbent paper texture, fluorescent red blue yellow, poster layout
+  - 严格保持该流派独有的材质质感、笔触与光影氛围
+  - 构图讲究，色彩层次丰富和谐
+  - 图中不要有任何文字、标签、水印或说明
+
+colors:
+  primary: "#2B3A42"
+  secondary: "#4F6D7A"
+  accent: "#C0D6DF"
+  background: "#FFFFFF"
+
+characteristics:
+  - Riso
+  - 插画与印刷
+  - 专业艺术质感
+  - 考究材质与光影
+
+best_for:
+  - 独立出版
+  - 创意海报
+  - 青年文化
+  - 设计分享
+  - 日常随笔

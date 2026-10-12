@@ -1,0 +1,30 @@
+# 太阳朋克风格（来自 Vibeshot 风格图谱）
+name: solarpunk
+description: 把太阳能等生态技术与互助生活联系起来，想象可持续且由社区参与建设的未来。绿化城市、修复旧设施和日常手作常同时出现，名称中的朋克保留对既有权力与资源分配的质疑，视...
+
+prompt_template: |
+  太阳朋克风格：
+  - 核心特征：太阳朋克，太阳能建筑，垂直花园，社区生活，木材玻璃与植被，金色绿色蓝色调，明亮的日光
+  - 英文艺术关键词：solarpunk, solar architecture, vertical gardens, community life, timber glass and vegetation, gold green blue palette, bright daylight
+  - 严格保持该流派独有的材质质感、笔触与光影氛围
+  - 构图讲究，色彩层次丰富和谐
+  - 图中不要有任何文字、标签、水印或说明
+
+colors:
+  primary: "#2B3A42"
+  secondary: "#4F6D7A"
+  accent: "#C0D6DF"
+  background: "#FFFFFF"
+
+characteristics:
+  - 太阳朋克
+  - 潮流与未来
+  - 专业艺术质感
+  - 考究材质与光影
+
+best_for:
+  - 绿色科技
+  - 生态未来
+  - 可持续发展
+  - 阳光城市
+  - 生物共生

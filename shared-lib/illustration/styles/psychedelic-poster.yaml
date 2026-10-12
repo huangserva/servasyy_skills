@@ -1,0 +1,30 @@
+# 迷幻海报风格（来自 Vibeshot 风格图谱）
+name: psychedelic-poster
+description: 迷幻海报与二十世纪六十年代的音乐演出和反文化语境密切相关，借图像模拟强烈的感官体验。扭曲而紧密的字体、互相震动的高对比色和繁复曲线让画面仿佛流动，信息与装饰交织...
+
+prompt_template: |
+  迷幻海报风格：
+  - 核心特征：1960年代迷幻海报，扭曲字体，酸性颜色，光学旋涡，密集装饰，饱和紫罗兰橙绿色
+  - 英文艺术关键词：1960s psychedelic poster, warped lettering, acid colors, optical swirling, dense ornament, saturated violet orange green
+  - 严格保持该流派独有的材质质感、笔触与光影氛围
+  - 构图讲究，色彩层次丰富和谐
+  - 图中不要有任何文字、标签、水印或说明
+
+colors:
+  primary: "#2B3A42"
+  secondary: "#4F6D7A"
+  accent: "#C0D6DF"
+  background: "#FFFFFF"
+
+characteristics:
+  - 迷幻海报
+  - 平面与潮流
+  - 专业艺术质感
+  - 考究材质与光影
+
+best_for:
+  - 音乐派对
+  - 嬉皮文化
+  - 迷幻艺术
+  - 潮流视觉
+  - 前卫设计

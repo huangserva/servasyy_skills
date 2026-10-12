@@ -1,0 +1,30 @@
+# 水粉风格（来自 Vibeshot 风格图谱）
+name: gouache
+description: 水粉以水调和不透明颜料，厚薄变化能兼顾覆盖力与轻快笔触，长期用于绘画和设计色稿。干后常呈柔和哑光，平整色块可相互叠压，也能留下干刷颗粒；明亮部分可用浅色重新铺上...
+
+prompt_template: |
+  水粉风格：
+  - 核心特征：不透明水粉插画，哑光颜料，可见平刷笔触，纸板纹理，饱和但柔和的色彩，简化形状
+  - 英文艺术关键词：opaque gouache illustration, matte pigment, visible flat-brush strokes, paperboard texture, saturated yet soft colors, simplified shapes
+  - 严格保持该流派独有的材质质感、笔触与光影氛围
+  - 构图讲究，色彩层次丰富和谐
+  - 图中不要有任何文字、标签、水印或说明
+
+colors:
+  primary: "#2B3A42"
+  secondary: "#4F6D7A"
+  accent: "#C0D6DF"
+  background: "#FFFFFF"
+
+characteristics:
+  - 水粉
+  - 插画与绘本
+  - 专业艺术质感
+  - 考究材质与光影
+
+best_for:
+  - 生活绘本
+  - 温馨故事
+  - 童话绘本
+  - 治愈日记
+  - 美食手账
